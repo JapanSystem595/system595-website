@@ -1,0 +1,1710 @@
+{
+  "_media": {
+    "hero_bg": "images/hero-bg.jpg",
+    "team": {
+      "vg": "images/team-vg.jpg",
+      "an": "images/team-an.jpg",
+      "ao": "images/team-ao.jpg",
+      "ay": "images/team-ay.jpg",
+      "mw": "images/team-mw.jpg",
+      "tm": "images/team-tm.jpg",
+      "sk": "images/team-sk.jpg"
+    },
+    "devices": {
+      "moxi": "images/device-moxi.jpg",
+      "novuheat": "images/device-novuheat.jpg",
+      "novueye": "images/device-novueye.jpg",
+      "spinesystem": "images/device-spinesystem.jpg",
+      "bodyhealth": "images/device-bodyhealth.jpg"
+    },
+    "sections": {
+      "showrooms": "images/section-showrooms.jpg",
+      "studios": "images/section-studios.jpg",
+      "moxi": "images/section-moxi-yoga.jpg",
+      "software": "images/section-software-ai.jpg"
+    }
+  },
+  "en": {
+    "meta": {
+      "title": "System 5/95 — Japanese Wellness Ecosystem",
+      "description": "Original product development, premium devices, showrooms, massage studios, Moxi Yoga, Software + AI. Partnership in US, Europe and Asia."
+    },
+    "nav": {
+      "about": "About",
+      "devices": "Devices",
+      "showrooms": "Showrooms",
+      "studios": "Studios",
+      "moxi": "Moxi Yoga",
+      "software": "Software + AI",
+      "partnership": "Partnership"
+    },
+    "hero": {
+      "eyebrow": "Japanese wellness ecosystem",
+      "title": "System 5/95",
+      "subtitle": "A Japanese-engineered wellness ecosystem for showrooms, massage studios, and international partners.",
+      "body": "System 5/95 combines original product development, in-house manufacturing in Japan, premium devices, showrooms, massage studios, Software + AI, and a partnership architecture for Asia, Europe, and the United States.",
+      "cta": "Request a Partnership Presentation",
+      "secondary": "Meet the team"
+    },
+    "stats": {
+      "founded": "Founded",
+      "years": "years founder experience",
+      "offices": "Offices",
+      "users": "active users"
+    },
+    "about": {
+      "title": "About / Team",
+      "subtitle": "System 5/95 is a company founded in 2013, supported by a multidisciplinary team across Japan, the United States, and the international wellness market.",
+      "body": "The website opens with the team because in premium B2B, trust begins with people, origin, and depth. The name System 5/95 reflects the idea of a complete architecture: not a single product, but a system of devices, services, standards, manufacturing, training, and partnership models. Founder Vitaly Golovan develops the brand as a founder-led wellness ecosystem combining 18+ years of therapeutic wellness experience, international development, and practical knowledge of showroom and massage studio formats.",
+      "cta": "Meet the Team"
+    },
+    "team": {
+      "title": "Team",
+      "members": [
+        {
+          "id": "vg",
+          "name": "Vitaly Golovan",
+          "initials": "VG",
+          "role": "Founder",
+          "bio": "Over 18 years in therapeutic wellness, product development, international growth, and building showroom and massage studio models."
+        },
+        {
+          "id": "an",
+          "name": "Akio Nakashima",
+          "initials": "AN",
+          "role": "Manufacturing Director",
+          "bio": "Leads manufacturing discipline, assembly standards, process organization, and Japanese quality consistency at the Fujiyoshida production base."
+        },
+        {
+          "id": "ao",
+          "name": "Alex Okubo",
+          "initials": "AO",
+          "role": "Business Development Director",
+          "bio": "Develops partnerships, international markets, showroom strategy, B2B models, and strategic growth opportunities."
+        },
+        {
+          "id": "ay",
+          "name": "Akihiko Yamamoto",
+          "initials": "AY",
+          "role": "R&D Director",
+          "bio": "Oversees functional research, engineering logic, new solution development, and technology refinement across the product ecosystem."
+        },
+        {
+          "id": "mw",
+          "name": "Miki Watanabe",
+          "initials": "MW",
+          "role": "Medical Expert",
+          "bio": "Supports a safe, gentle, and physiology-aware approach to device functions and application protocols."
+        },
+        {
+          "id": "tm",
+          "name": "Tatsuyuki Maeda",
+          "initials": "TM",
+          "role": "Quality & Certification",
+          "bio": "Responsible for quality, documentation, certification processes, and alignment with internal company standards."
+        },
+        {
+          "id": "sk",
+          "name": "Shotaro Kawamura",
+          "initials": "SK",
+          "role": "Logistics",
+          "bio": "Manages international logistics, supply flow, packaging, and operational reliability across markets."
+        }
+      ]
+    },
+    "devices": {
+      "title": "Devices We Are Proud Of",
+      "subtitle": "Original System 5/95 devices are designed as part of one therapeutic wellness ecosystem.",
+      "body": "Each device is developed around specific application areas, functions, and user experience. We combine gentle directed heat, precisely calibrated vibration, therapeutic light, air pressure, spinal support, and other natural physical factors. Our approach is gentle, non-invasive, and physiology-aware: not to force the body, but to work with it precisely, carefully, and consistently.",
+      "cta": "Explore Devices",
+      "zonesLabel": "Areas",
+      "functionsLabel": "Functions",
+      "list": [
+        {
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Neck, shoulders, back, localized tension areas",
+          "functions": "Gentle directed heat, therapeutic light, and support for local work."
+        },
+        {
+          "id": "novuheat",
+          "name": "NovuHeat",
+          "zones": "Back, lower back, legs, overall recovery",
+          "functions": "Deep heat, relaxation, and support after physical load."
+        },
+        {
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eye area, face, visual fatigue zones",
+          "functions": "Air massage, gentle heat, vibration, and recovery after visual strain."
+        },
+        {
+          "id": "spinesystem",
+          "name": "SpineSystem",
+          "zones": "Spine, back, posture, recovery",
+          "functions": "Back support, structured effect, and application in studio protocols."
+        },
+        {
+          "id": "bodyhealth",
+          "name": "BodyHealth",
+          "zones": "Legs, feet, circulation, fatigue",
+          "functions": ""
+        }
+      ]
+    },
+    "showrooms": {
+      "title": "Showrooms",
+      "subtitle": "A System 5/95 showroom is a trust-building environment where customers experience the product before making a decision.",
+      "body": "We view a showroom not as a conventional retail point, but as a curated environment. Customers discover the brand through the calm architecture of the space, the quality of the equipment, personal experience, and their own sense of results. This model supports refined, low-pressure sales: people understand the value first and make a decision after they feel it.",
+      "cta": "Explore the Showroom Model"
+    },
+    "studios": {
+      "title": "Massage Studios",
+      "subtitle": "A complete premium massage studio system with detailed standards, training, and quality control.",
+      "body": "System 5/95 offers more than equipment for studios — it provides a complete service architecture. Devices carry the primary therapeutic workload, reducing critical dependence on rare manual-only specialists. Partners receive protocols, video guidance, fast staff training, and quality control tools. This helps studios launch faster, maintain a unified standard, and scale without losing service quality.",
+      "cta": "Explore Studio Opportunities"
+    },
+    "moxi": {
+      "title": "Moxi Yoga",
+      "subtitle": "A dedicated wellness direction where movement, heat, recovery, and ritual become a refined premium practice.",
+      "body": "Moxi Yoga expands the System 5/95 philosophy beyond product and massage. It is a format where mindful movement, directed heat, recovery, and aesthetics create a calm, modern wellness experience. The direction can grow through partnerships with yoga studios, wellness spaces, retreats, and premium communities.",
+      "cta": "Partner with Moxi Yoga"
+    },
+    "software": {
+      "title": "Software + AI",
+      "subtitle": "A digital infrastructure that makes wellness operations manageable, scalable, and modern.",
+      "body": "System 5/95 develops its own IT products: booking systems, training tools, quality control standards, and AI support during and after purchase. AI helps customers understand the product, receive recommendations, and stay engaged. Privacy is part of premium service: data, analytics, and personal recommendations should be processed in a protected environment.",
+      "cta": "Explore the IT System"
+    },
+    "partnership": {
+      "title": "How to Become a Partner",
+      "subtitle": "A partnership with System 5/95 is an entry into a complete wellness ecosystem with Japanese products, standards, training, IT, and AI support.",
+      "body": "We offer two main partnership formats: showrooms and massage studios. In both cases, partners receive not individual devices, but a structured model: products, presentation materials, standards, training, operating processes, digital support, and premium positioning. This lowers launch friction, strengthens differentiation, and supports a sustainable growth model.",
+      "cta": "Request a Partnership Presentation"
+    },
+    "form": {
+      "formTitle": "Partnership Request",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "company": "Company",
+      "interestLabel": "Interest",
+      "message": "Message",
+      "consent": "I agree to be contacted about partnership opportunities.",
+      "submit": "Send",
+      "interestDefault": "Select direction",
+      "interest": {
+        "showroom": "Showroom Partner",
+        "studio": "Massage Studio Partner",
+        "moxi": "Moxi Yoga Partner",
+        "distribution": "Product Distribution",
+        "software": "Software + AI",
+        "other": "Other"
+      },
+      "thanks": "Thank you — we will be in touch."
+    },
+    "footer": {
+      "tagline": "Japanese-engineered wellness ecosystem.",
+      "offices": "Fujiyoshida, Japan · United States",
+      "privacy": "Privacy Policy",
+      "rights": "© 2026 System 5/95. All rights reserved."
+    }
+  },
+  "ja": {
+    "meta": {
+      "title": "System 5/95 — 日本発のウェルネス・エコシステム",
+      "description": "独自の製品開発、プレミアムデバイス、ショールーム、マッサージスタジオ、Moxi Yoga、Software + AI。米国・欧州・アジアでのパートナーシップ。"
+    },
+    "nav": {
+      "about": "私たちについて",
+      "devices": "デバイス",
+      "showrooms": "ショールーム",
+      "studios": "スタジオ",
+      "moxi": "Moxi Yoga",
+      "software": "Software + AI",
+      "partnership": "パートナーシップ"
+    },
+    "hero": {
+      "eyebrow": "Japanese wellness ecosystem",
+      "title": "System 5/95",
+      "subtitle": "ショールーム、マッサージスタジオ、国際パートナーのための日本発ウェルネス・エコシステム。",
+      "body": "System 5/95は、独自の製品開発、日本での自社製造、プレミアムデバイス、ショールーム、マッサージスタジオ、Software + AI、そしてアジア・欧州・米国向けのパートナーシップ構造を統合します。",
+      "cta": "パートナーシップ資料を依頼する",
+      "secondary": "チームを見る"
+    },
+    "stats": {
+      "founded": "設立",
+      "years": "年以上の創業者経験",
+      "offices": "拠点",
+      "users": "アクティブユーザー"
+    },
+    "about": {
+      "title": "私たちについて / チーム",
+      "subtitle": "System 5/95は2013年に設立され、日本、米国、国際ウェルネス市場に関わる多分野のチームに支えられています。",
+      "body": "このサイトはチーム紹介から始まります。プレミアムB2B市場において、信頼は人、起源、そしてシステムの深さから生まれるからです。System 5/95という名称は、単一の製品ではなく、デバイス、サービス、基準、製造、教育、パートナーモデルを統合した完全な構造を表しています。創業者Vitaly Golovanは、18年以上のセラピューティック・ウェルネスの経験、国際展開、ショールームおよびマッサージスタジオ形式の実務知識を組み合わせ、創業者主導のウェルネス・エコシステムとしてブランドを発展させています。",
+      "cta": "チームを見る"
+    },
+    "team": {
+      "title": "チーム",
+      "members": [
+        {
+          "id": "vg",
+          "name": "Vitaly Golovan",
+          "initials": "VG",
+          "role": "創業者",
+          "bio": "セラピューティック・ウェルネス、製品開発、国際展開、ショールームおよびマッサージスタジオモデル構築に18年以上携わる。"
+        },
+        {
+          "id": "an",
+          "name": "Akio Nakashima",
+          "initials": "AN",
+          "role": "製造責任者",
+          "bio": "富士吉田の製造拠点における製造規律、組立基準、工程管理、日本品質の安定性を統括。"
+        },
+        {
+          "id": "ao",
+          "name": "Alex Okubo",
+          "initials": "AO",
+          "role": "事業開発責任者",
+          "bio": "パートナーシップ、国際市場、ショールーム戦略、B2Bモデル、成長機会を推進。"
+        },
+        {
+          "id": "ay",
+          "name": "Akihiko Yamamoto",
+          "initials": "AY",
+          "role": "研究開発責任者",
+          "bio": "機能研究、設計思想、新しいソリューション開発、製品エコシステム全体の技術改善を統括。"
+        },
+        {
+          "id": "mw",
+          "name": "Miki Watanabe",
+          "initials": "MW",
+          "role": "医療専門アドバイザー",
+          "bio": "機器機能と使用プロトコルにおいて、安全で繊細かつ生理学的に配慮されたアプローチを支援。"
+        },
+        {
+          "id": "tm",
+          "name": "Tatsuyuki Maeda",
+          "initials": "TM",
+          "role": "品質・認証担当",
+          "bio": "品質、文書管理、認証プロセス、製品が社内基準に適合することを担当。"
+        },
+        {
+          "id": "sk",
+          "name": "Shotaro Kawamura",
+          "initials": "SK",
+          "role": "物流担当",
+          "bio": "国際物流、供給フロー、梱包、市場間の製品移動における運用信頼性を管理。"
+        }
+      ]
+    },
+    "devices": {
+      "title": "私たちが誇るデバイス",
+      "subtitle": "System 5/95の独自デバイスは、ひとつのセラピューティック・ウェルネスエコシステムとして設計されています。",
+      "body": "各デバイスは、使用部位、機能、ユーザー体験を明確に考慮して開発されています。やさしい指向性の温熱、精密に調整された振動、セラピューティックライト、エアプレッシャー、脊椎サポートなど、自然な物理的要素を組み合わせています。身体に無理を強いるのではなく、正確に、丁寧に、継続的に寄り添う非侵襲的で生理学に配慮したアプローチです。",
+      "cta": "デバイスを見る",
+      "zonesLabel": "部位",
+      "functionsLabel": "機能",
+      "list": [
+        {
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "首、肩、背中、局所的な緊張部位",
+          "functions": "やさしい指向性温熱、セラピューティックライト、局所ケアのサポート。"
+        },
+        {
+          "id": "novuheat",
+          "name": "NovuHeat",
+          "zones": "背中、腰、脚、全身の回復",
+          "functions": "深い温熱、リラクゼーション、負荷後の回復サポート。"
+        },
+        {
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "目元、顔、目の疲れ",
+          "functions": "エアマッサージ、やさしい温熱、振動、視覚疲労後の回復。"
+        },
+        {
+          "id": "spinesystem",
+          "name": "SpineSystem",
+          "zones": "脊椎、背中、姿勢、回復",
+          "functions": "背中のサポート、構造的な働きかけ、スタジオプロトコルでの使用。"
+        },
+        {
+          "id": "bodyhealth",
+          "name": "BodyHealth",
+          "zones": "脚、足、循環、疲労",
+          "functions": ""
+        }
+      ]
+    },
+    "showrooms": {
+      "title": "ショールーム",
+      "subtitle": "System 5/95のショールームは、製品を体験しながら信頼を築くための空間です。",
+      "body": "私たちはショールームを一般的な小売店舗ではなく、丁寧に設計された体験空間と考えています。お客様は、空間の静けさ、機器の品質、個人的な体験、そして自分自身の感覚を通じてブランドを理解します。このモデルは、押し売りではなく、価値を体感してから判断する洗練された販売体験を実現します。",
+      "cta": "ショールームモデルを見る"
+    },
+    "studios": {
+      "title": "マッサージスタジオ",
+      "subtitle": "詳細な基準、トレーニング、品質管理を備えたプレミアム・マッサージスタジオシステム。",
+      "body": "System 5/95は、スタジオ向けの機器だけでなく、サービス全体の設計を提供します。デバイスが主要なセラピューティックワークを担うことで、希少な手技専門スタッフへの過度な依存を軽減します。パートナーには、プロトコル、動画ガイド、迅速なスタッフ教育、品質管理ツールが提供されます。これにより、より早い立ち上げ、統一された品質基準、そしてサービス品質を落とさない拡大が可能になります。",
+      "cta": "スタジオ展開を見る"
+    },
+    "moxi": {
+      "title": "Moxi Yoga",
+      "subtitle": "動き、温熱、回復、儀式性が融合する、洗練されたプレミアム・ウェルネスの新しい方向性。",
+      "body": "Moxi Yogaは、System 5/95の哲学を製品やマッサージの枠を超えて広げる取り組みです。マインドフルな動き、指向性の温熱、回復、美しい空間性が、静かで現代的なウェルネス体験を生み出します。ヨガスタジオ、ウェルネススペース、リトリート、プレミアムコミュニティとのパートナーシップを通じて展開できます。",
+      "cta": "Moxi Yogaのパートナーになる"
+    },
+    "software": {
+      "title": "Software + AI",
+      "subtitle": "ウェルネス事業を管理しやすく、拡張しやすく、現代的にするデジタル基盤。",
+      "body": "System 5/95は、予約システム、教育ツール、品質管理基準、購入時および購入後のAIサポートなど、独自のIT製品を開発しています。AIはお客様が製品を理解し、推奨を受け取り、継続的にブランドと関わることを支援します。プライバシーはプレミアムサービスの一部であり、データ、分析、個別推奨は保護された環境で扱われるべきです。",
+      "cta": "ITシステムを見る"
+    },
+    "partnership": {
+      "title": "パートナーになるには",
+      "subtitle": "System 5/95とのパートナーシップは、日本品質の製品、基準、教育、IT、AIサポートを備えた統合ウェルネスエコシステムへの参加です。",
+      "body": "私たちは、ショールームとマッサージスタジオという2つの主要なパートナーシップ形式を提供します。どちらの場合も、パートナーは単体のデバイスではなく、製品、プレゼンテーション資料、基準、教育、運用プロセス、デジタルサポート、プレミアムなポジショニングを含む構造化されたモデルを受け取ります。これにより、立ち上げの負担を減らし、差別化を高め、持続可能な成長モデルを支援します。",
+      "cta": "パートナーシップ資料を依頼する"
+    },
+    "form": {
+      "formTitle": "パートナーシップのお問い合わせ",
+      "name": "お名前",
+      "email": "メール",
+      "phone": "電話番号",
+      "country": "国",
+      "company": "会社名",
+      "interestLabel": "関心分野",
+      "message": "メッセージ",
+      "consent": "パートナーシップに関するご連絡に同意します。",
+      "submit": "送信",
+      "interestDefault": "分野を選択",
+      "interest": {
+        "showroom": "Showroom Partner",
+        "studio": "Massage Studio Partner",
+        "moxi": "Moxi Yoga Partner",
+        "distribution": "製品流通",
+        "software": "Software + AI",
+        "other": "その他"
+      },
+      "thanks": "ありがとうございます。ご連絡いたします。"
+    },
+    "footer": {
+      "tagline": "日本品質のウェルネス・エコシステム。",
+      "offices": "富士吉田・日本 / アメリカ合衆国",
+      "privacy": "プライバシーポリシー",
+      "rights": "© 2026 System 5/95. All rights reserved."
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "System 5/95 — Ecosistema Wellness Japonés",
+      "description": "Desarrollo propio de producto, dispositivos premium, showrooms, estudios de masaje, Moxi Yoga, Software + AI. Partnership en EE.UU., Europa y Asia."
+    },
+    "nav": {
+      "about": "Sobre nosotros",
+      "devices": "Dispositivos",
+      "showrooms": "Showrooms",
+      "studios": "Estudios",
+      "moxi": "Moxi Yoga",
+      "software": "Software + AI",
+      "partnership": "Partnership"
+    },
+    "hero": {
+      "eyebrow": "Japanese wellness ecosystem",
+      "title": "System 5/95",
+      "subtitle": "Un ecosistema wellness de ingeniería japonesa para showrooms, estudios de masaje y socios internacionales.",
+      "body": "System 5/95 combina desarrollo propio de producto, fabricación interna en Japón, dispositivos premium, showrooms, estudios de masaje, Software + AI y una arquitectura de colaboración para Asia, Europa y Estados Unidos.",
+      "cta": "Solicitar presentación de partnership",
+      "secondary": "Conocer al equipo"
+    },
+    "stats": {
+      "founded": "Fundada",
+      "years": "años de experiencia del fundador",
+      "offices": "Oficinas",
+      "users": "usuarios activos"
+    },
+    "about": {
+      "title": "Sobre nosotros / Equipo",
+      "subtitle": "System 5/95 es una empresa fundada en 2013 y respaldada por un equipo multidisciplinar en Japón, Estados Unidos y el mercado internacional wellness.",
+      "body": "La web debe comenzar con el equipo porque, en el segmento premium B2B, la confianza nace de las personas, el origen y la profundidad del sistema. El nombre System 5/95 refleja una arquitectura completa: no un único producto, sino un sistema de dispositivos, servicios, estándares, fabricación, formación y modelos de colaboración. Su fundador, Vitaly Golovan, desarrolla la marca como un ecosistema wellness liderado por su visión, con más de 18 años de experiencia en therapeutic wellness, desarrollo internacional y formatos de showroom y estudio de masaje.",
+      "cta": "Conocer al equipo"
+    },
+    "team": {
+      "title": "Equipo",
+      "members": [
+        {
+          "id": "vg",
+          "name": "Vitaly Golovan",
+          "initials": "VG",
+          "role": "Fundador",
+          "bio": "Más de 18 años en therapeutic wellness, desarrollo de producto, crecimiento internacional y modelos de showroom y estudio de masaje."
+        },
+        {
+          "id": "an",
+          "name": "Akio Nakashima",
+          "initials": "AN",
+          "role": "Director de Producción",
+          "bio": "Dirige la disciplina de fabricación, estándares de ensamblaje, organización de procesos y consistencia de calidad japonesa en Fujiyoshida."
+        },
+        {
+          "id": "ao",
+          "name": "Alex Okubo",
+          "initials": "AO",
+          "role": "Director de Desarrollo de Negocio",
+          "bio": "Desarrolla partnerships, mercados internacionales, estrategia de showrooms, modelos B2B y oportunidades de crecimiento."
+        },
+        {
+          "id": "ay",
+          "name": "Akihiko Yamamoto",
+          "initials": "AY",
+          "role": "Director de R&D",
+          "bio": "Supervisa investigación funcional, lógica de ingeniería, desarrollo de nuevas soluciones y mejora tecnológica del ecosistema."
+        },
+        {
+          "id": "mw",
+          "name": "Miki Watanabe",
+          "initials": "MW",
+          "role": "Experta Médica",
+          "bio": "Apoya un enfoque seguro, delicado y consciente de la fisiología para funciones de dispositivos y protocolos."
+        },
+        {
+          "id": "tm",
+          "name": "Tatsuyuki Maeda",
+          "initials": "TM",
+          "role": "Calidad y Certificación",
+          "bio": "Responsable de calidad, documentación, certificaciones y alineación con estándares internos."
+        },
+        {
+          "id": "sk",
+          "name": "Shotaro Kawamura",
+          "initials": "SK",
+          "role": "Logística",
+          "bio": "Gestiona logística internacional, flujo de suministro, embalaje y fiabilidad operativa entre mercados."
+        }
+      ]
+    },
+    "devices": {
+      "title": "Dispositivos de los que nos sentimos orgullosos",
+      "subtitle": "Los dispositivos originales de System 5/95 están diseñados como parte de un único ecosistema therapeutic wellness.",
+      "body": "Cada dispositivo se desarrolla en torno a zonas de aplicación, funciones y experiencia de usuario específicas. Combinamos calor dirigido suave, vibración calibrada, luz terapéutica, presión de aire, soporte de columna y otros factores físicos naturales. Nuestro enfoque es delicado, no invasivo y consciente de la fisiología: no forzar el cuerpo, sino trabajar con él con precisión, cuidado y constancia.",
+      "cta": "Ver dispositivos",
+      "zonesLabel": "Zonas",
+      "functionsLabel": "Funciones",
+      "list": [
+        {
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Cuello, hombros, espalda, zonas localizadas de tensión",
+          "functions": "Calor dirigido suave, luz terapéutica y apoyo para trabajo localizado."
+        },
+        {
+          "id": "novuheat",
+          "name": "NovuHeat",
+          "zones": "Espalda, zona lumbar, piernas, recuperación general",
+          "functions": "Calor profundo, relajación y apoyo tras la carga física."
+        },
+        {
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Zona ocular, rostro, fatiga visual",
+          "functions": "Masaje de aire, calor suave, vibración y recuperación tras esfuerzo visual."
+        },
+        {
+          "id": "spinesystem",
+          "name": "SpineSystem",
+          "zones": "Columna, espalda, postura, recuperación",
+          "functions": "Soporte de espalda, efecto estructurado y uso en protocolos de estudio."
+        },
+        {
+          "id": "bodyhealth",
+          "name": "BodyHealth",
+          "zones": "Piernas, pies, circulación, fatiga",
+          "functions": ""
+        }
+      ]
+    },
+    "showrooms": {
+      "title": "Showrooms",
+      "subtitle": "Un showroom System 5/95 es un entorno de confianza donde el cliente experimenta el producto antes de decidir.",
+      "body": "Entendemos el showroom no como un punto de venta convencional, sino como un curated environment. El cliente descubre la marca a través de la calma del espacio, la calidad del equipo, la experiencia personal y su propia sensación de resultado. Este modelo permite ventas refinadas y sin presión: primero se entiende el valor, después se decide.",
+      "cta": "Explorar modelo de showrooms"
+    },
+    "studios": {
+      "title": "Estudios de masaje",
+      "subtitle": "Un sistema completo para estudios de masaje premium con estándares detallados, formación y control de calidad.",
+      "body": "System 5/95 ofrece más que equipamiento para estudios: ofrece una arquitectura completa de servicio. Los dispositivos asumen la carga terapéutica principal, reduciendo la dependencia crítica de especialistas manual-only difíciles de escalar. El partner recibe protocolos, guía en vídeo, formación rápida del personal y herramientas de control de calidad. Esto permite lanzar antes, mantener un estándar unificado y escalar sin perder calidad de servicio.",
+      "cta": "Explorar oportunidad de estudio"
+    },
+    "moxi": {
+      "title": "Moxi Yoga",
+      "subtitle": "Una línea wellness donde movimiento, calor, recuperación y ritual se convierten en una práctica premium refinada.",
+      "body": "Moxi Yoga amplía la filosofía de System 5/95 más allá del producto y del masaje. Es un formato donde el movimiento consciente, el calor dirigido, la recuperación y la estética crean una experiencia wellness moderna y serena. Puede crecer mediante colaboraciones con estudios de yoga, wellness spaces, retiros y comunidades premium.",
+      "cta": "Ser partner de Moxi Yoga"
+    },
+    "software": {
+      "title": "Software + AI",
+      "subtitle": "Infraestructura digital para hacer las operaciones wellness más gestionables, escalables y modernas.",
+      "body": "System 5/95 desarrolla sus propios productos IT: sistemas de reserva, herramientas de formación, estándares de control de calidad y soporte AI durante y después de la compra. La AI ayuda al cliente a entender el producto, recibir recomendaciones y mantenerse conectado. La privacidad forma parte del servicio premium: datos, analítica y recomendaciones personales deben tratarse en un entorno protegido.",
+      "cta": "Explorar el sistema IT"
+    },
+    "partnership": {
+      "title": "Cómo ser partner",
+      "subtitle": "Colaborar con System 5/95 es entrar en un ecosistema wellness completo con productos japoneses, estándares, formación, IT y soporte AI.",
+      "body": "Ofrecemos dos formatos principales de colaboración: showrooms y estudios de masaje. En ambos casos, el partner no recibe dispositivos aislados, sino un modelo estructurado: productos, materiales de presentación, estándares, formación, procesos operativos, soporte digital y posicionamiento premium. Esto reduce la fricción de lanzamiento, refuerza la diferenciación y apoya un crecimiento sostenible.",
+      "cta": "Solicitar presentación de partnership"
+    },
+    "form": {
+      "formTitle": "Solicitud de presentación de partnership",
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "country": "País",
+      "company": "Empresa",
+      "interestLabel": "Interés",
+      "message": "Mensaje",
+      "consent": "Acepto ser contactado/a sobre oportunidades de partnership.",
+      "submit": "Enviar",
+      "interestDefault": "Seleccionar dirección",
+      "interest": {
+        "showroom": "Showroom Partner",
+        "studio": "Massage Studio Partner",
+        "moxi": "Moxi Yoga Partner",
+        "distribution": "Distribución de producto",
+        "software": "Software + AI",
+        "other": "Otro"
+      },
+      "thanks": "Gracias — nos pondremos en contacto."
+    },
+    "footer": {
+      "tagline": "Ecosistema wellness de ingeniería japonesa.",
+      "offices": "Fujiyoshida, Japón · Estados Unidos",
+      "privacy": "Política de privacidad",
+      "rights": "© 2026 System 5/95. Todos los derechos reservados."
+    }
+  },
+  "ru": {
+    "meta": {
+      "title": "System 5/95 — японская wellness-экосистема",
+      "description": "Оригинальные разработки, premium-девайсы, шоурумы, массажные студии, Moxi Yoga, Software + AI. Партнерство в США, Европе и Азии."
+    },
+    "nav": {
+      "about": "О нас",
+      "devices": "Девайсы",
+      "showrooms": "Шоурумы",
+      "studios": "Студии",
+      "moxi": "Moxi Yoga",
+      "software": "Software + AI",
+      "partnership": "Партнерство"
+    },
+    "hero": {
+      "eyebrow": "Japanese wellness ecosystem",
+      "title": "System 5/95",
+      "subtitle": "Японская wellness-экосистема для шоурумов, массажных студий и международных партнеров.",
+      "body": "System 5/95 объединяет оригинальные разработки, собственное производство в Японии, premium-девайсы, шоурумы, массажные студии, Software + AI и партнерскую архитектуру для рынков Азии, Европы и США.",
+      "cta": "Запросить партнерскую презентацию",
+      "secondary": "Познакомиться с командой"
+    },
+    "stats": {
+      "founded": "Основана",
+      "years": "лет опыта основателя",
+      "offices": "Представительства",
+      "users": "активных пользователей"
+    },
+    "about": {
+      "title": "О нас / Команда",
+      "subtitle": "System 5/95 — компания, основанная в 2013 году, где за брендом стоит команда специалистов из Японии, США и международного wellness-бизнеса.",
+      "body": "Мы начинаем сайт с команды, потому что в premium B2B-сегменте доверие рождается прежде всего через людей, происхождение и глубину системы. Название System 5/95 отражает идею целостной архитектуры: не отдельный продукт, а система устройств, сервисов, стандартов, производства, обучения и партнерских моделей. Основатель Vitaly Golovan развивает бренд как founder-led wellness ecosystem, соединяющую 18+ лет опыта в сфере therapeutic wellness, международное развитие и практическое понимание showroom и massage studio направлений.",
+      "cta": "Познакомиться с командой"
+    },
+    "team": {
+      "title": "Команда",
+      "members": [
+        {
+          "id": "vg",
+          "name": "Vitaly Golovan",
+          "initials": "VG",
+          "role": "Founder / Основатель",
+          "bio": "Более 18 лет в therapeutic wellness, product development, международном развитии и построении showroom и massage studio моделей."
+        },
+        {
+          "id": "an",
+          "name": "Akio Nakashima",
+          "initials": "AN",
+          "role": "Manufacturing Director / Директор производства",
+          "bio": "Отвечает за производственную дисциплину, сборку, процессы и стабильность японского качества на базе в Fujiyoshida."
+        },
+        {
+          "id": "ao",
+          "name": "Alex Okubo",
+          "initials": "AO",
+          "role": "Business Development Director / Директор по развитию",
+          "bio": "Развивает партнерства, международные направления, шоурумы, B2B-модели и стратегические возможности роста."
+        },
+        {
+          "id": "ay",
+          "name": "Akihiko Yamamoto",
+          "initials": "AY",
+          "role": "R&D Director / Директор R&D",
+          "bio": "Курирует исследования функций, инженерную логику устройств, новые решения и развитие продуктовой экосистемы."
+        },
+        {
+          "id": "mw",
+          "name": "Miki Watanabe",
+          "initials": "MW",
+          "role": "Medical Expert / Медицинский эксперт",
+          "bio": "Помогает формировать безопасный, деликатный и физиологически осознанный подход к функциям устройств и протоколам."
+        },
+        {
+          "id": "tm",
+          "name": "Tatsuyuki Maeda",
+          "initials": "TM",
+          "role": "Quality & Certification / Качество и сертификация",
+          "bio": "Отвечает за качество, документацию, сертификационные процессы и соответствие внутренним стандартам."
+        },
+        {
+          "id": "sk",
+          "name": "Shotaro Kawamura",
+          "initials": "SK",
+          "role": "Logistics / Логистика",
+          "bio": "Обеспечивает международную логистику, поставки, упаковку и надежность движения продукции между рынками."
+        }
+      ]
+    },
+    "devices": {
+      "title": "Девайсы, которыми мы гордимся",
+      "subtitle": "Оригинальные устройства System 5/95 созданы как часть единой therapeutic wellness экосистемы.",
+      "body": "Каждый девайс разрабатывается с учетом конкретных зон применения, функций и пользовательского опыта. Мы объединяем мягкое направленное тепло, точно выверенную вибрацию, терапевтический свет, воздушное давление, поддержку позвоночника и другие естественные физические факторы. Наш подход — деликатный, non-invasive и физиологически осознанный: не давить на тело, а работать с ним точно, бережно и последовательно.",
+      "cta": "Посмотреть устройства",
+      "zonesLabel": "Зоны",
+      "functionsLabel": "Функции",
+      "list": [
+        {
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Шея, плечи, спина, локальные зоны напряжения",
+          "functions": "Мягкое направленное тепло, терапевтический свет, поддержка локальной работы."
+        },
+        {
+          "id": "novuheat",
+          "name": "NovuHeat",
+          "zones": "Спина, поясница, ноги, общий recovery",
+          "functions": "Глубокое тепло, расслабление, поддержка восстановления после нагрузки."
+        },
+        {
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Область глаз, лицо, зона усталости",
+          "functions": "Воздушный массаж, мягкое тепло, вибрация, восстановление после визуальной нагрузки."
+        },
+        {
+          "id": "spinesystem",
+          "name": "SpineSystem",
+          "zones": "Позвоночник, спина, осанка, recovery",
+          "functions": "Поддержка спины, структурированное воздействие, применение в студийных протоколах."
+        },
+        {
+          "id": "bodyhealth",
+          "name": "BodyHealth",
+          "zones": "Ноги, стопы, циркуляция, усталость",
+          "functions": ""
+        }
+      ]
+    },
+    "showrooms": {
+      "title": "Showrooms",
+      "subtitle": "Шоурум System 5/95 — пространство доверия, опыта и ненавязчивого знакомства с продуктом.",
+      "body": "Мы рассматриваем шоурум не как обычную retail-точку, а как curated environment. Клиент знакомится с брендом через спокойствие пространства, качество оборудования, личный опыт и собственное ощущение результата. Такая модель позволяет строить экологичные продажи без давления: человек сначала понимает ценность и только потом принимает решение.",
+      "cta": "Узнать о модели шоурумов"
+    },
+    "studios": {
+      "title": "Массажные студии",
+      "subtitle": "Готовая система для premium massage studios с детализированными стандартами, обучением и контролем качества.",
+      "body": "System 5/95 предлагает не просто оборудование для студий, а полную архитектуру услуги. Устройства берут на себя основную терапевтическую нагрузку, снижая критическую зависимость от редких manual-only специалистов. Партнер получает протоколы, видео-сопровождение, систему быстрого обучения персонала и инструменты контроля качества. Это помогает быстрее запускаться, сохранять единый стандарт и масштабировать студии без потери качества сервиса.",
+      "cta": "Открыть студийное направление"
+    },
+    "moxi": {
+      "title": "Moxi Yoga",
+      "subtitle": "Отдельное wellness-направление, где движение, тепло, восстановление и ритуальность соединяются в мягкую premium-практику.",
+      "body": "Moxi Yoga расширяет философию System 5/95 за пределы классического продукта и массажа. Это формат, в котором осознанное движение, направленное тепло, восстановление и эстетика создают спокойный, современный wellness experience. Направление может развиваться через партнерства с yoga studios, wellness spaces, retreats и premium communities.",
+      "cta": "Стать партнером Moxi Yoga"
+    },
+    "software": {
+      "title": "Software + AI",
+      "subtitle": "Цифровая инфраструктура, которая делает wellness-бизнес управляемым, масштабируемым и современным.",
+      "body": "System 5/95 развивает собственные IT-продукты: систему бронирования, инструменты обучения, стандарты контроля качества и AI-сопровождение клиента во время и после покупки. AI помогает клиенту лучше понимать продукт, получать рекомендации и оставаться вовлеченным. Приватность является частью premium-сервиса: данные, аналитика и персональные рекомендации должны обрабатываться в защищенной среде.",
+      "cta": "Изучить IT-систему"
+    },
+    "partnership": {
+      "title": "Как стать партнером",
+      "subtitle": "Партнерство с System 5/95 — вход в готовую wellness-экосистему с японскими продуктами, стандартами, обучением, IT и AI-поддержкой.",
+      "body": "Мы предлагаем два основных формата партнерства: шоурумы и массажные студии. В обоих случаях партнер получает не отдельные устройства, а структурированную модель: продукты, презентационные материалы, стандарты, обучение, операционные процессы, цифровую поддержку и premium-позиционирование. Это снижает стартовую сложность, усиливает дифференциацию бизнеса и помогает строить устойчивую модель роста.",
+      "cta": "Запросить партнерскую презентацию"
+    },
+    "form": {
+      "formTitle": "Запрос партнерской презентации",
+      "name": "Имя",
+      "email": "Email",
+      "phone": "Телефон",
+      "country": "Страна",
+      "company": "Компания",
+      "interestLabel": "Направление",
+      "message": "Сообщение",
+      "consent": "Я согласен(-на) на связь по вопросам партнерства.",
+      "submit": "Отправить",
+      "interestDefault": "Выберите направление",
+      "interest": {
+        "showroom": "Showroom Partner",
+        "studio": "Massage Studio Partner",
+        "moxi": "Moxi Yoga Partner",
+        "distribution": "Продуктовая дистрибуция",
+        "software": "Software + AI",
+        "other": "Другое"
+      },
+      "thanks": "Спасибо, мы свяжемся с вами."
+    },
+    "footer": {
+      "tagline": "Японская wellness-экосистема полного цикла.",
+      "offices": "Fujiyoshida, Япония · США",
+      "privacy": "Политика конфиденциальности",
+      "rights": "© 2026 System 5/95. Все права защищены."
+    }
+  },
+  "de": {
+    "meta": {
+      "title": "System 5/95 — Japanisches Wellness-Ökosystem",
+      "description": "Originale Produktentwicklung, Premium-Geräte, Showrooms, Massagestudios, Moxi Yoga, Software + AI. Partnerschaft in den USA, Europa und Asien."
+    },
+    "nav": {
+      "about": "Über uns",
+      "devices": "Geräte",
+      "showrooms": "Showrooms",
+      "studios": "Studios",
+      "moxi": "Moxi Yoga",
+      "software": "Software + AI",
+      "partnership": "Partnerschaft"
+    },
+    "hero": {
+      "eyebrow": "Japanese wellness ecosystem",
+      "title": "System 5/95",
+      "subtitle": "Ein japanisch entwickeltes Wellness-Ökosystem für Showrooms, Massagestudios und internationale Partner.",
+      "body": "System 5/95 verbindet originale Produktentwicklung, eigene Fertigung in Japan, Premium-Geräte, Showrooms, Massagestudios, Software + AI und eine Partnerschaftsarchitektur für Asien, Europa und die USA.",
+      "cta": "Partnerschaftspräsentation anfordern",
+      "secondary": "Team kennenlernen"
+    },
+    "stats": {
+      "founded": "Gegründet",
+      "years": "Jahre Gründererfahrung",
+      "offices": "Büros",
+      "users": "aktive Nutzer"
+    },
+    "about": {
+      "title": "Über uns / Team",
+      "subtitle": "System 5/95 wurde 2013 gegründet und wird von einem multidisziplinären Team in Japan, den USA und dem internationalen Wellness-Markt getragen.",
+      "body": "Die Website beginnt mit dem Team, weil im Premium-B2B-Segment Vertrauen zuerst durch Menschen, Herkunft und Systemtiefe entsteht. Der Name System 5/95 steht für eine vollständige Architektur: nicht ein einzelnes Produkt, sondern ein System aus Geräten, Services, Standards, Fertigung, Training und Partnerschaftsmodellen. Gründer Vitaly Golovan entwickelt die Marke als founder-led wellness ecosystem mit über 18 Jahren Erfahrung in therapeutic wellness, internationaler Entwicklung und praktischem Verständnis für Showroom- und Massage-Studio-Formate.",
+      "cta": "Team kennenlernen"
+    },
+    "team": {
+      "title": "Team",
+      "members": [
+        {
+          "id": "vg",
+          "name": "Vitaly Golovan",
+          "initials": "VG",
+          "role": "Gründer",
+          "bio": "Über 18 Jahre Erfahrung in therapeutic wellness, Produktentwicklung, internationalem Wachstum und Showroom-/Massagestudio-Modellen."
+        },
+        {
+          "id": "an",
+          "name": "Akio Nakashima",
+          "initials": "AN",
+          "role": "Manufacturing Director",
+          "bio": "Leitet Fertigungsdisziplin, Montage-Standards, Prozessorganisation und japanische Qualitätskonstanz in Fujiyoshida."
+        },
+        {
+          "id": "ao",
+          "name": "Alex Okubo",
+          "initials": "AO",
+          "role": "Business Development Director",
+          "bio": "Entwickelt Partnerschaften, internationale Märkte, Showroom-Strategie, B2B-Modelle und Wachstumschancen."
+        },
+        {
+          "id": "ay",
+          "name": "Akihiko Yamamoto",
+          "initials": "AY",
+          "role": "R&D Director",
+          "bio": "Verantwortet Funktionsforschung, technische Logik, neue Lösungen und technologische Weiterentwicklung des Ökosystems."
+        },
+        {
+          "id": "mw",
+          "name": "Miki Watanabe",
+          "initials": "MW",
+          "role": "Medical Expert",
+          "bio": "Unterstützt einen sicheren, sanften und physiologiebewussten Ansatz für Gerätefunktionen und Protokolle."
+        },
+        {
+          "id": "tm",
+          "name": "Tatsuyuki Maeda",
+          "initials": "TM",
+          "role": "Quality & Certification",
+          "bio": "Verantwortlich für Qualität, Dokumentation, Zertifizierungen und interne Standards."
+        },
+        {
+          "id": "sk",
+          "name": "Shotaro Kawamura",
+          "initials": "SK",
+          "role": "Logistics",
+          "bio": "Steuert internationale Logistik, Lieferfluss, Verpackung und operative Zuverlässigkeit zwischen Märkten."
+        }
+      ]
+    },
+    "devices": {
+      "title": "Geräte, auf die wir stolz sind",
+      "subtitle": "Die originalen System 5/95 Geräte sind als Teil eines einheitlichen therapeutic wellness ecosystem konzipiert.",
+      "body": "Jedes Gerät wird rund um spezifische Anwendungsbereiche, Funktionen und Nutzererfahrungen entwickelt. Wir kombinieren sanfte gerichtete Wärme, präzise kalibrierte Vibration, therapeutisches Licht, Luftdruck, Wirbelsäulenunterstützung und andere natürliche physikalische Faktoren. Unser Ansatz ist sanft, nicht invasiv und physiologisch bewusst: den Körper nicht zwingen, sondern präzise, behutsam und konsequent mit ihm arbeiten.",
+      "cta": "Geräte entdecken",
+      "zonesLabel": "Bereiche",
+      "functionsLabel": "Funktionen",
+      "list": [
+        {
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Nacken, Schultern, Rücken, lokale Spannungszonen",
+          "functions": "Sanfte gerichtete Wärme, therapeutisches Licht und Unterstützung lokaler Arbeit."
+        },
+        {
+          "id": "novuheat",
+          "name": "NovuHeat",
+          "zones": "Rücken, unterer Rücken, Beine, allgemeine Regeneration",
+          "functions": "Tiefe Wärme, Entspannung und Unterstützung nach Belastung."
+        },
+        {
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Augenbereich, Gesicht, visuelle Ermüdung",
+          "functions": "Luftmassage, sanfte Wärme, Vibration und Erholung nach visueller Belastung."
+        },
+        {
+          "id": "spinesystem",
+          "name": "SpineSystem",
+          "zones": "Wirbelsäule, Rücken, Haltung, Regeneration",
+          "functions": "Rückenunterstützung, strukturierte Wirkung und Einsatz in Studioprotokollen."
+        },
+        {
+          "id": "bodyhealth",
+          "name": "BodyHealth",
+          "zones": "Beine, Füße, Durchblutung, Müdigkeit",
+          "functions": ""
+        }
+      ]
+    },
+    "showrooms": {
+      "title": "Showrooms",
+      "subtitle": "Ein System 5/95 Showroom ist ein vertrauensbildender Raum, in dem Kundinnen und Kunden das Produkt vor der Entscheidung erleben.",
+      "body": "Wir verstehen einen Showroom nicht als klassischen Retail-Ort, sondern als curated environment. Kunden entdecken die Marke durch die Ruhe des Raumes, die Qualität der Geräte, persönliche Erfahrung und ihr eigenes Ergebnisgefühl. Dieses Modell unterstützt einen kultivierten Verkauf ohne Druck: erst den Wert erleben, dann entscheiden.",
+      "cta": "Showroom-Modell entdecken"
+    },
+    "studios": {
+      "title": "Massagestudios",
+      "subtitle": "Ein vollständiges System für Premium-Massagestudios mit detaillierten Standards, Training und Qualitätskontrolle.",
+      "body": "System 5/95 bietet mehr als Studioausstattung — es bietet eine vollständige Service-Architektur. Die Geräte übernehmen die primäre therapeutische Belastung und reduzieren die kritische Abhängigkeit von seltenen manual-only Spezialisten. Partner erhalten Protokolle, Videoanleitung, schnelles Personaltraining und Qualitätskontroll-Tools. So starten Studios schneller, halten einen einheitlichen Standard und skalieren ohne Qualitätsverlust.",
+      "cta": "Studio-Möglichkeiten entdecken"
+    },
+    "moxi": {
+      "title": "Moxi Yoga",
+      "subtitle": "Ein eigenständiger Wellness-Bereich, in dem Bewegung, Wärme, Regeneration und Ritual zu einer raffinierten Premium-Praxis werden.",
+      "body": "Moxi Yoga erweitert die Philosophie von System 5/95 über Produkt und Massage hinaus. Es ist ein Format, in dem achtsame Bewegung, gerichtete Wärme, Regeneration und Ästhetik ein ruhiges, modernes Wellness-Erlebnis schaffen. Der Bereich kann durch Partnerschaften mit Yoga-Studios, Wellness Spaces, Retreats und Premium Communities wachsen.",
+      "cta": "Partner von Moxi Yoga werden"
+    },
+    "software": {
+      "title": "Software + AI",
+      "subtitle": "Eine digitale Infrastruktur, die Wellness-Operations steuerbar, skalierbar und modern macht.",
+      "body": "System 5/95 entwickelt eigene IT-Produkte: Buchungssysteme, Trainingswerkzeuge, Qualitätsstandards und AI-Support während und nach dem Kauf. AI hilft Kunden, das Produkt zu verstehen, Empfehlungen zu erhalten und verbunden zu bleiben. Datenschutz ist Teil des Premium-Service: Daten, Analysen und persönliche Empfehlungen sollten in einer geschützten Umgebung verarbeitet werden.",
+      "cta": "IT-System entdecken"
+    },
+    "partnership": {
+      "title": "Partner werden",
+      "subtitle": "Eine Partnerschaft mit System 5/95 ist der Einstieg in ein vollständiges Wellness-Ökosystem mit japanischen Produkten, Standards, Training, IT und AI-Support.",
+      "body": "Wir bieten zwei Hauptformate: Showrooms und Massagestudios. In beiden Fällen erhalten Partner keine Einzelgeräte, sondern ein strukturiertes Modell: Produkte, Präsentationsmaterialien, Standards, Training, Betriebsprozesse, digitale Unterstützung und Premium-Positionierung. Das reduziert Startaufwand, stärkt Differenzierung und unterstützt nachhaltiges Wachstum.",
+      "cta": "Partnerschaftspräsentation anfordern"
+    },
+    "form": {
+      "formTitle": "Partnerschaftspräsentation anfordern",
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "country": "Land",
+      "company": "Unternehmen",
+      "interestLabel": "Interesse",
+      "message": "Nachricht",
+      "consent": "Ich stimme zu, bezüglich Partnerschaftsmöglichkeiten kontaktiert zu werden.",
+      "submit": "Senden",
+      "interestDefault": "Richtung wählen",
+      "interest": {
+        "showroom": "Showroom Partner",
+        "studio": "Massage Studio Partner",
+        "moxi": "Moxi Yoga Partner",
+        "distribution": "Produktvertrieb",
+        "software": "Software + AI",
+        "other": "Sonstiges"
+      },
+      "thanks": "Vielen Dank — wir melden uns."
+    },
+    "footer": {
+      "tagline": "Japanisches Wellness-Ökosystem.",
+      "offices": "Fujiyoshida, Japan · Vereinigte Staaten",
+      "privacy": "Datenschutzrichtlinie",
+      "rights": "© 2026 System 5/95. Alle Rechte vorbehalten."
+    }
+  },
+  "uk": {
+    "meta": {
+      "title": "System 5/95 — японська wellness-екосистема",
+      "description": "Оригінальні розробки, premium-девайси, шоуруми, масажні студії, Moxi Yoga, Software + AI. Партнерство в США, Європі та Азії."
+    },
+    "nav": {
+      "about": "Про нас",
+      "devices": "Девайси",
+      "showrooms": "Шоуруми",
+      "studios": "Студії",
+      "moxi": "Moxi Yoga",
+      "software": "Software + AI",
+      "partnership": "Партнерство"
+    },
+    "hero": {
+      "eyebrow": "Japanese wellness ecosystem",
+      "title": "System 5/95",
+      "subtitle": "Японська wellness-екосистема для шоурумів, масажних студій та міжнародних партнерів.",
+      "body": "System 5/95 поєднує оригінальні розробки, власне виробництво в Японії, premium-девайси, шоуруми, масажні студії, Software + AI та партнерську архітектуру для ринків Азії, Європи та США.",
+      "cta": "Запросити партнерську презентацію",
+      "secondary": "Познайомитися з командою"
+    },
+    "stats": {
+      "founded": "Заснована",
+      "years": "років досвіду засновника",
+      "offices": "Представництва",
+      "users": "активних користувачів"
+    },
+    "about": {
+      "title": "Про нас / Команда",
+      "subtitle": "System 5/95 — компанія, заснована у 2013 році, за якою стоїть мультидисциплінарна команда з Японії, США та міжнародного wellness-бізнесу.",
+      "body": "Сайт починається з команди, тому що в premium B2B-сегменті довіра народжується через людей, походження та глибину системи. Назва System 5/95 відображає ідею цілісної архітектури: не окремий продукт, а система пристроїв, сервісів, стандартів, виробництва, навчання та партнерських моделей. Засновник Vitaly Golovan розвиває бренд як founder-led wellness ecosystem, поєднуючи 18+ років досвіду в therapeutic wellness, міжнародний розвиток і практичне розуміння showroom та massage studio напрямів.",
+      "cta": "Познайомитися з командою"
+    },
+    "team": {
+      "title": "Команда",
+      "members": [
+        {
+          "id": "vg",
+          "name": "Vitaly Golovan",
+          "initials": "VG",
+          "role": "Засновник",
+          "bio": "18+ років у therapeutic wellness, розробці продуктів, міжнародному розвитку та створенні моделей showroom і massage studio."
+        },
+        {
+          "id": "an",
+          "name": "Akio Nakashima",
+          "initials": "AN",
+          "role": "Директор виробництва",
+          "bio": "Керує виробничою дисципліною, стандартами складання, процесами та стабільністю японської якості у Fujiyoshida."
+        },
+        {
+          "id": "ao",
+          "name": "Alex Okubo",
+          "initials": "AO",
+          "role": "Директор з розвитку",
+          "bio": "Розвиває партнерства, міжнародні ринки, стратегію шоурумів, B2B-моделі та можливості зростання."
+        },
+        {
+          "id": "ay",
+          "name": "Akihiko Yamamoto",
+          "initials": "AY",
+          "role": "Директор R&D",
+          "bio": "Курує дослідження функцій, інженерну логіку, нові рішення та технологічне вдосконалення екосистеми."
+        },
+        {
+          "id": "mw",
+          "name": "Miki Watanabe",
+          "initials": "MW",
+          "role": "Медичний експерт",
+          "bio": "Підтримує безпечний, делікатний і фізіологічно усвідомлений підхід до функцій пристроїв і протоколів."
+        },
+        {
+          "id": "tm",
+          "name": "Tatsuyuki Maeda",
+          "initials": "TM",
+          "role": "Якість і сертифікація",
+          "bio": "Відповідає за якість, документацію, сертифікаційні процеси та відповідність внутрішнім стандартам."
+        },
+        {
+          "id": "sk",
+          "name": "Shotaro Kawamura",
+          "initials": "SK",
+          "role": "Логістика",
+          "bio": "Керує міжнародною логістикою, поставками, упаковкою та операційною надійністю між ринками."
+        }
+      ]
+    },
+    "devices": {
+      "title": "Девайси, якими ми пишаємося",
+      "subtitle": "Оригінальні пристрої System 5/95 створені як частина єдиної therapeutic wellness екосистеми.",
+      "body": "Кожен девайс розробляється з урахуванням конкретних зон застосування, функцій і користувацького досвіду. Ми поєднуємо м’яке спрямоване тепло, точно вивірену вібрацію, терапевтичне світло, повітряний тиск, підтримку хребта та інші природні фізичні фактори. Наш підхід — делікатний, non-invasive і фізіологічно усвідомлений: не тиснути на тіло, а працювати з ним точно, обережно й послідовно.",
+      "cta": "Переглянути пристрої",
+      "zonesLabel": "Зони",
+      "functionsLabel": "Функції",
+      "list": [
+        {
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Шия, плечі, спина, локальні зони напруження",
+          "functions": "М’яке спрямоване тепло, терапевтичне світло, підтримка локальної роботи."
+        },
+        {
+          "id": "novuheat",
+          "name": "NovuHeat",
+          "zones": "Спина, поперек, ноги, загальне відновлення",
+          "functions": "Глибоке тепло, розслаблення, підтримка після навантаження."
+        },
+        {
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Область очей, обличчя, зорова втома",
+          "functions": "Повітряний масаж, м’яке тепло, вібрація, відновлення після зорового навантаження."
+        },
+        {
+          "id": "spinesystem",
+          "name": "SpineSystem",
+          "zones": "Хребет, спина, постава, відновлення",
+          "functions": "Підтримка спини, структурований вплив, застосування в студійних протоколах."
+        },
+        {
+          "id": "bodyhealth",
+          "name": "BodyHealth",
+          "zones": "Ноги, стопи, циркуляція, втома",
+          "functions": ""
+        }
+      ]
+    },
+    "showrooms": {
+      "title": "Showrooms",
+      "subtitle": "Шоурум System 5/95 — це простір довіри, досвіду та ненав’язливого знайомства з продуктом.",
+      "body": "Ми розглядаємо шоурум не як звичайну retail-точку, а як curated environment. Клієнт знайомиться з брендом через спокій простору, якість обладнання, особистий досвід і власне відчуття результату. Така модель дозволяє будувати екологічні продажі без тиску: людина спочатку розуміє цінність і лише потім ухвалює рішення.",
+      "cta": "Дізнатися про модель шоурумів"
+    },
+    "studios": {
+      "title": "Масажні студії",
+      "subtitle": "Готова система для premium massage studios із деталізованими стандартами, навчанням і контролем якості.",
+      "body": "System 5/95 пропонує не просто обладнання для студій, а повну архітектуру послуги. Пристрої беруть на себе основне терапевтичне навантаження, знижуючи критичну залежність від рідкісних manual-only спеціалістів. Партнер отримує протоколи, відеосупровід, систему швидкого навчання персоналу та інструменти контролю якості. Це допомагає швидше запускатися, зберігати єдиний стандарт і масштабувати студії без втрати якості сервісу.",
+      "cta": "Відкрити студійний напрям"
+    },
+    "moxi": {
+      "title": "Moxi Yoga",
+      "subtitle": "Окремий wellness-напрям, де рух, тепло, відновлення та ритуальність поєднуються в м’яку premium-практику.",
+      "body": "Moxi Yoga розширює філософію System 5/95 за межі класичного продукту й масажу. Це формат, у якому усвідомлений рух, спрямоване тепло, відновлення та естетика створюють спокійний, сучасний wellness experience. Напрям може розвиватися через партнерства з yoga studios, wellness spaces, retreats і premium communities.",
+      "cta": "Стати партнером Moxi Yoga"
+    },
+    "software": {
+      "title": "Software + AI",
+      "subtitle": "Цифрова інфраструктура, що робить wellness-бізнес керованим, масштабованим і сучасним.",
+      "body": "System 5/95 розвиває власні IT-продукти: систему бронювання, інструменти навчання, стандарти контролю якості та AI-супровід клієнта під час і після покупки. AI допомагає клієнту краще розуміти продукт, отримувати рекомендації та залишатися залученим. Приватність є частиною premium-сервісу: дані, аналітика й персональні рекомендації мають оброблятися в захищеному середовищі.",
+      "cta": "Вивчити IT-систему"
+    },
+    "partnership": {
+      "title": "Як стати партнером",
+      "subtitle": "Партнерство з System 5/95 — це вхід у готову wellness-екосистему з японськими продуктами, стандартами, навчанням, IT та AI-підтримкою.",
+      "body": "Ми пропонуємо два основні формати партнерства: шоуруми та масажні студії. В обох випадках партнер отримує не окремі пристрої, а структуровану модель: продукти, презентаційні матеріали, стандарти, навчання, операційні процеси, цифрову підтримку та premium-позиціонування. Це знижує стартову складність, посилює диференціацію бізнесу та допомагає будувати стійку модель зростання.",
+      "cta": "Запросити партнерську презентацію"
+    },
+    "form": {
+      "formTitle": "Запит партнерської презентації",
+      "name": "Ім'я",
+      "email": "Email",
+      "phone": "Телефон",
+      "country": "Країна",
+      "company": "Компанія",
+      "interestLabel": "Напрямок",
+      "message": "Повідомлення",
+      "consent": "Я погоджуюсь на зв'язок щодо партнерства.",
+      "submit": "Надіслати",
+      "interestDefault": "Оберіть напрямок",
+      "interest": {
+        "showroom": "Showroom Partner",
+        "studio": "Massage Studio Partner",
+        "moxi": "Moxi Yoga Partner",
+        "distribution": "Продуктова дистрибуція",
+        "software": "Software + AI",
+        "other": "Інше"
+      },
+      "thanks": "Дякуємо — ми зв'яжемося з вами."
+    },
+    "footer": {
+      "tagline": "Японська wellness-екосистема повного циклу.",
+      "offices": "Fujiyoshida, Японія · США",
+      "privacy": "Політика конфіденційності",
+      "rights": "© 2026 System 5/95. Усі права захищені."
+    }
+  },
+  "fr": {
+    "meta": {
+      "title": "System 5/95 — Écosystème Wellness Japonais",
+      "description": "Développement produit original, appareils premium, showrooms, studios de massage, Moxi Yoga, Software + AI. Partenariat en Europe, Asie et aux États-Unis."
+    },
+    "nav": {
+      "about": "À propos",
+      "devices": "Appareils",
+      "showrooms": "Showrooms",
+      "studios": "Studios",
+      "moxi": "Moxi Yoga",
+      "software": "Software + AI",
+      "partnership": "Partenariat"
+    },
+    "hero": {
+      "eyebrow": "Japanese wellness ecosystem",
+      "title": "System 5/95",
+      "subtitle": "Un écosystème wellness d’ingénierie japonaise pour showrooms, studios de massage et partenaires internationaux.",
+      "body": "System 5/95 associe développement produit original, fabrication interne au Japon, appareils premium, showrooms, studios de massage, Software + AI et architecture de partenariat pour l’Asie, l’Europe et les États-Unis.",
+      "cta": "Demander une présentation partenariat",
+      "secondary": "Rencontrer l'équipe"
+    },
+    "stats": {
+      "founded": "Fondée",
+      "years": "ans d'expérience fondateur",
+      "offices": "Bureaux",
+      "users": "utilisateurs actifs"
+    },
+    "about": {
+      "title": "À propos / Équipe",
+      "subtitle": "System 5/95 est une entreprise fondée en 2013, portée par une équipe multidisciplinaire entre le Japon, les États-Unis et le marché international du wellness.",
+      "body": "Le site commence par l’équipe, car dans le B2B premium, la confiance naît des personnes, de l’origine et de la profondeur du système. Le nom System 5/95 reflète une architecture complète : non pas un seul produit, mais un système d’appareils, services, standards, fabrication, formation et modèles de partenariat. Le fondateur Vitaly Golovan développe la marque comme un écosystème wellness founder-led, combinant plus de 18 ans d’expérience en therapeutic wellness, développement international et connaissance pratique des formats showroom et massage studio.",
+      "cta": "Rencontrer l’équipe"
+    },
+    "team": {
+      "title": "Équipe",
+      "members": [
+        {
+          "id": "vg",
+          "name": "Vitaly Golovan",
+          "initials": "VG",
+          "role": "Fondateur",
+          "bio": "Plus de 18 ans en therapeutic wellness, développement produit, croissance internationale et modèles showroom / massage studio."
+        },
+        {
+          "id": "an",
+          "name": "Akio Nakashima",
+          "initials": "AN",
+          "role": "Directeur de production",
+          "bio": "Dirige la discipline de fabrication, les standards d’assemblage, l’organisation des processus et la qualité japonaise à Fujiyoshida."
+        },
+        {
+          "id": "ao",
+          "name": "Alex Okubo",
+          "initials": "AO",
+          "role": "Directeur du développement",
+          "bio": "Développe partenariats, marchés internationaux, stratégie showroom, modèles B2B et opportunités de croissance."
+        },
+        {
+          "id": "ay",
+          "name": "Akihiko Yamamoto",
+          "initials": "AY",
+          "role": "Directeur R&D",
+          "bio": "Supervise recherche fonctionnelle, logique d’ingénierie, nouvelles solutions et amélioration technologique de l’écosystème."
+        },
+        {
+          "id": "mw",
+          "name": "Miki Watanabe",
+          "initials": "MW",
+          "role": "Experte médicale",
+          "bio": "Soutient une approche sûre, douce et respectueuse de la physiologie pour les fonctions et protocoles."
+        },
+        {
+          "id": "tm",
+          "name": "Tatsuyuki Maeda",
+          "initials": "TM",
+          "role": "Qualité & Certification",
+          "bio": "Responsable de la qualité, documentation, certification et alignement avec les standards internes."
+        },
+        {
+          "id": "sk",
+          "name": "Shotaro Kawamura",
+          "initials": "SK",
+          "role": "Logistique",
+          "bio": "Gère logistique internationale, flux d’approvisionnement, emballage et fiabilité opérationnelle entre marchés."
+        }
+      ]
+    },
+    "devices": {
+      "title": "Des appareils dont nous sommes fiers",
+      "subtitle": "Les appareils originaux System 5/95 sont conçus comme partie d’un même écosystème therapeutic wellness.",
+      "body": "Chaque appareil est développé autour de zones d’application, de fonctions et d’une expérience utilisateur spécifiques. Nous combinons chaleur dirigée douce, vibration précisément calibrée, lumière thérapeutique, pression d’air, soutien de la colonne et autres facteurs physiques naturels. Notre approche est délicate, non invasive et respectueuse de la physiologie : ne pas forcer le corps, mais travailler avec lui avec précision, soin et constance.",
+      "cta": "Découvrir les appareils",
+      "zonesLabel": "Zones",
+      "functionsLabel": "Fonctions",
+      "list": [
+        {
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Cou, épaules, dos, zones de tension localisées",
+          "functions": "Chaleur dirigée douce, lumière thérapeutique et soutien du travail local."
+        },
+        {
+          "id": "novuheat",
+          "name": "NovuHeat",
+          "zones": "Dos, bas du dos, jambes, récupération générale",
+          "functions": "Chaleur profonde, relaxation et soutien après l’effort."
+        },
+        {
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Zone des yeux, visage, fatigue visuelle",
+          "functions": "Massage par air, chaleur douce, vibration et récupération après fatigue visuelle."
+        },
+        {
+          "id": "spinesystem",
+          "name": "SpineSystem",
+          "zones": "Colonne, dos, posture, récupération",
+          "functions": "Soutien du dos, effet structuré et usage dans les protocoles studio."
+        },
+        {
+          "id": "bodyhealth",
+          "name": "BodyHealth",
+          "zones": "Jambes, pieds, circulation, fatigue",
+          "functions": ""
+        }
+      ]
+    },
+    "showrooms": {
+      "title": "Showrooms",
+      "subtitle": "Un showroom System 5/95 est un environnement de confiance où le client expérimente le produit avant de décider.",
+      "body": "Nous ne considérons pas le showroom comme un simple point de vente, mais comme un curated environment. Le client découvre la marque à travers le calme de l’espace, la qualité des équipements, l’expérience personnelle et sa propre perception du résultat. Ce modèle soutient une vente raffinée et sans pression : comprendre la valeur d’abord, décider ensuite.",
+      "cta": "Explorer le modèle showroom"
+    },
+    "studios": {
+      "title": "Studios de massage",
+      "subtitle": "Un système complet pour studios de massage premium, avec standards détaillés, formation et contrôle qualité.",
+      "body": "System 5/95 offre plus que des équipements pour studios : une architecture complète de service. Les appareils prennent en charge la principale charge thérapeutique, réduisant la dépendance critique à des spécialistes manual-only rares et difficiles à scaler. Les partenaires reçoivent protocoles, guidance vidéo, formation rapide du personnel et outils de contrôle qualité. Cela aide les studios à démarrer plus vite, maintenir un standard unifié et se développer sans perdre en qualité de service.",
+      "cta": "Explorer les opportunités studio"
+    },
+    "moxi": {
+      "title": "Moxi Yoga",
+      "subtitle": "Une direction wellness dédiée où mouvement, chaleur, récupération et rituel deviennent une pratique premium raffinée.",
+      "body": "Moxi Yoga étend la philosophie System 5/95 au-delà du produit et du massage. C’est un format où mouvement conscient, chaleur dirigée, récupération et esthétique créent une expérience wellness calme et moderne. Cette direction peut se développer via des partenariats avec studios de yoga, wellness spaces, retreats et communautés premium.",
+      "cta": "Devenir partenaire Moxi Yoga"
+    },
+    "software": {
+      "title": "Software + AI",
+      "subtitle": "Une infrastructure digitale qui rend les opérations wellness plus maîtrisables, scalables et modernes.",
+      "body": "System 5/95 développe ses propres produits IT : systèmes de réservation, outils de formation, standards de contrôle qualité et support AI pendant et après l’achat. L’AI aide les clients à comprendre le produit, recevoir des recommandations et rester engagés. La confidentialité fait partie du service premium : données, analyses et recommandations personnelles doivent être traitées dans un environnement protégé.",
+      "cta": "Explorer le système IT"
+    },
+    "partnership": {
+      "title": "Comment devenir partenaire",
+      "subtitle": "Un partenariat avec System 5/95 est une entrée dans un écosystème wellness complet avec produits japonais, standards, formation, IT et support AI.",
+      "body": "Nous proposons deux formats principaux : showrooms et studios de massage. Dans les deux cas, les partenaires ne reçoivent pas des appareils isolés, mais un modèle structuré : produits, supports de présentation, standards, formation, processus opérationnels, support digital et positionnement premium. Cela réduit la friction de lancement, renforce la différenciation et soutient une croissance durable.",
+      "cta": "Demander une présentation partenariat"
+    },
+    "form": {
+      "formTitle": "Demande de présentation partenariat",
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "country": "Pays",
+      "company": "Entreprise",
+      "interestLabel": "Intérêt",
+      "message": "Message",
+      "consent": "J'accepte d'être contacté(e) au sujet des opportunités de partenariat.",
+      "submit": "Envoyer",
+      "interestDefault": "Sélectionner",
+      "interest": {
+        "showroom": "Showroom Partner",
+        "studio": "Massage Studio Partner",
+        "moxi": "Moxi Yoga Partner",
+        "distribution": "Distribution produit",
+        "software": "Software + AI",
+        "other": "Autre"
+      },
+      "thanks": "Merci — nous vous contacterons."
+    },
+    "footer": {
+      "tagline": "Écosystème wellness d'ingénierie japonaise.",
+      "offices": "Fujiyoshida, Japon · États-Unis",
+      "privacy": "Politique de confidentialité",
+      "rights": "© 2026 System 5/95. Tous droits réservés."
+    }
+  },
+  "hi": {
+    "meta": {
+      "title": "System 5/95 — जापानी वेलनेस इकोसिस्टम",
+      "description": "मौलिक उत्पाद विकास, प्रीमियम डिवाइस, शोरूम, मसाज स्टूडियो, Moxi Yoga, Software + AI। अमेरिका, यूरोप और एशिया में पार्टनरशिप।"
+    },
+    "nav": {
+      "about": "हमारे बारे में",
+      "devices": "डिवाइस",
+      "showrooms": "Showrooms",
+      "studios": "स्टूडियो",
+      "moxi": "Moxi Yoga",
+      "software": "Software + AI",
+      "partnership": "पार्टनरशिप"
+    },
+    "hero": {
+      "eyebrow": "Japanese wellness ecosystem",
+      "title": "System 5/95",
+      "subtitle": "शोरूम, मसाज स्टूडियो और अंतरराष्ट्रीय पार्टनर्स के लिए जापानी-इंजीनियर्ड वेलनेस इकोसिस्टम।",
+      "body": "System 5/95 मौलिक उत्पाद विकास, जापान में इन-हाउस मैन्युफैक्चरिंग, प्रीमियम डिवाइस, शोरूम, मसाज स्टूडियो, Software + AI और एशिया, यूरोप व अमेरिका के लिए पार्टनरशिप आर्किटेक्चर को जोड़ता है।",
+      "cta": "पार्टनरशिप प्रेजेंटेशन का अनुरोध करें",
+      "secondary": "टीम से मिलें"
+    },
+    "stats": {
+      "founded": "स्थापना",
+      "years": "वर्ष संस्थापक अनुभव",
+      "offices": "कार्यालय",
+      "users": "सक्रिय उपयोगकर्ता"
+    },
+    "about": {
+      "title": "हमारे बारे में / टीम",
+      "subtitle": "System 5/95 की स्थापना 2013 में हुई और यह जापान, अमेरिका तथा अंतरराष्ट्रीय वेलनेस बाजार में काम करने वाली बहु-विषयक टीम द्वारा समर्थित है।",
+      "body": "वेबसाइट टीम से शुरू होनी चाहिए, क्योंकि प्रीमियम B2B सेगमेंट में भरोसा लोगों, मूल और सिस्टम की गहराई से बनता है। System 5/95 नाम एक पूर्ण आर्किटेक्चर को दर्शाता है: केवल एक उत्पाद नहीं, बल्कि डिवाइस, सेवाओं, मानकों, मैन्युफैक्चरिंग, प्रशिक्षण और पार्टनरशिप मॉडलों की प्रणाली। संस्थापक Vitaly Golovan ब्रांड को founder-led wellness ecosystem के रूप में विकसित करते हैं, जिसमें therapeutic wellness में 18+ वर्षों का अनुभव, अंतरराष्ट्रीय विकास और showroom तथा massage studio formats की व्यावहारिक समझ शामिल है।",
+      "cta": "टीम से मिलें"
+    },
+    "team": {
+      "title": "टीम",
+      "members": [
+        {
+          "id": "vg",
+          "name": "Vitaly Golovan",
+          "initials": "VG",
+          "role": "संस्थापक",
+          "bio": "Therapeutic wellness, product development, international growth और showroom/massage studio models में 18+ वर्ष।"
+        },
+        {
+          "id": "an",
+          "name": "Akio Nakashima",
+          "initials": "AN",
+          "role": "Manufacturing Director",
+          "bio": "Fujiyoshida production base पर manufacturing discipline, assembly standards, process organization और Japanese quality consistency का नेतृत्व।"
+        },
+        {
+          "id": "ao",
+          "name": "Alex Okubo",
+          "initials": "AO",
+          "role": "Business Development Director",
+          "bio": "Partnerships, international markets, showroom strategy, B2B models और growth opportunities विकसित करते हैं।"
+        },
+        {
+          "id": "ay",
+          "name": "Akihiko Yamamoto",
+          "initials": "AY",
+          "role": "R&D Director",
+          "bio": "Functional research, engineering logic, new solutions और product ecosystem technology refinement की देखरेख।"
+        },
+        {
+          "id": "mw",
+          "name": "Miki Watanabe",
+          "initials": "MW",
+          "role": "Medical Expert",
+          "bio": "Device functions और protocols के लिए safe, gentle और physiology-aware approach को support करती हैं।"
+        },
+        {
+          "id": "tm",
+          "name": "Tatsuyuki Maeda",
+          "initials": "TM",
+          "role": "Quality & Certification",
+          "bio": "Quality, documentation, certification processes और internal standards alignment के लिए जिम्मेदार।"
+        },
+        {
+          "id": "sk",
+          "name": "Shotaro Kawamura",
+          "initials": "SK",
+          "role": "Logistics",
+          "bio": "International logistics, supply flow, packaging और operational reliability संभालते हैं।"
+        }
+      ]
+    },
+    "devices": {
+      "title": "वे डिवाइस जिन पर हमें गर्व है",
+      "subtitle": "System 5/95 के मूल डिवाइस एक unified therapeutic wellness ecosystem के हिस्से के रूप में बनाए गए हैं।",
+      "body": "हर डिवाइस को विशिष्ट उपयोग क्षेत्रों, कार्यों और उपयोगकर्ता अनुभव को ध्यान में रखकर विकसित किया जाता है। हम हल्की निर्देशित गर्मी, सटीक कैलिब्रेटेड वाइब्रेशन, therapeutic light, air pressure, spinal support और अन्य प्राकृतिक physical factors को जोड़ते हैं। हमारा दृष्टिकोण gentle, non-invasive और physiology-aware है: शरीर पर बल नहीं, बल्कि उसके साथ सटीक, सावधानीपूर्वक और निरंतर काम करना।",
+      "cta": "डिवाइस देखें",
+      "zonesLabel": "क्षेत्र",
+      "functionsLabel": "कार्य",
+      "list": [
+        {
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "गर्दन, कंधे, पीठ, स्थानीय tension zones",
+          "functions": "Gentle directed heat, therapeutic light और localized work support."
+        },
+        {
+          "id": "novuheat",
+          "name": "NovuHeat",
+          "zones": "पीठ, कमर, पैर, overall recovery",
+          "functions": "Deep heat, relaxation और physical load के बाद recovery support."
+        },
+        {
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "आँखों का क्षेत्र, चेहरा, visual fatigue zones",
+          "functions": "Air massage, gentle heat, vibration और visual strain के बाद recovery."
+        },
+        {
+          "id": "spinesystem",
+          "name": "SpineSystem",
+          "zones": "Spine, back, posture, recovery",
+          "functions": "Back support, structured effect और studio protocols में उपयोग."
+        },
+        {
+          "id": "bodyhealth",
+          "name": "BodyHealth",
+          "zones": "Legs, feet, circulation, fatigue",
+          "functions": ""
+        }
+      ]
+    },
+    "showrooms": {
+      "title": "Showrooms",
+      "subtitle": "System 5/95 showroom एक ऐसा trust-building environment है जहाँ ग्राहक निर्णय लेने से पहले उत्पाद को अनुभव करता है।",
+      "body": "हम showroom को सामान्य retail point नहीं, बल्कि curated environment मानते हैं। ग्राहक शांत स्थान, उपकरण की गुणवत्ता, व्यक्तिगत अनुभव और अपने परिणाम की अनुभूति के माध्यम से ब्रांड को समझता है। यह मॉडल refined, low-pressure sales को सपोर्ट करता है: लोग पहले value महसूस करते हैं और फिर निर्णय लेते हैं।",
+      "cta": "Showroom मॉडल देखें"
+    },
+    "studios": {
+      "title": "Massage Studios",
+      "subtitle": "Detailed standards, training और quality control के साथ premium massage studios के लिए complete system।",
+      "body": "System 5/95 स्टूडियो को केवल equipment नहीं देता — यह complete service architecture देता है। डिवाइस primary therapeutic workload संभालते हैं, जिससे दुर्लभ manual-only specialists पर critical dependence कम होती है। पार्टनर को protocols, video guidance, fast staff training और quality control tools मिलते हैं। इससे studio तेज़ी से launch होता है, unified standard बनाए रखता है और service quality खोए बिना scale करता है।",
+      "cta": "Studio opportunities देखें"
+    },
+    "moxi": {
+      "title": "Moxi Yoga",
+      "subtitle": "एक dedicated wellness direction जहाँ movement, heat, recovery और ritual मिलकर refined premium practice बनते हैं।",
+      "body": "Moxi Yoga System 5/95 philosophy को product और massage से आगे बढ़ाता है। यह ऐसा format है जहाँ mindful movement, directed heat, recovery और aesthetics मिलकर calm, modern wellness experience बनाते हैं। यह yoga studios, wellness spaces, retreats और premium communities के साथ partnerships के माध्यम से विकसित हो सकता है।",
+      "cta": "Moxi Yoga partner बनें"
+    },
+    "software": {
+      "title": "Software + AI",
+      "subtitle": "Digital infrastructure जो wellness operations को manageable, scalable और modern बनाती है।",
+      "body": "System 5/95 अपने IT products विकसित करता है: booking systems, training tools, quality control standards और purchase के दौरान तथा बाद में AI support। AI ग्राहकों को product समझने, recommendations प्राप्त करने और engaged रहने में मदद करता है। Privacy premium service का हिस्सा है: data, analytics और personal recommendations protected environment में processed होने चाहिए।",
+      "cta": "IT system देखें"
+    },
+    "partnership": {
+      "title": "Partner कैसे बनें",
+      "subtitle": "System 5/95 partnership जापानी products, standards, training, IT और AI support वाले complete wellness ecosystem में प्रवेश है।",
+      "body": "हम partnership के दो मुख्य formats देते हैं: showrooms और massage studios। दोनों मामलों में partner को अलग-अलग devices नहीं, बल्कि structured model मिलता है: products, presentation materials, standards, training, operating processes, digital support और premium positioning। यह launch friction कम करता है, differentiation मजबूत करता है और sustainable growth model को support करता है।",
+      "cta": "Partnership presentation माँगें"
+    },
+    "form": {
+      "formTitle": "पार्टनरशिप प्रेजेंटेशन अनुरोध",
+      "name": "नाम",
+      "email": "ईमेल",
+      "phone": "फ़ोन",
+      "country": "देश",
+      "company": "कंपनी",
+      "interestLabel": "रुचि",
+      "message": "संदेश",
+      "consent": "मैं पार्टनरशिप के बारे में संपर्क किए जाने के लिए सहमत हूँ।",
+      "submit": "भेजें",
+      "interestDefault": "दिशा चुनें",
+      "interest": {
+        "showroom": "Showroom Partner",
+        "studio": "Massage Studio Partner",
+        "moxi": "Moxi Yoga Partner",
+        "distribution": "Product Distribution",
+        "software": "Software + AI",
+        "other": "अन्य"
+      },
+      "thanks": "धन्यवाद — हम जल्द संपर्क करेंगे।"
+    },
+    "footer": {
+      "tagline": "जापानी-इंजीनियर्ड वेलनेस इकोसिस्टम।",
+      "offices": "Fujiyoshida, जापान · संयुक्त राज्य",
+      "privacy": "गोपनीयता नीति",
+      "rights": "© 2026 System 5/95. सर्वाधिकार सुरक्षित।"
+    }
+  },
+  "pt": {
+    "meta": {
+      "title": "System 5/95 — Ecossistema Wellness Japonês",
+      "description": "Desenvolvimento original de produto, dispositivos premium, showrooms, estúdios de massagem, Moxi Yoga, Software + AI. Parceria nos EUA, Europa e Ásia."
+    },
+    "nav": {
+      "about": "Sobre nós",
+      "devices": "Dispositivos",
+      "showrooms": "Showrooms",
+      "studios": "Estúdios",
+      "moxi": "Moxi Yoga",
+      "software": "Software + AI",
+      "partnership": "Parceria"
+    },
+    "hero": {
+      "eyebrow": "Japanese wellness ecosystem",
+      "title": "System 5/95",
+      "subtitle": "Um ecossistema wellness de engenharia japonesa para showrooms, estúdios de massagem e parceiros internacionais.",
+      "body": "A System 5/95 combina desenvolvimento original de produto, fabrico próprio no Japão, dispositivos premium, showrooms, estúdios de massagem, Software + AI e uma arquitetura de parceria para a Ásia, Europa e Estados Unidos.",
+      "cta": "Solicitar apresentação de parceria",
+      "secondary": "Conhecer a equipa"
+    },
+    "stats": {
+      "founded": "Fundada",
+      "years": "anos de experiência do fundador",
+      "offices": "Escritórios",
+      "users": "utilizadores ativos"
+    },
+    "about": {
+      "title": "Sobre nós / Equipa",
+      "subtitle": "A System 5/95 é uma empresa fundada em 2013, apoiada por uma equipa multidisciplinar no Japão, nos Estados Unidos e no mercado internacional de wellness.",
+      "body": "O site começa pela equipa porque, no segmento premium B2B, a confiança nasce das pessoas, da origem e da profundidade do sistema. O nome System 5/95 reflete uma arquitetura completa: não um único produto, mas um sistema de dispositivos, serviços, standards, fabrico, formação e modelos de parceria. O fundador Vitaly Golovan desenvolve a marca como um founder-led wellness ecosystem, combinando mais de 18 anos de experiência em therapeutic wellness, desenvolvimento internacional e conhecimento prático de formatos de showroom e estúdio de massagem.",
+      "cta": "Conhecer a equipa"
+    },
+    "team": {
+      "title": "Equipa",
+      "members": [
+        {
+          "id": "vg",
+          "name": "Vitaly Golovan",
+          "initials": "VG",
+          "role": "Fundador",
+          "bio": "Mais de 18 anos em therapeutic wellness, desenvolvimento de produto, crescimento internacional e modelos showroom / estúdio de massagem."
+        },
+        {
+          "id": "an",
+          "name": "Akio Nakashima",
+          "initials": "AN",
+          "role": "Diretor de Produção",
+          "bio": "Lidera disciplina de fabrico, standards de montagem, organização de processos e consistência da qualidade japonesa em Fujiyoshida."
+        },
+        {
+          "id": "ao",
+          "name": "Alex Okubo",
+          "initials": "AO",
+          "role": "Diretor de Desenvolvimento de Negócio",
+          "bio": "Desenvolve parcerias, mercados internacionais, estratégia de showrooms, modelos B2B e oportunidades de crescimento."
+        },
+        {
+          "id": "ay",
+          "name": "Akihiko Yamamoto",
+          "initials": "AY",
+          "role": "Diretor de R&D",
+          "bio": "Supervisiona investigação funcional, lógica de engenharia, novas soluções e melhoria tecnológica do ecossistema."
+        },
+        {
+          "id": "mw",
+          "name": "Miki Watanabe",
+          "initials": "MW",
+          "role": "Especialista Médica",
+          "bio": "Apoia uma abordagem segura, delicada e consciente da fisiologia para funções e protocolos."
+        },
+        {
+          "id": "tm",
+          "name": "Tatsuyuki Maeda",
+          "initials": "TM",
+          "role": "Qualidade e Certificação",
+          "bio": "Responsável por qualidade, documentação, certificações e alinhamento com standards internos."
+        },
+        {
+          "id": "sk",
+          "name": "Shotaro Kawamura",
+          "initials": "SK",
+          "role": "Logística",
+          "bio": "Gere logística internacional, fluxo de fornecimento, embalagem e fiabilidade operacional entre mercados."
+        }
+      ]
+    },
+    "devices": {
+      "title": "Dispositivos de que nos orgulhamos",
+      "subtitle": "Os dispositivos originais System 5/95 são concebidos como parte de um único ecossistema therapeutic wellness.",
+      "body": "Cada dispositivo é desenvolvido em torno de áreas de aplicação, funções e experiência de utilizador específicas. Combinamos calor dirigido suave, vibração precisamente calibrada, luz terapêutica, pressão de ar, suporte da coluna e outros fatores físicos naturais. A nossa abordagem é delicada, não invasiva e consciente da fisiologia: não forçar o corpo, mas trabalhar com ele com precisão, cuidado e consistência.",
+      "cta": "Ver dispositivos",
+      "zonesLabel": "Áreas",
+      "functionsLabel": "Funções",
+      "list": [
+        {
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Pescoço, ombros, costas, zonas locais de tensão",
+          "functions": "Calor dirigido suave, luz terapêutica e apoio ao trabalho localizado."
+        },
+        {
+          "id": "novuheat",
+          "name": "NovuHeat",
+          "zones": "Costas, lombar, pernas, recuperação geral",
+          "functions": "Calor profundo, relaxamento e apoio após esforço físico."
+        },
+        {
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Zona dos olhos, rosto, fadiga visual",
+          "functions": "Massagem de ar, calor suave, vibração e recuperação após esforço visual."
+        },
+        {
+          "id": "spinesystem",
+          "name": "SpineSystem",
+          "zones": "Coluna, costas, postura, recuperação",
+          "functions": "Apoio das costas, efeito estruturado e aplicação em protocolos de estúdio."
+        },
+        {
+          "id": "bodyhealth",
+          "name": "BodyHealth",
+          "zones": "Pernas, pés, circulação, fadiga",
+          "functions": "EMS/estimulação, apoio de pernas e pés, efeito de recuperação."
+        }
+      ]
+    },
+    "showrooms": {
+      "title": "Showrooms",
+      "subtitle": "Um showroom System 5/95 é um ambiente de confiança onde o cliente experimenta o produto antes de decidir.",
+      "body": "Vemos o showroom não como um ponto de venda convencional, mas como um curated environment. O cliente descobre a marca através da calma do espaço, da qualidade do equipamento, da experiência pessoal e da sua própria sensação de resultado. Este modelo apoia vendas refinadas e sem pressão: primeiro sente-se o valor, depois toma-se a decisão.",
+      "cta": "Explorar modelo de showrooms"
+    },
+    "studios": {
+      "title": "Estúdios de massagem",
+      "subtitle": "Um sistema completo para estúdios de massagem premium com standards detalhados, formação e controlo de qualidade.",
+      "body": "A System 5/95 oferece mais do que equipamento para estúdios — oferece uma arquitetura completa de serviço. Os dispositivos assumem a principal carga terapêutica, reduzindo a dependência crítica de especialistas manual-only raros. Os parceiros recebem protocolos, orientação em vídeo, formação rápida da equipa e ferramentas de controlo de qualidade. Isto ajuda os estúdios a lançar mais depressa, manter um standard unificado e escalar sem perder qualidade de serviço.",
+      "cta": "Explorar oportunidades de estúdio"
+    },
+    "moxi": {
+      "title": "Moxi Yoga",
+      "subtitle": "Uma direção wellness dedicada onde movimento, calor, recuperação e ritual se tornam uma prática premium refinada.",
+      "body": "Moxi Yoga expande a filosofia System 5/95 para além do produto e da massagem. É um formato onde movimento consciente, calor dirigido, recuperação e estética criam uma experiência wellness calma e moderna. A direção pode crescer através de parcerias com yoga studios, wellness spaces, retreats e comunidades premium.",
+      "cta": "Ser parceiro Moxi Yoga"
+    },
+    "software": {
+      "title": "Software + AI",
+      "subtitle": "Uma infraestrutura digital que torna as operações wellness mais geríveis, escaláveis e modernas.",
+      "body": "A System 5/95 desenvolve os seus próprios produtos IT: sistemas de marcação, ferramentas de formação, standards de controlo de qualidade e apoio AI durante e após a compra. A AI ajuda os clientes a compreender o produto, receber recomendações e manter-se envolvidos. A privacidade faz parte do serviço premium: dados, análises e recomendações pessoais devem ser processados num ambiente protegido.",
+      "cta": "Explorar sistema IT"
+    },
+    "partnership": {
+      "title": "Como tornar-se parceiro",
+      "subtitle": "Uma parceria com a System 5/95 é a entrada num ecossistema wellness completo com produtos japoneses, standards, formação, IT e apoio AI.",
+      "body": "Oferecemos dois formatos principais: showrooms e estúdios de massagem. Em ambos os casos, os parceiros recebem não dispositivos isolados, mas um modelo estruturado: produtos, materiais de apresentação, standards, formação, processos operacionais, apoio digital e posicionamento premium. Isto reduz a fricção de lançamento, reforça a diferenciação e apoia um modelo de crescimento sustentável.",
+      "cta": "Solicitar apresentação de parceria"
+    },
+    "form": {
+      "formTitle": "Pedido de apresentação de parceria",
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefone",
+      "country": "País",
+      "company": "Empresa",
+      "interestLabel": "Interesse",
+      "message": "Mensagem",
+      "consent": "Aceito ser contactado/a sobre oportunidades de parceria.",
+      "submit": "Enviar",
+      "interestDefault": "Selecionar",
+      "interest": {
+        "showroom": "Showroom Partner",
+        "studio": "Massage Studio Partner",
+        "moxi": "Moxi Yoga Partner",
+        "distribution": "Distribuição de produto",
+        "software": "Software + AI",
+        "other": "Outro"
+      },
+      "thanks": "Obrigado/a — entraremos em contacto."
+    },
+    "footer": {
+      "tagline": "Ecossistema wellness de engenharia japonesa.",
+      "offices": "Fujiyoshida, Japão · Estados Unidos",
+      "privacy": "Política de privacidade",
+      "rights": "© 2026 System 5/95. Todos os direitos reservados."
+    }
+  }
+}
