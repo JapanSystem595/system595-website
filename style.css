@@ -1,6 +1,6 @@
 :root {
-  --bg: #f4f1ec;
-  --bg-alt: #eee7de;
+  --bg: #d4c8b8;
+  --bg-alt: #c8bba8;
   --surface: #fffaf3;
   --taupe: #c8beb2;
   --taupe-soft: #d8cec2;
@@ -8,7 +8,7 @@
   --graphite: #3a332e;
   --ink: #4a3f37;
   --muted: #75675c;
-  --line: rgba(58, 51, 46, 0.12);
+  --line: rgba(58, 51, 46, 0.16);
   --line-strong: rgba(58, 51, 46, 0.24);
   --accent: #66564b;
   --radius-sm: 2px;
@@ -38,7 +38,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: var(--graphite);
-  background: var(--bg);
+  background: radial-gradient(ellipse 110% 70% at 50% 20%, #e2d8c8 0%, #d4c8b8 50%, #c6b8a6 100%) fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'ss01','cv11';
@@ -79,7 +79,7 @@ textarea:focus-visible {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(244, 241, 236, 0.85);
+  background: rgba(212, 200, 184, 0.85);
   backdrop-filter: saturate(140%) blur(12px);
   -webkit-backdrop-filter: saturate(140%) blur(12px);
   border-bottom: 1px solid var(--line);
@@ -479,7 +479,7 @@ textarea:focus-visible {
 .visual-tile {
   aspect-ratio: 4 / 3;
   width: 100%;
-  background: radial-gradient(120% 80% at 30% 20%, #f2ece2 0%, #dccfbf 55%, #b8ac9b 100%);
+  background: radial-gradient(120% 80% at 30% 20%, #cdc2b2 0%, #bdb0a0 55%, #a89889 100%);
   border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
@@ -565,7 +565,7 @@ textarea:focus-visible {
 
 .avatar {
   aspect-ratio: 4 / 5;
-  background: linear-gradient(135deg, #d8cec2 0%, #c8beb2 55%, #b4a899 100%);
+  background: linear-gradient(135deg, #ccc0b0 0%, #bcb0a0 55%, #a69888 100%);
   color: var(--graphite);
   display: flex;
   align-items: center;
@@ -646,7 +646,7 @@ textarea:focus-visible {
 .device-image {
   aspect-ratio: 5 / 4;
   background:
-    radial-gradient(120% 80% at 30% 20%, #f2ece2 0%, #dccfbf 55%, #b8ac9b 100%);
+    radial-gradient(120% 80% at 30% 20%, #cdc2b2 0%, #bdb0a0 55%, #a89889 100%);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
