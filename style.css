@@ -95,26 +95,13 @@ textarea:focus-visible {
 
 .brand {
   display: inline-flex;
-  align-items: baseline;
-  gap: 10px;
-  color: var(--graphite);
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  white-space: nowrap;
+  align-items: center;
 }
 
-.brand-mark {
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  color: var(--smoky);
-  text-transform: uppercase;
-}
-
-.brand-name {
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0.02em;
+.logo-img {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 .primary-nav {
@@ -873,6 +860,7 @@ textarea:focus-visible {
 
 @media (max-width: 768px) {
   :root { --header-h: 64px; }
+  .logo-img { height: 28px; }
   .container { padding: 0 24px; }
 
   .hero { padding: 96px 0 80px; }
@@ -905,7 +893,6 @@ textarea:focus-visible {
   .avatar { font-size: 30px; }
   .partner-form { padding: 24px 20px; }
   .lang-switch button { padding: 5px 9px; font-size: 11px; }
-  .brand-name { display: none; }
 }
 
 body.nav-open { overflow: hidden; }
