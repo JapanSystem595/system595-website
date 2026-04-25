@@ -66,8 +66,12 @@
     var members = dict.team && dict.team.members ? dict.team.members : [];
     grid.innerHTML = members.map(function (m) {
       var imgSrc = teamImgSrc(m.id);
+      var webpSrc = imgSrc ? imgSrc.replace(/\.jpg$/i, '.webp') : null;
       var imgHtml = imgSrc
-        ? '<img class="avatar-img" src="' + imgSrc + '" alt="' + escHtml(m.name) + '" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">'
+        ? '<picture>'
+          + '<source srcset="' + webpSrc + '" type="image/webp">'
+          + '<img class="avatar-img" src="' + imgSrc + '" alt="' + escHtml(m.name) + '" loading="lazy" onerror="this.closest(\'picture\').style.display=\'none\';this.closest(\'picture\').nextElementSibling.style.display=\'flex\'">'
+          + '</picture>'
         : '';
       return '<article class="team-card">'
         + '<div class="avatar" aria-hidden="true">'
