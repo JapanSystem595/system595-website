@@ -22,6 +22,408 @@
       "studios": "images/section-studios.jpg",
       "moxi": "images/section-moxi-yoga.jpg",
       "software": "images/section-software-ai.jpg"
+    },
+    "gallery": {
+      "devices": [
+        {
+          "type": "image",
+          "src": "images/devices-gallery-1.jpg",
+          "alt": {
+            "en": "System 5/95 device collection",
+            "ja": "デバイスコレクション",
+            "ru": "Коллекция устройств",
+            "es": "Colección de dispositivos",
+            "de": "Gerätekollection",
+            "uk": "Колекція пристроїв",
+            "fr": "Collection d'appareils",
+            "hi": "डिवाइस संग्रह",
+            "pt": "Coleção de dispositivos"
+          },
+          "caption": {
+            "en": "System 5/95 Full Device Lineup",
+            "ja": "System 5/95 デバイス全ラインアップ",
+            "ru": "Полная линейка устройств System 5/95",
+            "es": "Línea completa de dispositivos System 5/95",
+            "de": "Vollständige Geräteserie",
+            "uk": "Повна лінійка пристроїв",
+            "fr": "Gamme complète d'appareils",
+            "hi": "पूर्ण डिवाइस लाइनअप",
+            "pt": "Linha completa de dispositivos"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/devices-gallery-2.jpg",
+          "alt": {
+            "en": "Device detail view",
+            "ja": "デバイス詳細",
+            "ru": "Детали устройства",
+            "es": "Vista detalle del dispositivo",
+            "de": "Gerätedetailansicht",
+            "uk": "Деталі пристрою",
+            "fr": "Vue détail appareil",
+            "hi": "डिवाइस विस्तृत दृश्य",
+            "pt": "Vista detalhada do dispositivo"
+          },
+          "caption": {
+            "en": "Precision engineering, Japanese quality",
+            "ja": "精密工学、日本品質",
+            "ru": "Точная инженерия, японское качество",
+            "es": "Ingeniería de precisión, calidad japonesa",
+            "de": "Präzisionstechnik, japanische Qualität",
+            "uk": "Точна інженерія, японська якість",
+            "fr": "Ingénierie de précision, qualité japonaise",
+            "hi": "सटीक इंजीनियरिंग, जापानी गुणवत्ता",
+            "pt": "Engenharia de precisão, qualidade japonesa"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/devices-gallery-3.jpg",
+          "alt": {
+            "en": "Devices in studio setting",
+            "ja": "スタジオ設定のデバイス",
+            "ru": "Устройства в студии",
+            "es": "Dispositivos en estudio",
+            "de": "Geräte im Studio",
+            "uk": "Пристрої в студії",
+            "fr": "Appareils en studio",
+            "hi": "स्टूडियो सेटिंग में डिवाइस",
+            "pt": "Dispositivos em estúdio"
+          },
+          "caption": {
+            "en": "Studio integration — how devices work together",
+            "ja": "スタジオ統合",
+            "ru": "Интеграция в студию",
+            "es": "Integración en estudio",
+            "de": "Studio-Integration",
+            "uk": "Інтеграція в студію",
+            "fr": "Intégration en studio",
+            "hi": "स्टूडियो एकीकरण",
+            "pt": "Integração em estúdio"
+          }
+        }
+      ],
+      "showrooms": [
+        {
+          "type": "image",
+          "src": "images/showroom-1.jpg",
+          "alt": {
+            "en": "Tokyo Showroom interior",
+            "ja": "東京ショールーム内観",
+            "ru": "Интерьер шоурума Токио",
+            "es": "Interior del showroom de Tokio",
+            "de": "Tokio Showroom Innenraum",
+            "uk": "Інтер'єр шоуруму Токіо",
+            "fr": "Intérieur du showroom de Tokyo",
+            "hi": "टोक्यो शोरूम इंटीरियर",
+            "pt": "Interior do showroom de Tóquio"
+          },
+          "caption": {
+            "en": "Tokyo Showroom 2024",
+            "ja": "東京ショールーム 2024",
+            "ru": "Шоурум Токио 2024",
+            "es": "Showroom Tokio 2024",
+            "de": "Tokio Showroom 2024",
+            "uk": "Шоурум Токіо 2024",
+            "fr": "Showroom Tokyo 2024",
+            "hi": "टोक्यो शोरूम 2024",
+            "pt": "Showroom Tóquio 2024"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/showroom-2.jpg",
+          "alt": {
+            "en": "Showroom device display",
+            "ja": "ショールームのデバイス展示",
+            "ru": "Экспозиция устройств в шоуруме",
+            "es": "Exposición de dispositivos en showroom",
+            "de": "Geräteausstellung im Showroom",
+            "uk": "Експозиція пристроїв у шоурумі",
+            "fr": "Exposition des appareils en showroom",
+            "hi": "शोरूम डिवाइस प्रदर्शनी",
+            "pt": "Exposição de dispositivos no showroom"
+          },
+          "caption": {
+            "en": "Curated space — the discovery experience",
+            "ja": "厳選されたスペース",
+            "ru": "Кураторское пространство",
+            "es": "Espacio curado — la experiencia de descubrimiento",
+            "de": "Kuratierter Raum",
+            "uk": "Кураторський простір",
+            "fr": "Espace curé",
+            "hi": "क्यूरेटेड स्पेस",
+            "pt": "Espaço curado"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/showroom-3.jpg",
+          "alt": {
+            "en": "Showroom ambient lighting",
+            "ja": "ショールームの照明",
+            "ru": "Атмосферное освещение шоурума",
+            "es": "Iluminación ambiental del showroom",
+            "de": "Showroom Ambiente-Beleuchtung",
+            "uk": "Атмосферне освітлення шоуруму",
+            "fr": "Éclairage ambiant du showroom",
+            "hi": "शोरूम परिवेश प्रकाश",
+            "pt": "Iluminação ambiente do showroom"
+          },
+          "caption": {
+            "en": "Calm architecture — wellness by design",
+            "ja": "穏やかな建築",
+            "ru": "Спокойная архитектура",
+            "es": "Arquitectura serena",
+            "de": "Ruhige Architektur",
+            "uk": "Спокійна архітектура",
+            "fr": "Architecture calme",
+            "hi": "शांत वास्तुकला",
+            "pt": "Arquitetura tranquila"
+          }
+        }
+      ],
+      "studios": [
+        {
+          "type": "image",
+          "src": "images/studio-1.jpg",
+          "alt": {
+            "en": "Massage studio treatment room",
+            "ja": "マッサージスタジオの施術室",
+            "ru": "Кабинет массажной студии",
+            "es": "Sala de tratamiento del estudio de masajes",
+            "de": "Massagestudio Behandlungsraum",
+            "uk": "Кабінет масажної студії",
+            "fr": "Salle de soin du studio de massage",
+            "hi": "मालिश स्टूडियो उपचार कक्ष",
+            "pt": "Sala de tratamento do estúdio de massagem"
+          },
+          "caption": {
+            "en": "Studio setup with System 5/95 devices",
+            "ja": "System 5/95デバイスを備えたスタジオ",
+            "ru": "Студия с устройствами System 5/95",
+            "es": "Estudio con dispositivos System 5/95",
+            "de": "Studio mit System 5/95 Geräten",
+            "uk": "Студія з пристроями System 5/95",
+            "fr": "Studio avec appareils System 5/95",
+            "hi": "System 5/95 डिवाइस के साथ स्टूडियो",
+            "pt": "Estúdio com dispositivos System 5/95"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/studio-2.jpg",
+          "alt": {
+            "en": "Client session in progress",
+            "ja": "施術セッション中",
+            "ru": "Сеанс с клиентом",
+            "es": "Sesión con cliente en curso",
+            "de": "Klientensitzung in Bearbeitung",
+            "uk": "Сеанс з клієнтом",
+            "fr": "Session client en cours",
+            "hi": "क्लाइंट सेशन जारी",
+            "pt": "Sessão com cliente em andamento"
+          },
+          "caption": {
+            "en": "Gentle, physiology-aware protocols",
+            "ja": "生理学的に配慮したプロトコル",
+            "ru": "Мягкие физиологически выверенные протоколы",
+            "es": "Protocolos suaves y fisiológicamente conscientes",
+            "de": "Sanfte, physiologisch bewusste Protokolle",
+            "uk": "М'які фізіологічно виважені протоколи",
+            "fr": "Protocoles doux et physiologiquement avisés",
+            "hi": "सौम्य, शरीर-विज्ञान-सचेत प्रोटोकॉल",
+            "pt": "Protocolos suaves e fisiologicamente conscientes"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/studio-3.jpg",
+          "alt": {
+            "en": "Studio reception and waiting area",
+            "ja": "スタジオの受付エリア",
+            "ru": "Ресепшн и зона ожидания студии",
+            "es": "Recepción y sala de espera del estudio",
+            "de": "Studio Empfang und Wartebereich",
+            "uk": "Рецепція та зона очікування студії",
+            "fr": "Accueil et salle d'attente du studio",
+            "hi": "स्टूडियो रिसेप्शन और प्रतीक्षा क्षेत्र",
+            "pt": "Recepção e área de espera do estúdio"
+          },
+          "caption": {
+            "en": "Premium studio environment",
+            "ja": "プレミアムスタジオ環境",
+            "ru": "Премиальная среда студии",
+            "es": "Entorno de estudio premium",
+            "de": "Premium-Studio-Umgebung",
+            "uk": "Преміальне середовище студії",
+            "fr": "Environnement studio premium",
+            "hi": "प्रीमियम स्टूडियो वातावरण",
+            "pt": "Ambiente de estúdio premium"
+          }
+        }
+      ],
+      "moxi": [
+        {
+          "type": "image",
+          "src": "images/moxi-1.jpg",
+          "alt": {
+            "en": "Moxi Yoga class in session",
+            "ja": "モクシーヨガクラス",
+            "ru": "Занятие Moxi Yoga",
+            "es": "Clase de Moxi Yoga en sesión",
+            "de": "Moxi Yoga Kurs",
+            "uk": "Заняття Moxi Yoga",
+            "fr": "Cours Moxi Yoga en session",
+            "hi": "Moxi Yoga कक्षा सत्र में",
+            "pt": "Aula de Moxi Yoga em sessão"
+          },
+          "caption": {
+            "en": "Moxi Yoga — movement meets recovery",
+            "ja": "Moxi Yoga — 動きとリカバリーの融合",
+            "ru": "Moxi Yoga — движение встречает восстановление",
+            "es": "Moxi Yoga — el movimiento se encuentra con la recuperación",
+            "de": "Moxi Yoga — Bewegung trifft Erholung",
+            "uk": "Moxi Yoga — рух зустрічає відновлення",
+            "fr": "Moxi Yoga — le mouvement rencontre la récupération",
+            "hi": "Moxi Yoga — आंदोलन पुनर्प्राप्ति से मिलता है",
+            "pt": "Moxi Yoga — movimento encontra recuperação"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/moxi-2.jpg",
+          "alt": {
+            "en": "Moxi Yoga space design",
+            "ja": "Moxi Yogaスペースデザイン",
+            "ru": "Дизайн пространства Moxi Yoga",
+            "es": "Diseño del espacio Moxi Yoga",
+            "de": "Moxi Yoga Raumgestaltung",
+            "uk": "Дизайн простору Moxi Yoga",
+            "fr": "Conception de l'espace Moxi Yoga",
+            "hi": "Moxi Yoga स्थान डिज़ाइन",
+            "pt": "Design do espaço Moxi Yoga"
+          },
+          "caption": {
+            "en": "Refined studio environment",
+            "ja": "洗練されたスタジオ環境",
+            "ru": "Изысканная студийная среда",
+            "es": "Entorno de estudio refinado",
+            "de": "Raffinierte Studio-Umgebung",
+            "uk": "Витончене студійне середовище",
+            "fr": "Environnement studio raffiné",
+            "hi": "परिष्कृत स्टूडियो वातावरण",
+            "pt": "Ambiente de estúdio refinado"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/moxi-3.jpg",
+          "alt": {
+            "en": "Heat and recovery session",
+            "ja": "ヒートとリカバリーセッション",
+            "ru": "Сеанс тепловосстановления",
+            "es": "Sesión de calor y recuperación",
+            "de": "Wärme- und Erholungssitzung",
+            "uk": "Сеанс тепла та відновлення",
+            "fr": "Session chaleur et récupération",
+            "hi": "गर्मी और पुनर्प्राप्ति सत्र",
+            "pt": "Sessão de calor e recuperação"
+          },
+          "caption": {
+            "en": "Directed heat and mindful movement",
+            "ja": "指向性熱とマインドフルな動き",
+            "ru": "Направленное тепло и осознанное движение",
+            "es": "Calor dirigido y movimiento consciente",
+            "de": "Gerichtete Wärme und achtsame Bewegung",
+            "uk": "Спрямоване тепло та усвідомлений рух",
+            "fr": "Chaleur dirigée et mouvement conscient",
+            "hi": "निर्देशित गर्मी और सचेत आंदोलन",
+            "pt": "Calor dirigido e movimento consciente"
+          }
+        }
+      ],
+      "software": [
+        {
+          "type": "image",
+          "src": "images/software-1.jpg",
+          "alt": {
+            "en": "Software dashboard overview",
+            "ja": "ソフトウェアダッシュボード",
+            "ru": "Обзор дашборда программного обеспечения",
+            "es": "Vista general del panel de software",
+            "de": "Software-Dashboard-Übersicht",
+            "uk": "Огляд дашборду програмного забезпечення",
+            "fr": "Aperçu du tableau de bord logiciel",
+            "hi": "सॉफ्टवेयर डैशबोर्ड अवलोकन",
+            "pt": "Visão geral do painel de software"
+          },
+          "caption": {
+            "en": "Booking & quality control platform",
+            "ja": "予約・品質管理プラットフォーム",
+            "ru": "Платформа бронирования и контроля качества",
+            "es": "Plataforma de reservas y control de calidad",
+            "de": "Buchungs- und Qualitätskontrollplattform",
+            "uk": "Платформа бронювання та контролю якості",
+            "fr": "Plateforme de réservation et contrôle qualité",
+            "hi": "बुकिंग और गुणवत्ता नियंत्रण प्लेटफ़ॉर्म",
+            "pt": "Plataforma de reservas e controlo de qualidade"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/software-2.jpg",
+          "alt": {
+            "en": "AI assistant interface",
+            "ja": "AIアシスタントインターフェース",
+            "ru": "Интерфейс ИИ-ассистента",
+            "es": "Interfaz del asistente de IA",
+            "de": "KI-Assistenten-Oberfläche",
+            "uk": "Інтерфейс ІІ-асистента",
+            "fr": "Interface de l'assistant IA",
+            "hi": "AI सहायक इंटरफ़ेस",
+            "pt": "Interface do assistente de IA"
+          },
+          "caption": {
+            "en": "AI-powered client guidance and support",
+            "ja": "AI搭載のクライアントサポート",
+            "ru": "Поддержка клиентов на базе ИИ",
+            "es": "Orientación y soporte al cliente con IA",
+            "de": "KI-gestützte Kundenberatung",
+            "uk": "Підтримка клієнтів на базі ІІ",
+            "fr": "Accompagnement client alimenté par l'IA",
+            "hi": "AI-संचालित क्लाइंट मार्गदर्शन",
+            "pt": "Orientação ao cliente com IA"
+          }
+        },
+        {
+          "type": "image",
+          "src": "images/software-3.jpg",
+          "alt": {
+            "en": "Training module interface",
+            "ja": "トレーニングモジュールインターフェース",
+            "ru": "Интерфейс модуля обучения",
+            "es": "Interfaz del módulo de formación",
+            "de": "Trainingsmodul-Oberfläche",
+            "uk": "Інтерфейс модуля навчання",
+            "fr": "Interface du module de formation",
+            "hi": "प्रशिक्षण मॉड्यूल इंटरफ़ेस",
+            "pt": "Interface do módulo de treinamento"
+          },
+          "caption": {
+            "en": "Staff training and certification tools",
+            "ja": "スタッフトレーニング・認定ツール",
+            "ru": "Инструменты обучения и сертификации персонала",
+            "es": "Herramientas de formación y certificación del personal",
+            "de": "Mitarbeiterschulungs- und Zertifizierungstools",
+            "uk": "Інструменти навчання та сертифікації персоналу",
+            "fr": "Outils de formation et certification du personnel",
+            "hi": "स्टाफ प्रशिक्षण और प्रमाणन उपकरण",
+            "pt": "Ferramentas de formação e certificação de pessoal"
+          }
+        }
+      ]
     }
   },
   "en": {

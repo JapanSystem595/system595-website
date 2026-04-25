@@ -14,6 +14,16 @@
     }, obj);
   }
 
+  function escHtml(s) {
+    return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Pick localised string from {en:…, ru:…} or return fallback
+  function localText(obj, lang) {
+    if (!obj) return '';
+    return obj[lang] || obj[DEFAULT_LANG] || '';
+  }
+
   function detectLang() {
     try {
       var p = new URLSearchParams(window.location.search).get('lang');
@@ -45,6 +55,7 @@
 
     renderTeam(dict);
     renderDevices(dict);
+    renderGalleries(lang);
     updateDropdownActive(lang);
 
     try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
@@ -110,8 +121,171 @@
     }).join('');
   }
 
-  function escHtml(s) {
-    return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  /* ─── gallery / carousel ─── */
+
+  function galleryItems(key) {
+    return (content._media && content._media.gallery && content._media.gallery[key]) || [];
+  }
+
+  // Build a single slide element (image or video)
+  function buildSlide(item, index, total, lang) {
+    var alt     = escHtml(localText(item.alt, lang));
+    var caption = localText(item.caption, lang);
+    var mediaHtml;
+
+    if (item.type === 'video') {
+      mediaHtml = '<video class="slide-media" src="' + escHtml(item.src) + '"'
+        + ' muted playsinline loop preload="metadata"'
+        + (item.showControls ? ' controls' : '')
+        + '></video>';
+    } else {
+      mediaHtml = '<img class="slide-media" src="' + escHtml(item.src) + '"'
+        + ' alt="' + alt + '" loading="lazy"'
+        + ' onerror="this.style.visibility=\'hidden\'">';
+    }
+
+    return '<div class="carousel-slide" role="group" aria-roledescription="slide"'
+      + ' aria-label="' + (index + 1) + ' of ' + total + '">'
+      + '<figure class="slide-frame">'
+      + mediaHtml
+      + (caption ? '<figcaption class="slide-caption">' + escHtml(caption) + '</figcaption>' : '')
+      + '</figure>'
+      + '</div>';
+  }
+
+  // Build full carousel HTML string
+  function buildCarouselHtml(items, lang, ariaLabel) {
+    var total   = items.length;
+    var single  = total === 1;
+    var slides  = items.map(function (item, i) { return buildSlide(item, i, total, lang); }).join('');
+
+    var dots = items.map(function (_, i) {
+      return '<button class="carousel-dot" role="tab"'
+        + ' aria-label="Go to slide ' + (i + 1) + '"'
+        + ' aria-selected="' + (i === 0 ? 'true' : 'false') + '"'
+        + ' data-index="' + i + '">'
+        + '</button>';
+    }).join('');
+
+    return '<div class="carousel' + (single ? ' carousel--single' : '') + '"'
+      + ' role="region" aria-roledescription="carousel"'
+      + ' aria-label="' + escHtml(ariaLabel) + '" tabindex="0">'
+      + '<div class="carousel-track">' + slides + '</div>'
+      + (!single
+          ? '<button class="carousel-btn carousel-prev" aria-label="Previous slide">&#8249;</button>'
+            + '<button class="carousel-btn carousel-next" aria-label="Next slide">&#8250;</button>'
+          : '')
+      + (!single
+          ? '<div class="carousel-dots" role="tablist" aria-label="Slide indicators">' + dots + '</div>'
+          : '')
+      + '</div>';
+  }
+
+  // Render galleries for all 5 sections
+  function renderGalleries(lang) {
+    var sections = [
+      { key: 'showrooms', mountId: 'gallery-showrooms', splitId: 'split-showrooms', proseId: 'prose-showrooms', label: 'Showroom Gallery' },
+      { key: 'studios',   mountId: 'gallery-studios',   splitId: 'split-studios',   proseId: 'prose-studios',   label: 'Studio Gallery' },
+      { key: 'moxi',      mountId: 'gallery-moxi',       splitId: 'split-moxi',      proseId: 'prose-moxi',      label: 'Moxi Yoga Gallery' },
+      { key: 'software',  mountId: 'gallery-software',   splitId: 'split-software',  proseId: 'prose-software',  label: 'Software Gallery' }
+    ];
+
+    sections.forEach(function (s) {
+      var items = galleryItems(s.key);
+      var mount = document.getElementById(s.mountId);
+      var split = document.getElementById(s.splitId);
+      var prose = document.getElementById(s.proseId);
+      if (!mount) return;
+
+      if (items.length > 0) {
+        mount.innerHTML = buildCarouselHtml(items, lang, s.label);
+        mount.hidden = false;
+        if (split) split.hidden = true;
+        if (prose) prose.hidden = false;
+        initCarousel(mount.querySelector('.carousel'), items);
+      } else {
+        mount.hidden = true;
+        if (split) split.hidden = false;
+        if (prose) prose.hidden = true;
+      }
+    });
+
+    // Devices gallery (carousel + keep grid below)
+    var devItems = galleryItems('devices');
+    var devMount = document.getElementById('gallery-devices');
+    var devGrid  = document.getElementById('device-grid');
+    if (devMount) {
+      if (devItems.length > 0) {
+        devMount.innerHTML = buildCarouselHtml(devItems, lang, 'Device Gallery');
+        devMount.hidden = false;
+        initCarousel(devMount.querySelector('.carousel'), devItems);
+      } else {
+        devMount.hidden = true;
+      }
+      // device-grid always visible (cards shown below gallery or alone)
+      if (devGrid) devGrid.hidden = false;
+    }
+  }
+
+  // Attach all interactive behaviour to a rendered carousel
+  function initCarousel(el, items) {
+    if (!el) return;
+    var track = el.querySelector('.carousel-track');
+    var prev  = el.querySelector('.carousel-prev');
+    var next  = el.querySelector('.carousel-next');
+    var dots  = el.querySelectorAll('.carousel-dot');
+    var slides = el.querySelectorAll('.carousel-slide');
+    var total = slides.length;
+    if (total <= 1) return;
+
+    function getActiveIndex() {
+      var slideW = slides[0].offsetWidth + 16; // width + gap
+      return Math.round(track.scrollLeft / slideW);
+    }
+
+    function scrollTo(index) {
+      index = Math.max(0, Math.min(total - 1, index));
+      slides[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+    }
+
+    function updateControls() {
+      var idx = getActiveIndex();
+      if (prev) prev.disabled = idx === 0;
+      if (next) next.disabled = idx >= total - 1;
+      dots.forEach(function (d, i) {
+        d.setAttribute('aria-selected', i === idx ? 'true' : 'false');
+      });
+    }
+
+    if (prev) prev.addEventListener('click', function () { scrollTo(getActiveIndex() - 1); });
+    if (next) next.addEventListener('click', function () { scrollTo(getActiveIndex() + 1); });
+
+    dots.forEach(function (d) {
+      d.addEventListener('click', function () { scrollTo(Number(d.dataset.index)); });
+    });
+
+    track.addEventListener('scroll', updateControls, { passive: true });
+
+    // Keyboard: ← → when carousel is focused
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft')  { scrollTo(getActiveIndex() - 1); e.preventDefault(); }
+      if (e.key === 'ArrowRight') { scrollTo(getActiveIndex() + 1); e.preventDefault(); }
+    });
+
+    updateControls();
+
+    // Video autoplay via IntersectionObserver
+    if ('IntersectionObserver' in window) {
+      el.querySelectorAll('video.slide-media').forEach(function (vid) {
+        var obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) vid.play().catch(function(){});
+            else vid.pause();
+          });
+        }, { threshold: 0.5 });
+        obs.observe(vid);
+      });
+    }
   }
 
   /* ─── lang dropdown ─── */
@@ -122,36 +296,22 @@
     var list     = document.getElementById('lang-list');
     if (!dropdown || !btn || !list) return;
 
-    function closeDropdown() {
-      dropdown.setAttribute('aria-expanded', 'false');
-    }
-    function openDropdown() {
-      dropdown.setAttribute('aria-expanded', 'true');
-    }
+    function closeDropdown() { dropdown.setAttribute('aria-expanded', 'false'); }
+    function openDropdown()  { dropdown.setAttribute('aria-expanded', 'true'); }
     function toggleDropdown() {
       if (dropdown.getAttribute('aria-expanded') === 'true') closeDropdown();
       else openDropdown();
     }
 
-    btn.addEventListener('click', function (e) {
-      e.stopPropagation();
-      toggleDropdown();
-    });
-
+    btn.addEventListener('click', function (e) { e.stopPropagation(); toggleDropdown(); });
     list.addEventListener('click', function (e) {
       var item = e.target.closest('[data-lang]');
       if (!item) return;
       var lang = item.getAttribute('data-lang');
-      if (lang && LANG_ORDER.indexOf(lang) !== -1) {
-        applyLang(lang);
-        closeDropdown();
-      }
+      if (lang && LANG_ORDER.indexOf(lang) !== -1) { applyLang(lang); closeDropdown(); }
     });
-
     document.addEventListener('click', function () { closeDropdown(); });
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeDropdown();
-    });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeDropdown(); });
   }
 
   function updateDropdownActive(lang) {
@@ -187,15 +347,9 @@
     burger.addEventListener('click', function () {
       burger.getAttribute('aria-expanded') === 'true' ? close() : open();
     });
-    mobileNav.addEventListener('click', function (e) {
-      if (e.target.tagName === 'A') close();
-    });
-    window.addEventListener('resize', function () {
-      if (window.innerWidth > 1024) close();
-    });
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') close();
-    });
+    mobileNav.addEventListener('click', function (e) { if (e.target.tagName === 'A') close(); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 1024) close(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
   }
 
   /* ─── form ─── */
@@ -225,7 +379,6 @@
 
   function loadContent() {
     var lang = detectLang();
-    // Try fetch first (works via HTTP)
     if (typeof fetch !== 'undefined') {
       fetch('./content.json')
         .then(function (r) { return r.json(); })
@@ -236,7 +389,6 @@
     }
   }
 
-  // Minimal fallback if fetch fails (file:// without a server)
   function fallbackInline(lang) {
     var req = new XMLHttpRequest();
     req.open('GET', './content.json', true);
