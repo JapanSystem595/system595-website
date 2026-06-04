@@ -4,7 +4,17 @@
   var LANG_ORDER = ['en','ja','es','ru','de','uk','fr','hi','pt'];
   var DEFAULT_LANG = 'en';
   var STORAGE_KEY = 'system595.lang';
-  var content = null; // populated after fetch
+  var content = null;
+
+  var PAGE_META = {
+    'about.html':       { title: 'about.title',       desc: 'about.subtitle'       },
+    'devices.html':     { title: 'devices.title',      desc: 'devices.subtitle'     },
+    'showrooms.html':   { title: 'showrooms.title',    desc: 'showrooms.subtitle'   },
+    'studios.html':     { title: 'studios.title',      desc: 'studios.subtitle'     },
+    'moxi.html':        { title: 'moxi.title',         desc: 'moxi.subtitle'        },
+    'software.html':    { title: 'software.title',     desc: 'software.subtitle'    },
+    'partnership.html': { title: 'partnership.title',  desc: 'partnership.subtitle' },
+  };
 
   /* ─── helpers ─── */
 
@@ -57,6 +67,25 @@
     renderDevices(dict);
     renderGalleries(lang);
     updateDropdownActive(lang);
+
+    // Per-page title and meta description for section pages
+    var pageName = window.location.pathname.split('/').pop() || '';
+    var pm = PAGE_META[pageName];
+    if (pm) {
+      var sTitle = get(dict, pm.title);
+      var sDesc  = get(dict, pm.desc);
+      if (sTitle) {
+        document.title = 'System 5/95 — ' + sTitle;
+        var ogT = document.querySelector('meta[property="og:title"]');
+        if (ogT) ogT.setAttribute('content', 'System 5/95 — ' + sTitle);
+      }
+      if (sDesc) {
+        var descEl = document.querySelector('meta[name="description"]');
+        if (descEl) descEl.setAttribute('content', sDesc);
+        var ogD = document.querySelector('meta[property="og:description"]');
+        if (ogD) ogD.setAttribute('content', sDesc);
+      }
+    }
 
     try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
   }

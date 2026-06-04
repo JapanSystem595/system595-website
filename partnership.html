@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>System 5/95 — Partnership</title>
+  <meta name="description" content="">
+  <meta name="theme-color" content="#f4f1ec">
+
+  <link rel="alternate" hreflang="en"        href="./partnership.html?lang=en">
+  <link rel="alternate" hreflang="ja"        href="./partnership.html?lang=ja">
+  <link rel="alternate" hreflang="es"        href="./partnership.html?lang=es">
+  <link rel="alternate" hreflang="ru"        href="./partnership.html?lang=ru">
+  <link rel="alternate" hreflang="de"        href="./partnership.html?lang=de">
+  <link rel="alternate" hreflang="uk"        href="./partnership.html?lang=uk">
+  <link rel="alternate" hreflang="fr"        href="./partnership.html?lang=fr">
+  <link rel="alternate" hreflang="hi"        href="./partnership.html?lang=hi">
+  <link rel="alternate" hreflang="pt"        href="./partnership.html?lang=pt">
+  <link rel="alternate" hreflang="x-default" href="./partnership.html">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="System 5/95 — Partnership">
+  <meta property="og:description" content="">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Sans+Devanagari:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png" type="image/png" sizes="256x256">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main>
+
+<section id="partnership" class="section partnership">
+  <div class="container">
+    <header class="section-head">
+      <span class="section-no">07</span>
+      <h2 data-i18n="partnership.title">How to Become a Partner</h2>
+      <p class="section-sub" data-i18n="partnership.subtitle"></p>
+    </header>
+    <div class="prose prose-wide">
+      <p data-i18n="partnership.body"></p>
+    </div>
+    <form class="partner-form" novalidate>
+      <h3 data-i18n="form.formTitle">Partnership Request</h3>
+      <div class="form-grid">
+        <label>
+          <span data-i18n="form.name">Name</span>
+          <input name="name" type="text" autocomplete="name" required>
+        </label>
+        <label>
+          <span data-i18n="form.email">Email</span>
+          <input name="email" type="email" autocomplete="email" required>
+        </label>
+        <label>
+          <span data-i18n="form.phone">Phone</span>
+          <input name="phone" type="tel" autocomplete="tel">
+        </label>
+        <label>
+          <span data-i18n="form.country">Country</span>
+          <input name="country" type="text" autocomplete="country-name">
+        </label>
+        <label>
+          <span data-i18n="form.company">Company</span>
+          <input name="company" type="text" autocomplete="organization">
+        </label>
+        <label>
+          <span data-i18n="form.interestLabel">Interest</span>
+          <select name="interest" required id="interest-select">
+            <option value="" data-i18n="form.interestDefault">Select direction</option>
+            <option value="showroom"     data-i18n="form.interest.showroom">Showroom Partner</option>
+            <option value="studio"       data-i18n="form.interest.studio">Massage Studio Partner</option>
+            <option value="moxi"         data-i18n="form.interest.moxi">Moxi Yoga Partner</option>
+            <option value="distribution" data-i18n="form.interest.distribution">Product Distribution</option>
+            <option value="software"     data-i18n="form.interest.software">Software + AI</option>
+            <option value="other"        data-i18n="form.interest.other">Other</option>
+          </select>
+        </label>
+        <label class="full">
+          <span data-i18n="form.message">Message</span>
+          <textarea name="message" rows="4"></textarea>
+        </label>
+      </div>
+      <label class="consent">
+        <input type="checkbox" name="consent" required>
+        <span data-i18n="form.consent">I agree to be contacted about partnership opportunities.</span>
+      </label>
+      <button type="submit" class="btn-primary" data-i18n="form.submit">Send</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="layout.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
