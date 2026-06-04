@@ -1110,3 +1110,132 @@ body.nav-open { overflow: hidden; }
 @media (max-width: 600px) {
   .overview-grid { grid-template-columns: 1fr; gap: 16px; }
 }
+
+/* ---------- Japan Story (about page) ---------- */
+.story-section {
+  padding: 120px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.story-intro {
+  max-width: 760px;
+  margin: 0 auto 72px;
+}
+
+.story-intro-eyebrow {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--smoky);
+  margin: 0 0 16px;
+}
+
+.story-intro h2 {
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: var(--graphite);
+  margin: 0 0 28px;
+}
+
+.story-intro .story-body p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--ink);
+  margin: 0 0 16px;
+}
+
+.story-intro .story-body p:last-child { margin-bottom: 0; }
+
+.story-photo {
+  width: 100%;
+  max-height: 560px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  display: block;
+  margin: 0 0 72px;
+}
+
+.story-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.story-block.story-block--reverse .story-block__text { order: 2; }
+.story-block.story-block--reverse .story-block__visual { order: 1; }
+
+.story-block__text {
+  max-width: 520px;
+}
+
+.story-block__eyebrow {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--smoky);
+  margin: 0 0 12px;
+}
+
+.story-block__text h3 {
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--graphite);
+  margin: 0 0 20px;
+}
+
+.story-block__text .story-body p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--ink);
+  margin: 0 0 14px;
+}
+
+.story-block__text .story-body p:last-child { margin-bottom: 0; }
+
+.story-block__visual {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--bg-alt);
+}
+
+.story-block__visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.story-hero-video {
+  width: 100%;
+  max-height: 500px;
+  border-radius: var(--radius-lg);
+  display: block;
+  margin: 0 auto 72px;
+  background: #000;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .story-block {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .story-block.story-block--reverse .story-block__text { order: unset; }
+  .story-block.story-block--reverse .story-block__visual { order: unset; }
+}
+
+@media (max-width: 600px) {
+  .story-section { padding: 72px 0; }
+  .story-intro { margin-bottom: 40px; }
+  .story-photo { margin-bottom: 40px; }
+  .story-block { margin-bottom: 40px; }
+}
