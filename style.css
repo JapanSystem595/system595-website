@@ -681,7 +681,15 @@ textarea:focus-visible {
   font-weight: 400;
   letter-spacing: 0.01em;
   color: var(--graphite);
-  margin: 0 0 16px;
+  margin: 0 0 12px;
+}
+
+.device-desc {
+  margin: 0 0 18px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--ink);
+  white-space: pre-line;
 }
 
 .device-card dl {

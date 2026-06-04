@@ -11,11 +11,12 @@
       "sk": "images/team-sk.jpg"
     },
     "devices": {
-      "moxi": "images/device-moxi.jpg",
-      "novuheat": "images/device-novuheat.jpg",
-      "novueye": "images/device-novueye.jpg",
-      "spinesystem": "images/device-spinesystem.jpg",
-      "bodyhealth": "images/device-bodyhealth.jpg"
+      "novueye": "images/device-novueye.png",
+      "toprelax": "images/device-toprelax.png",
+      "novuheat": "images/device-novuheat.png",
+      "moxi": "images/device-moxi.png",
+      "bodyhealth": "images/device-bodyhealth.png",
+      "watersystem": "images/device-watersystem.png"
     },
     "sections": {
       "showrooms": "images/section-showrooms.jpg",
@@ -562,34 +563,46 @@
       "functionsLabel": "Functions",
       "list": [
         {
-          "id": "moxi",
-          "name": "Moxi",
-          "zones": "Neck, shoulders, back, localized tension areas",
-          "functions": "Gentle directed heat, therapeutic light, and support for local work."
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eyes, vision, visual fatigue",
+          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+        },
+        {
+          "id": "toprelax",
+          "name": "TopRelax",
+          "zones": "Spine, back, posture",
+          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Back, lower back, legs, overall recovery",
-          "functions": "Deep heat, relaxation, and support after physical load."
+          "zones": "Full-body recovery during sleep",
+          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This “cellular massage” not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
         },
         {
-          "id": "novueye",
-          "name": "NovuEye",
-          "zones": "Eye area, face, visual fatigue zones",
-          "functions": "Air massage, gentle heat, vibration, and recovery after visual strain."
-        },
-        {
-          "id": "spinesystem",
-          "name": "SpineSystem",
-          "zones": "Spine, back, posture, recovery",
-          "functions": "Back support, structured effect, and application in studio protocols."
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Biologically active points, whole body",
+          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Legs, feet, circulation, fatigue",
+          "zones": "Feet, legs, circulation",
+          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
           "functions": ""
+        },
+        {
+          "id": "watersystem",
+          "name": "Water PH-Enricher WaterSystem",
+          "zones": "Drinking water enrichment",
+          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
         }
       ]
     },
@@ -749,34 +762,46 @@
       "functionsLabel": "機能",
       "list": [
         {
-          "id": "moxi",
-          "name": "Moxi",
-          "zones": "首、肩、背中、局所的な緊張部位",
-          "functions": "やさしい指向性温熱、セラピューティックライト、局所ケアのサポート。"
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eyes, vision, visual fatigue",
+          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+        },
+        {
+          "id": "toprelax",
+          "name": "TopRelax",
+          "zones": "Spine, back, posture",
+          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "背中、腰、脚、全身の回復",
-          "functions": "深い温熱、リラクゼーション、負荷後の回復サポート。"
+          "zones": "Full-body recovery during sleep",
+          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
         },
         {
-          "id": "novueye",
-          "name": "NovuEye",
-          "zones": "目元、顔、目の疲れ",
-          "functions": "エアマッサージ、やさしい温熱、振動、視覚疲労後の回復。"
-        },
-        {
-          "id": "spinesystem",
-          "name": "SpineSystem",
-          "zones": "脊椎、背中、姿勢、回復",
-          "functions": "背中のサポート、構造的な働きかけ、スタジオプロトコルでの使用。"
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Biologically active points, whole body",
+          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "脚、足、循環、疲労",
+          "zones": "Feet, legs, circulation",
+          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
           "functions": ""
+        },
+        {
+          "id": "watersystem",
+          "name": "Water PH-Enricher WaterSystem",
+          "zones": "Drinking water enrichment",
+          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
         }
       ]
     },
@@ -936,34 +961,46 @@
       "functionsLabel": "Funciones",
       "list": [
         {
-          "id": "moxi",
-          "name": "Moxi",
-          "zones": "Cuello, hombros, espalda, zonas localizadas de tensión",
-          "functions": "Calor dirigido suave, luz terapéutica y apoyo para trabajo localizado."
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eyes, vision, visual fatigue",
+          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+        },
+        {
+          "id": "toprelax",
+          "name": "TopRelax",
+          "zones": "Spine, back, posture",
+          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Espalda, zona lumbar, piernas, recuperación general",
-          "functions": "Calor profundo, relajación y apoyo tras la carga física."
+          "zones": "Full-body recovery during sleep",
+          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
         },
         {
-          "id": "novueye",
-          "name": "NovuEye",
-          "zones": "Zona ocular, rostro, fatiga visual",
-          "functions": "Masaje de aire, calor suave, vibración y recuperación tras esfuerzo visual."
-        },
-        {
-          "id": "spinesystem",
-          "name": "SpineSystem",
-          "zones": "Columna, espalda, postura, recuperación",
-          "functions": "Soporte de espalda, efecto estructurado y uso en protocolos de estudio."
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Biologically active points, whole body",
+          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Piernas, pies, circulación, fatiga",
+          "zones": "Feet, legs, circulation",
+          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
           "functions": ""
+        },
+        {
+          "id": "watersystem",
+          "name": "Water PH-Enricher WaterSystem",
+          "zones": "Drinking water enrichment",
+          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
         }
       ]
     },
@@ -1123,34 +1160,46 @@
       "functionsLabel": "Функции",
       "list": [
         {
-          "id": "moxi",
-          "name": "Moxi",
-          "zones": "Шея, плечи, спина, локальные зоны напряжения",
-          "functions": "Мягкое направленное тепло, терапевтический свет, поддержка локальной работы."
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eyes, vision, visual fatigue",
+          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+        },
+        {
+          "id": "toprelax",
+          "name": "TopRelax",
+          "zones": "Spine, back, posture",
+          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Спина, поясница, ноги, общий recovery",
-          "functions": "Глубокое тепло, расслабление, поддержка восстановления после нагрузки."
+          "zones": "Full-body recovery during sleep",
+          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
         },
         {
-          "id": "novueye",
-          "name": "NovuEye",
-          "zones": "Область глаз, лицо, зона усталости",
-          "functions": "Воздушный массаж, мягкое тепло, вибрация, восстановление после визуальной нагрузки."
-        },
-        {
-          "id": "spinesystem",
-          "name": "SpineSystem",
-          "zones": "Позвоночник, спина, осанка, recovery",
-          "functions": "Поддержка спины, структурированное воздействие, применение в студийных протоколах."
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Biologically active points, whole body",
+          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Ноги, стопы, циркуляция, усталость",
+          "zones": "Feet, legs, circulation",
+          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
           "functions": ""
+        },
+        {
+          "id": "watersystem",
+          "name": "Water PH-Enricher WaterSystem",
+          "zones": "Drinking water enrichment",
+          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
         }
       ]
     },
@@ -1310,34 +1359,46 @@
       "functionsLabel": "Funktionen",
       "list": [
         {
-          "id": "moxi",
-          "name": "Moxi",
-          "zones": "Nacken, Schultern, Rücken, lokale Spannungszonen",
-          "functions": "Sanfte gerichtete Wärme, therapeutisches Licht und Unterstützung lokaler Arbeit."
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eyes, vision, visual fatigue",
+          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+        },
+        {
+          "id": "toprelax",
+          "name": "TopRelax",
+          "zones": "Spine, back, posture",
+          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Rücken, unterer Rücken, Beine, allgemeine Regeneration",
-          "functions": "Tiefe Wärme, Entspannung und Unterstützung nach Belastung."
+          "zones": "Full-body recovery during sleep",
+          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
         },
         {
-          "id": "novueye",
-          "name": "NovuEye",
-          "zones": "Augenbereich, Gesicht, visuelle Ermüdung",
-          "functions": "Luftmassage, sanfte Wärme, Vibration und Erholung nach visueller Belastung."
-        },
-        {
-          "id": "spinesystem",
-          "name": "SpineSystem",
-          "zones": "Wirbelsäule, Rücken, Haltung, Regeneration",
-          "functions": "Rückenunterstützung, strukturierte Wirkung und Einsatz in Studioprotokollen."
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Biologically active points, whole body",
+          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Beine, Füße, Durchblutung, Müdigkeit",
+          "zones": "Feet, legs, circulation",
+          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
           "functions": ""
+        },
+        {
+          "id": "watersystem",
+          "name": "Water PH-Enricher WaterSystem",
+          "zones": "Drinking water enrichment",
+          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
         }
       ]
     },
@@ -1497,34 +1558,46 @@
       "functionsLabel": "Функції",
       "list": [
         {
-          "id": "moxi",
-          "name": "Moxi",
-          "zones": "Шия, плечі, спина, локальні зони напруження",
-          "functions": "М’яке спрямоване тепло, терапевтичне світло, підтримка локальної роботи."
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eyes, vision, visual fatigue",
+          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+        },
+        {
+          "id": "toprelax",
+          "name": "TopRelax",
+          "zones": "Spine, back, posture",
+          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Спина, поперек, ноги, загальне відновлення",
-          "functions": "Глибоке тепло, розслаблення, підтримка після навантаження."
+          "zones": "Full-body recovery during sleep",
+          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
         },
         {
-          "id": "novueye",
-          "name": "NovuEye",
-          "zones": "Область очей, обличчя, зорова втома",
-          "functions": "Повітряний масаж, м’яке тепло, вібрація, відновлення після зорового навантаження."
-        },
-        {
-          "id": "spinesystem",
-          "name": "SpineSystem",
-          "zones": "Хребет, спина, постава, відновлення",
-          "functions": "Підтримка спини, структурований вплив, застосування в студійних протоколах."
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Biologically active points, whole body",
+          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Ноги, стопи, циркуляція, втома",
+          "zones": "Feet, legs, circulation",
+          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
           "functions": ""
+        },
+        {
+          "id": "watersystem",
+          "name": "Water PH-Enricher WaterSystem",
+          "zones": "Drinking water enrichment",
+          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
         }
       ]
     },
@@ -1684,34 +1757,46 @@
       "functionsLabel": "Fonctions",
       "list": [
         {
-          "id": "moxi",
-          "name": "Moxi",
-          "zones": "Cou, épaules, dos, zones de tension localisées",
-          "functions": "Chaleur dirigée douce, lumière thérapeutique et soutien du travail local."
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eyes, vision, visual fatigue",
+          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+        },
+        {
+          "id": "toprelax",
+          "name": "TopRelax",
+          "zones": "Spine, back, posture",
+          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Dos, bas du dos, jambes, récupération générale",
-          "functions": "Chaleur profonde, relaxation et soutien après l’effort."
+          "zones": "Full-body recovery during sleep",
+          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
         },
         {
-          "id": "novueye",
-          "name": "NovuEye",
-          "zones": "Zone des yeux, visage, fatigue visuelle",
-          "functions": "Massage par air, chaleur douce, vibration et récupération après fatigue visuelle."
-        },
-        {
-          "id": "spinesystem",
-          "name": "SpineSystem",
-          "zones": "Colonne, dos, posture, récupération",
-          "functions": "Soutien du dos, effet structuré et usage dans les protocoles studio."
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Biologically active points, whole body",
+          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Jambes, pieds, circulation, fatigue",
+          "zones": "Feet, legs, circulation",
+          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
           "functions": ""
+        },
+        {
+          "id": "watersystem",
+          "name": "Water PH-Enricher WaterSystem",
+          "zones": "Drinking water enrichment",
+          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
         }
       ]
     },
@@ -1871,34 +1956,46 @@
       "functionsLabel": "कार्य",
       "list": [
         {
-          "id": "moxi",
-          "name": "Moxi",
-          "zones": "गर्दन, कंधे, पीठ, स्थानीय tension zones",
-          "functions": "Gentle directed heat, therapeutic light और localized work support."
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eyes, vision, visual fatigue",
+          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+        },
+        {
+          "id": "toprelax",
+          "name": "TopRelax",
+          "zones": "Spine, back, posture",
+          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "पीठ, कमर, पैर, overall recovery",
-          "functions": "Deep heat, relaxation और physical load के बाद recovery support."
+          "zones": "Full-body recovery during sleep",
+          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
         },
         {
-          "id": "novueye",
-          "name": "NovuEye",
-          "zones": "आँखों का क्षेत्र, चेहरा, visual fatigue zones",
-          "functions": "Air massage, gentle heat, vibration और visual strain के बाद recovery."
-        },
-        {
-          "id": "spinesystem",
-          "name": "SpineSystem",
-          "zones": "Spine, back, posture, recovery",
-          "functions": "Back support, structured effect और studio protocols में उपयोग."
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Biologically active points, whole body",
+          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Legs, feet, circulation, fatigue",
+          "zones": "Feet, legs, circulation",
+          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
           "functions": ""
+        },
+        {
+          "id": "watersystem",
+          "name": "Water PH-Enricher WaterSystem",
+          "zones": "Drinking water enrichment",
+          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
         }
       ]
     },
@@ -2058,34 +2155,46 @@
       "functionsLabel": "Funções",
       "list": [
         {
-          "id": "moxi",
-          "name": "Moxi",
-          "zones": "Pescoço, ombros, costas, zonas locais de tensão",
-          "functions": "Calor dirigido suave, luz terapêutica e apoio ao trabalho localizado."
+          "id": "novueye",
+          "name": "NovuEye",
+          "zones": "Eyes, vision, visual fatigue",
+          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+        },
+        {
+          "id": "toprelax",
+          "name": "TopRelax",
+          "zones": "Spine, back, posture",
+          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Costas, lombar, pernas, recuperação geral",
-          "functions": "Calor profundo, relaxamento e apoio após esforço físico."
+          "zones": "Full-body recovery during sleep",
+          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
         },
         {
-          "id": "novueye",
-          "name": "NovuEye",
-          "zones": "Zona dos olhos, rosto, fadiga visual",
-          "functions": "Massagem de ar, calor suave, vibração e recuperação após esforço visual."
-        },
-        {
-          "id": "spinesystem",
-          "name": "SpineSystem",
-          "zones": "Coluna, costas, postura, recuperação",
-          "functions": "Apoio das costas, efeito estruturado e aplicação em protocolos de estúdio."
+          "id": "moxi",
+          "name": "Moxi",
+          "zones": "Biologically active points, whole body",
+          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Pernas, pés, circulação, fadiga",
-          "functions": "EMS/estimulação, apoio de pernas e pés, efeito de recuperação."
+          "zones": "Feet, legs, circulation",
+          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
+          "functions": ""
+        },
+        {
+          "id": "watersystem",
+          "name": "Water PH-Enricher WaterSystem",
+          "zones": "Drinking water enrichment",
+          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
         }
       ]
     },

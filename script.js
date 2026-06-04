@@ -136,15 +136,22 @@
       var imgHtml = imgSrc
         ? '<img class="device-img" src="' + imgSrc + '" alt="' + escHtml(d.name) + '" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">'
         : '';
+      var descHtml = d.description
+        ? '<p class="device-desc">' + escHtml(d.description) + '</p>'
+        : '';
+      var functionsRow = d.functions
+        ? '<dt>' + escHtml(fLabel) + '</dt><dd>' + escHtml(d.functions) + '</dd>'
+        : '';
       return '<article class="device-card">'
         + '<div class="device-image">'
         + imgHtml
         + '<span class="device-fallback" style="' + (imgSrc ? 'display:none' : '') + '">' + escHtml(d.name) + '</span>'
         + '</div>'
         + '<h4>' + escHtml(d.name) + '</h4>'
+        + descHtml
         + '<dl>'
         + '<dt>' + escHtml(zLabel) + '</dt><dd>' + escHtml(d.zones) + '</dd>'
-        + '<dt>' + escHtml(fLabel) + '</dt><dd>' + escHtml(d.functions) + '</dd>'
+        + functionsRow
         + '</dl>'
         + '</article>';
     }).join('');
