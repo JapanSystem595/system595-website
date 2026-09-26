@@ -12,6 +12,8 @@
   ];
 
   var page = window.location.pathname.split('/').pop() || 'index.html';
+  // device landings (device-<id>.html) live under the Devices menu item
+  if (page.indexOf('device-') === 0) page = 'devices.html';
 
   function navLinks() {
     return NAV_ITEMS.map(function (item) {
@@ -24,7 +26,7 @@
     '<header class="site-header" id="top">',
       '<div class="container header-inner">',
         '<a href="index.html" class="brand" aria-label="System 5/95 — home">',
-          '<img src="images/logo.svg" alt="System 5/95" class="logo-img">',
+          '<img src="images/logo-light.svg" alt="System 5/95" class="logo-img">',
         '</a>',
         '<nav class="primary-nav" aria-label="Primary">',
           navLinks(),
@@ -42,11 +44,6 @@
               '<li role="option" data-lang="ja"  aria-selected="false"><span class="lc">JA</span><span class="ln">日本語</span></li>',
               '<li role="option" data-lang="es"  aria-selected="false"><span class="lc">ES</span><span class="ln">Español</span></li>',
               '<li role="option" data-lang="ru"  aria-selected="false"><span class="lc">RU</span><span class="ln">Русский</span></li>',
-              '<li role="option" data-lang="de"  aria-selected="false"><span class="lc">DE</span><span class="ln">Deutsch</span></li>',
-              '<li role="option" data-lang="uk"  aria-selected="false"><span class="lc">UK</span><span class="ln">Українська</span></li>',
-              '<li role="option" data-lang="fr"  aria-selected="false"><span class="lc">FR</span><span class="ln">Français</span></li>',
-              '<li role="option" data-lang="hi"  aria-selected="false"><span class="lc">HI</span><span class="ln">हिन्दी</span></li>',
-              '<li role="option" data-lang="pt"  aria-selected="false"><span class="lc">PT</span><span class="ln">Português</span></li>',
             '</ul>',
           '</div>',
           '<button type="button" class="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">',

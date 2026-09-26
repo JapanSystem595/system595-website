@@ -561,48 +561,235 @@
       "cta": "Explore Devices",
       "zonesLabel": "Areas",
       "functionsLabel": "Functions",
+      "learnMore": "Learn more",
+      "landing": {
+        "eyebrow": "System 5/95 device",
+        "ctaPrimary": "Request a presentation",
+        "ctaSecondary": "All devices",
+        "areasLabel": "Designed for",
+        "storyLabel": "Why it matters",
+        "methodsLabel": "How it works",
+        "methodsTitle": "Natural physical factors, precisely combined",
+        "extraLabel": "Technology",
+        "specsLabel": "Specifications",
+        "trustLabel": "Made in Japan",
+        "trustTitle": "Manufactured in Fujiyoshida, Japan",
+        "trustBody": "Every System 5/95 device is designed, manufactured and quality-checked by our own team in Japan. We stand behind that work with a 5-year warranty.",
+        "trustStats": [
+          {
+            "n": "In-house",
+            "l": "Manufacturing"
+          },
+          {
+            "n": "5 years",
+            "l": "Warranty"
+          },
+          {
+            "n": "Fujiyoshida",
+            "l": "Japan"
+          }
+        ],
+        "othersLabel": "Explore",
+        "othersTitle": "Other devices",
+        "ctaTitle": "See it in person",
+        "ctaBody": "Try the device in one of our showrooms or studios, or request a presentation for your business."
+      },
+      "methods": {
+        "vibration": {
+          "title": "Vibration massage",
+          "text": "Rhythmic vibration that relaxes the muscles and supports circulation."
+        },
+        "acupressure": {
+          "title": "Acupressure",
+          "text": "Gentle pressure on key points, inspired by oriental practice."
+        },
+        "infrared": {
+          "title": "Infrared heat",
+          "text": "Deep, gentle warmth that helps the body relax and recover."
+        },
+        "magnets": {
+          "title": "Magnetic exposure",
+          "text": "A calm magnetic field that complements heat and massage."
+        },
+        "ionization": {
+          "title": "Ionization",
+          "text": "Negative ions for a fresh, restorative atmosphere."
+        },
+        "music": {
+          "title": "Health music",
+          "text": "Soothing sound that helps the mind slow down."
+        },
+        "lllt": {
+          "title": "Red LLLT",
+          "text": "Low-level red laser light, applied gently and precisely."
+        },
+        "stonewellness": {
+          "title": "StoneWellness",
+          "text": "The warmth of natural stone, spread evenly."
+        },
+        "micromassage": {
+          "title": "Micro-massage",
+          "text": "High-frequency micro-vibrations that work alongside deep heat."
+        },
+        "moxibustion": {
+          "title": "Moxibustion",
+          "text": "The traditional warming of active points, recreated safely with infrared heat."
+        },
+        "nanotourmaline": {
+          "title": "NanoTourmaline",
+          "text": "A unique mineral alloy that works together with infrared heat."
+        },
+        "physio": {
+          "title": "Combined physiotherapy",
+          "text": "Several physiotherapy effects brought together in one device."
+        }
+      },
       "list": [
         {
           "id": "novueye",
           "name": "NovuEye",
+          "category": "Daily eye care",
+          "tagline": "Care for your eyes. Every day.",
           "zones": "Eyes, vision, visual fatigue",
+          "lede": "Vibration, acupressure, warmth and sound come together in a calm moment of eye care at home.",
           "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
-          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+          "story": [
+            "NovuEye is a device for daily eye care. More than half of all vision problems could be avoided if the eyes received proper care every day.",
+            "It was created with one purpose: to give every person a simple way to care for their eyes in the comfort of home."
+          ],
+          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music.",
+          "methodKeys": [
+            "vibration",
+            "acupressure",
+            "infrared",
+            "magnets",
+            "ionization",
+            "music"
+          ]
         },
         {
           "id": "toprelax",
           "name": "TopRelax",
+          "category": "Spine care",
+          "tagline": "Ancient wisdom for a modern spine.",
           "zones": "Spine, back, posture",
+          "lede": "A massage and heating device that brings traditional oriental methods and reliable modern mechanisms to daily spine care.",
           "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
-          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
+          "story": [
+            "TopRelax is a massage and heating device for spine care. Around 80% of people experience spinal problems — one of the most widespread challenges of our time.",
+            "Daily care and recovery make the difference. TopRelax combines traditional methods of oriental practice with reliable modern mechanisms, so that this care becomes part of every day."
+          ],
+          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT.",
+          "methodKeys": [
+            "vibration",
+            "infrared",
+            "magnets",
+            "ionization",
+            "lllt"
+          ]
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
+          "category": "Recovery in sleep",
+          "tagline": "Sleep becomes recovery.",
           "zones": "Full-body recovery during sleep",
+          "lede": "Deep infrared warmth and gentle micro-massage turn the hours you sleep into time for recovery.",
           "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This “cellular massage” not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
-          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
+          "story": [
+            "NovuHeat is a heating device for recovery during sleep. We spend a third of our lives asleep.",
+            "Imagine every minute of that time working for your health. That is the goal NovuHeat's developers set themselves — and today it is within everyone's reach."
+          ],
+          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage.",
+          "methodKeys": [
+            "ionization",
+            "infrared",
+            "magnets",
+            "stonewellness",
+            "micromassage"
+          ],
+          "extra": {
+            "title": "Innovative micro-massage and cellular renewal",
+            "body": "NovuHeat is built on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. Its gentle vibrational massage works at the cellular level, stimulating microcirculation and easing stagnation in the tissues. With long-term use at home, the combination of heat and high-frequency micro-vibrations supports the condition of the skin, helps muscles relax and turns rest into a deep restoration of the whole body."
+          }
         },
         {
           "id": "moxi",
           "name": "Moxi",
+          "category": "Modern moxibustion",
+          "tagline": "An ancient ritual, reimagined.",
           "zones": "Biologically active points, whole body",
+          "lede": "Traditional moxibustion, realised safely through infrared heat and the NanoTourmaline mineral alloy.",
           "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
-          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
+          "story": [
+            "Moxi is a special system of recovery through gentle work with biologically active points.",
+            "It is based on moxibustion — a method of recovery used in Japan since ancient times and valued to this day. Moxi brings it into the present in a modern, safe form: through infrared heat and a unique mineral alloy, NanoTourmaline."
+          ],
+          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT.",
+          "methodKeys": [
+            "vibration",
+            "infrared",
+            "magnets",
+            "stonewellness",
+            "ionization",
+            "moxibustion",
+            "lllt",
+            "nanotourmaline"
+          ]
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
+          "category": "Foot care",
+          "tagline": "Well-being starts from the ground up.",
           "zones": "Feet, legs, circulation",
+          "lede": "Combined physiotherapy effects for the part of the body that carries you every day.",
           "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
-          "functions": ""
+          "story": [
+            "More than half of the world's adults face problems with their feet. This part of the body is connected to the well-being of the whole body, which is why it deserves care every day.",
+            "With this goal in mind, a group of Japanese developers created BodyHealth — a device that combines unique physiotherapy effects."
+          ],
+          "functions": "",
+          "methodKeys": [
+            "physio"
+          ]
         },
         {
           "id": "watersystem",
-          "name": "Water PH-Enricher WaterSystem",
+          "name": "WaterSystem",
+          "category": "Water pH-enricher",
+          "tagline": "Every glass, in balance.",
           "zones": "Drinking water enrichment",
+          "lede": "Mineral-rich, hydrogenated water with optimal alkalinity, redox potential and surface tension — at home, every day.",
           "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
-          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
+          "story": [
+            "With WaterSystem, you can drink mineral-rich, hydrogenated water every day — with optimal redox potential, alkalinity and surface tension.",
+            "It supports your body's water balance and helps it work in harmony."
+          ],
+          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals.",
+          "methodKeys": [],
+          "specs": [
+            {
+              "label": "pH",
+              "value": "9.3 (max.)"
+            },
+            {
+              "label": "ORP (redox potential)",
+              "value": "−350 mV"
+            },
+            {
+              "label": "Hydrogen",
+              "value": "100–300 ppb (1–1.5 mg/dm³)"
+            },
+            {
+              "label": "Surface tension",
+              "value": "45 mJ/m²"
+            },
+            {
+              "label": "Mineralization",
+              "value": "Adds beneficial minerals"
+            }
+          ]
         }
       ]
     },
@@ -760,48 +947,235 @@
       "cta": "デバイスを見る",
       "zonesLabel": "部位",
       "functionsLabel": "機能",
+      "learnMore": "詳しく見る",
+      "landing": {
+        "eyebrow": "System 5/95 デバイス",
+        "ctaPrimary": "プレゼンテーションを依頼する",
+        "ctaSecondary": "すべてのデバイス",
+        "areasLabel": "対象部位",
+        "storyLabel": "開発の背景",
+        "methodsLabel": "しくみ",
+        "methodsTitle": "自然の物理的要素を、精密に組み合わせて。",
+        "extraLabel": "テクノロジー",
+        "specsLabel": "仕様",
+        "trustLabel": "日本製",
+        "trustTitle": "日本・富士吉田で製造",
+        "trustBody": "System 5/95のデバイスは、設計から製造、品質検査まで、日本の自社チームが一貫して手がけています。品質への自信の証として、5年保証をお付けしています。",
+        "trustStats": [
+          {
+            "n": "自社",
+            "l": "一貫製造"
+          },
+          {
+            "n": "5年",
+            "l": "保証"
+          },
+          {
+            "n": "富士吉田",
+            "l": "日本"
+          }
+        ],
+        "othersLabel": "さらに見る",
+        "othersTitle": "ほかのデバイス",
+        "ctaTitle": "その心地よさを、実際に。",
+        "ctaBody": "ショールームやスタジオで、実際にお試しいただけます。パートナー企業様には、プレゼンテーションもご用意しています。"
+      },
+      "methods": {
+        "vibration": {
+          "title": "振動マッサージ",
+          "text": "リズミカルな振動が筋肉をほぐし、巡りをサポートします。"
+        },
+        "acupressure": {
+          "title": "指圧",
+          "text": "東洋の知恵にならい、ツボをやさしく押圧します。"
+        },
+        "infrared": {
+          "title": "赤外線温熱",
+          "text": "深く穏やかなぬくもりが、からだのリラックスと回復を助けます。"
+        },
+        "magnets": {
+          "title": "磁気",
+          "text": "穏やかな磁気が、温熱とマッサージを補います。"
+        },
+        "ionization": {
+          "title": "イオン化",
+          "text": "マイナスイオンが、すがすがしく心地よい空間をつくります。"
+        },
+        "music": {
+          "title": "ヘルスミュージック",
+          "text": "やすらぎの音楽が、心を静かに整えます。"
+        },
+        "lllt": {
+          "title": "赤色LLLT",
+          "text": "低出力の赤色レーザー光を、やさしく正確に届けます。"
+        },
+        "stonewellness": {
+          "title": "StoneWellness",
+          "text": "天然石のぬくもりを、ムラなく届けます。"
+        },
+        "micromassage": {
+          "title": "マイクロマッサージ",
+          "text": "高周波の微細な振動が、深い温熱とともに働きます。"
+        },
+        "moxibustion": {
+          "title": "温灸",
+          "text": "ツボを温める伝統の手法を、赤外線で安全に再現します。"
+        },
+        "nanotourmaline": {
+          "title": "NanoTourmaline",
+          "text": "赤外線温熱とともに働く、独自のミネラル合金です。"
+        },
+        "physio": {
+          "title": "複合物理療法",
+          "text": "複数の物理療法効果を、ひとつのデバイスに。"
+        }
+      },
       "list": [
         {
           "id": "novueye",
           "name": "NovuEye",
-          "zones": "Eyes, vision, visual fatigue",
-          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
-          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+          "category": "毎日のアイケア",
+          "tagline": "目に、毎日のケアを。",
+          "zones": "目、視機能、目の疲れ",
+          "lede": "振動、指圧、ぬくもり、そして音楽。ご自宅で目をいたわる、穏やかなひとときを。",
+          "description": "毎日のアイケアのためのデバイスです。視覚トラブルの50%以上は、日々の適切なケアで防げる可能性があるといわれています。NovuEyeは、誰もがくつろげる自宅で目をケアできるように、という想いから開発されました。",
+          "story": [
+            "NovuEyeは、毎日のアイケアのためのデバイスです。視覚トラブルの半数以上は、日々の適切なケアで防げる可能性があるといわれています。",
+            "開発の目的は、ただひとつ。誰もが、くつろげる自宅で目をいたわれるようにすることです。"
+          ],
+          "functions": "振動マッサージ、指圧、赤外線温熱、磁気、イオン化、ヘルスミュージック。",
+          "methodKeys": [
+            "vibration",
+            "acupressure",
+            "infrared",
+            "magnets",
+            "ionization",
+            "music"
+          ]
         },
         {
           "id": "toprelax",
           "name": "TopRelax",
-          "zones": "Spine, back, posture",
-          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
-          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
+          "category": "背骨のケア",
+          "tagline": "受け継がれた知恵を、背骨に。",
+          "zones": "脊椎、背中、姿勢",
+          "lede": "東洋の伝統的な手法と、信頼性の高い現代のメカニズム。毎日の背骨ケアのための、マッサージ・温熱デバイスです。",
+          "description": "背骨のケアのためのマッサージ・温熱デバイスです。約80%の人が背骨の悩みを抱えているといわれ、現代社会の大きな課題となっています。その鍵を握るのが、毎日のケアと回復です。TopRelaxは、東洋の伝統的な手法と信頼性の高い現代のメカニズムを組み合わせたマッサージ・温熱デバイスです。",
+          "story": [
+            "TopRelaxは、背骨のケアのためのマッサージ・温熱デバイスです。約80%の人が背骨の悩みを抱えているといわれ、現代社会の大きな課題となっています。",
+            "大切なのは、毎日のケアと回復。TopRelaxは東洋の伝統的な手法と信頼性の高い現代のメカニズムを組み合わせ、そのケアを日々の習慣にします。"
+          ],
+          "functions": "振動マッサージ、赤外線温熱、磁気、イオン化、赤色LLLT。",
+          "methodKeys": [
+            "vibration",
+            "infrared",
+            "magnets",
+            "ionization",
+            "lllt"
+          ]
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Full-body recovery during sleep",
-          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
-          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
+          "category": "眠りの回復ケア",
+          "tagline": "眠りを、回復の時間に。",
+          "zones": "睡眠中の全身の回復",
+          "lede": "深い赤外線温熱とやさしいマイクロマッサージが、眠っている時間を回復のひとときに変えます。",
+          "description": "睡眠中の回復のための温熱デバイスです。人は人生の3分の1を眠って過ごします。その一分一秒を、健康のために活かせたら。NovuHeatの開発者たちが掲げたその目標は、いま誰もが手にできるものになりました。\n\n* 革新的なマイクロマッサージと細胞レベルのケア。NovuHeatの効果を支えているのは、深部まで届く赤外線温熱を補う熱共鳴マイクロ振動技術（FIR Resonance）です。やさしい振動マッサージが細胞レベルで働きかけ、微小循環を促し、組織の滞りをやわらげます。温熱と高周波マイクロ振動の組み合わせにより、ご自宅で長く使い続けるほど肌のコンディションを整え、筋肉のこわばりをほぐし、休息を全身の深い回復の時間へと変えていきます。",
+          "story": [
+            "NovuHeatは、睡眠中の回復のための温熱デバイスです。人は人生の3分の1を眠って過ごします。",
+            "その一分一秒を、健康のために活かせたら。NovuHeatの開発者たちが掲げたその目標は、いま誰もが手にできるものになりました。"
+          ],
+          "functions": "イオン化、赤外線温熱、磁気、StoneWellness、マイクロマッサージ。",
+          "methodKeys": [
+            "ionization",
+            "infrared",
+            "magnets",
+            "stonewellness",
+            "micromassage"
+          ],
+          "extra": {
+            "title": "革新的なマイクロマッサージと細胞レベルのケア",
+            "body": "NovuHeatの効果を支えているのは、深部まで届く赤外線温熱を補う熱共鳴マイクロ振動技術（FIR Resonance）です。やさしい振動マッサージが細胞レベルで働きかけ、微小循環を促し、組織の滞りをやわらげます。温熱と高周波マイクロ振動の組み合わせにより、ご自宅で長く使い続けるほど肌のコンディションを整え、筋肉のこわばりをほぐし、休息を全身の深い回復の時間へと変えていきます。"
+          }
         },
         {
           "id": "moxi",
           "name": "Moxi",
-          "zones": "Biologically active points, whole body",
-          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
-          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
+          "category": "現代の温灸",
+          "tagline": "古来の知恵を、現代のかたちで。",
+          "zones": "ツボ（生体活性ポイント）、全身",
+          "lede": "伝統の温灸を、赤外線温熱と独自のミネラル合金NanoTourmalineで、安全に。",
+          "description": "生体活性ポイント（ツボ）に働きかける、特別な回復システムです。ベースにあるのは、古くから日本で用いられ、今日まで多くの人に信頼されてきた回復法、お灸。Moxiはこの方法を、赤外線温熱と独自のミネラル合金NanoTourmalineによって、現代的で安全なかたちで実現しました。",
+          "story": [
+            "Moxiは、生体活性ポイント（ツボ）にやさしく働きかける、特別な回復システムです。",
+            "ベースにあるのは、古くから日本で用いられてきた回復法、お灸。Moxiはこの伝統を、赤外線温熱と独自のミネラル合金NanoTourmalineによって、現代的で安全なかたちに生まれ変わらせました。"
+          ],
+          "functions": "振動マッサージ、赤外線温熱、磁気、StoneWellness、イオン化、温灸、LLLT。",
+          "methodKeys": [
+            "vibration",
+            "infrared",
+            "magnets",
+            "stonewellness",
+            "ionization",
+            "moxibustion",
+            "lllt",
+            "nanotourmaline"
+          ]
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Feet, legs, circulation",
-          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
-          "functions": ""
+          "category": "フットケア",
+          "tagline": "健やかさは、足もとから。",
+          "zones": "足、脚、血行",
+          "lede": "毎日あなたを支える足のために。独自の物理療法効果を、ひとつに。",
+          "description": "世界の成人の半数以上が、足のトラブルを抱えているといわれています。足は全身の健康とつながっているため、毎日のケアが欠かせません。この想いから、日本の開発チームが独自の物理療法効果を組み合わせたBodyHealthを生み出しました。",
+          "story": [
+            "世界の成人の半数以上が、足のトラブルを抱えているといわれています。足は全身の健康とつながる場所。だからこそ、毎日のケアが大切です。",
+            "この想いから、日本の開発チームは独自の物理療法効果を組み合わせたBodyHealthを生み出しました。"
+          ],
+          "functions": "",
+          "methodKeys": [
+            "physio"
+          ]
         },
         {
           "id": "watersystem",
-          "name": "Water PH-Enricher WaterSystem",
-          "zones": "Drinking water enrichment",
-          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
-          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
+          "name": "WaterSystem",
+          "category": "ウォーター pHエンリッチャー",
+          "tagline": "一杯ごとに、整った水を。",
+          "zones": "飲料水の品質向上",
+          "lede": "最適なアルカリ性、酸化還元電位、表面張力を備えた、ミネラル豊富な水素水。ご自宅で、毎日。",
+          "description": "WaterSystemなら、最適な酸化還元電位、アルカリ性、表面張力を備えた、ミネラル豊富な水素水を毎日飲むことができます。からだの水分バランスを支え、調和のとれた働きをサポートします。",
+          "story": [
+            "WaterSystemがあれば、最適な酸化還元電位、アルカリ性、表面張力を備えたミネラル豊富な水素水を、毎日の習慣にできます。",
+            "からだの水分バランスを支え、本来の調和のとれた働きをサポートします。"
+          ],
+          "functions": "水のpHを9.3（最大値）に調整、ORPを−350 mVに調整、水素を100–300 ppb（1–1.5 mg/dm³）付加、水の表面張力を45 mJ/m²に変化、有用なミネラルを付加。",
+          "methodKeys": [],
+          "specs": [
+            {
+              "label": "pH",
+              "value": "9.3（最大値）"
+            },
+            {
+              "label": "ORP（酸化還元電位）",
+              "value": "−350 mV"
+            },
+            {
+              "label": "水素",
+              "value": "100–300 ppb（1–1.5 mg/dm³）"
+            },
+            {
+              "label": "表面張力",
+              "value": "45 mJ/m²"
+            },
+            {
+              "label": "ミネラル",
+              "value": "有用なミネラルを付加"
+            }
+          ]
         }
       ]
     },
@@ -954,53 +1328,240 @@
     },
     "devices": {
       "title": "Dispositivos de los que nos sentimos orgullosos",
-      "subtitle": "Los dispositivos originales de System 5/95 están diseñados como parte de un único ecosistema therapeutic wellness.",
+      "subtitle": "Los dispositivos originales de System 5/95 están diseñados como parte de un único ecosistema de bienestar terapéutico.",
       "body": "Cada dispositivo se desarrolla en torno a zonas de aplicación, funciones y experiencia de usuario específicas. Combinamos calor dirigido suave, vibración calibrada, luz terapéutica, presión de aire, soporte de columna y otros factores físicos naturales. Nuestro enfoque es delicado, no invasivo y consciente de la fisiología: no forzar el cuerpo, sino trabajar con él con precisión, cuidado y constancia.",
       "cta": "Ver dispositivos",
       "zonesLabel": "Zonas",
       "functionsLabel": "Funciones",
+      "learnMore": "Más información",
+      "landing": {
+        "eyebrow": "Dispositivo System 5/95",
+        "ctaPrimary": "Solicitar una presentación",
+        "ctaSecondary": "Todos los dispositivos",
+        "areasLabel": "Pensado para",
+        "storyLabel": "Por qué importa",
+        "methodsLabel": "Cómo funciona",
+        "methodsTitle": "Factores físicos naturales, combinados con precisión",
+        "extraLabel": "Tecnología",
+        "specsLabel": "Especificaciones",
+        "trustLabel": "Hecho en Japón",
+        "trustTitle": "Fabricado en Fujiyoshida, Japón",
+        "trustBody": "Cada dispositivo System 5/95 lo diseña, fabrica y revisa nuestro propio equipo en Japón. Respaldamos ese trabajo con una garantía de 5 años.",
+        "trustStats": [
+          {
+            "n": "Propia",
+            "l": "Fabricación"
+          },
+          {
+            "n": "5 años",
+            "l": "Garantía"
+          },
+          {
+            "n": "Fujiyoshida",
+            "l": "Japón"
+          }
+        ],
+        "othersLabel": "Descubre más",
+        "othersTitle": "Otros dispositivos",
+        "ctaTitle": "Vívelo en persona",
+        "ctaBody": "Pruébalo en uno de nuestros showrooms o estudios, o solicita una presentación para tu negocio."
+      },
+      "methods": {
+        "vibration": {
+          "title": "Masaje por vibración",
+          "text": "Una vibración rítmica que relaja los músculos y favorece la circulación."
+        },
+        "acupressure": {
+          "title": "Acupresión",
+          "text": "Presión suave sobre puntos clave, inspirada en la práctica oriental."
+        },
+        "infrared": {
+          "title": "Calor infrarrojo",
+          "text": "Un calor profundo y suave que ayuda al cuerpo a relajarse y recuperarse."
+        },
+        "magnets": {
+          "title": "Exposición magnética",
+          "text": "Un campo magnético sereno que complementa el calor y el masaje."
+        },
+        "ionization": {
+          "title": "Ionización",
+          "text": "Iones negativos para un ambiente fresco y reparador."
+        },
+        "music": {
+          "title": "Música saludable",
+          "text": "Sonidos relajantes que ayudan a la mente a bajar el ritmo."
+        },
+        "lllt": {
+          "title": "LLLT roja",
+          "text": "Luz láser roja de baja intensidad, aplicada con suavidad y precisión."
+        },
+        "stonewellness": {
+          "title": "StoneWellness",
+          "text": "El calor de la piedra natural, repartido de forma uniforme."
+        },
+        "micromassage": {
+          "title": "Micromasaje",
+          "text": "Microvibraciones de alta frecuencia que actúan junto al calor profundo."
+        },
+        "moxibustion": {
+          "title": "Moxibustión",
+          "text": "El calentamiento tradicional de los puntos activos, recreado de forma segura con calor infrarrojo."
+        },
+        "nanotourmaline": {
+          "title": "NanoTourmaline",
+          "text": "Una aleación mineral única que actúa junto al calor infrarrojo."
+        },
+        "physio": {
+          "title": "Fisioterapia combinada",
+          "text": "Varios efectos fisioterapéuticos reunidos en un solo dispositivo."
+        }
+      },
       "list": [
         {
           "id": "novueye",
           "name": "NovuEye",
-          "zones": "Eyes, vision, visual fatigue",
-          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
-          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+          "category": "Cuidado ocular diario",
+          "tagline": "Cuida tus ojos. Cada día.",
+          "zones": "Ojos, visión, fatiga visual",
+          "lede": "Vibración, acupresión, calor y música se unen en un momento de calma para tus ojos, en casa.",
+          "description": "Es un dispositivo para el cuidado diario de los ojos. Más del 50 % de los problemas de visión podrían evitarse si los ojos recibieran un cuidado adecuado cada día. NovuEye se desarrolló con este propósito: ofrecer a cada persona la posibilidad de cuidar sus ojos en la comodidad de su hogar.",
+          "story": [
+            "NovuEye es un dispositivo para el cuidado diario de los ojos. Más de la mitad de los problemas de visión podrían evitarse si los ojos recibieran el cuidado adecuado cada día.",
+            "Nació con un solo propósito: dar a cada persona una forma sencilla de cuidar sus ojos en la comodidad de su hogar."
+          ],
+          "functions": "Masaje por vibración, acupresión, calor infrarrojo, imanes, ionización, música saludable.",
+          "methodKeys": [
+            "vibration",
+            "acupressure",
+            "infrared",
+            "magnets",
+            "ionization",
+            "music"
+          ]
         },
         {
           "id": "toprelax",
           "name": "TopRelax",
-          "zones": "Spine, back, posture",
-          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
-          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
+          "category": "Cuidado de la columna",
+          "tagline": "Sabiduría ancestral para una espalda moderna.",
+          "zones": "Columna, espalda, postura",
+          "lede": "Un dispositivo de masaje y calor que une métodos tradicionales orientales y mecanismos modernos y fiables para el cuidado diario de la columna.",
+          "description": "Es un dispositivo de masaje y calor para el cuidado de la columna. El 80 % de las personas tiene problemas de columna. Hoy es uno de los grandes desafíos de la humanidad, y el cuidado y la recuperación diarios ayudan a afrontarlo. TopRelax combina métodos tradicionales orientales con mecanismos modernos y fiables.",
+          "story": [
+            "TopRelax es un dispositivo de masaje y calor para el cuidado de la columna. Alrededor del 80 % de las personas tiene problemas de espalda: uno de los grandes desafíos de nuestro tiempo.",
+            "La clave está en el cuidado y la recuperación diarios. TopRelax une métodos tradicionales orientales y mecanismos modernos y fiables para que ese cuidado forme parte de cada día."
+          ],
+          "functions": "Masaje por vibración, calor infrarrojo, exposición magnética, ionización, LLLT roja.",
+          "methodKeys": [
+            "vibration",
+            "infrared",
+            "magnets",
+            "ionization",
+            "lllt"
+          ]
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Full-body recovery during sleep",
-          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
-          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
+          "category": "Recuperación durante el sueño",
+          "tagline": "Dormir es recuperarse.",
+          "zones": "Recuperación de todo el cuerpo durante el sueño",
+          "lede": "El calor infrarrojo profundo y un suave micromasaje convierten tus horas de sueño en tiempo de recuperación.",
+          "description": "Es un dispositivo de calor para la recuperación durante el sueño. Pasamos un tercio de la vida durmiendo. Imagina aprovechar cada minuto de ese tiempo en beneficio de tu salud. Ese fue el objetivo de los creadores de NovuHeat y, gracias a su trabajo, hoy todos tenemos esa oportunidad.\n\n* Micromasaje innovador y renovación celular. NovuHeat se basa en la tecnología de microvibración termorresonante (FIR Resonance), que complementa el calor infrarrojo profundo. Su suave masaje vibratorio actúa a nivel celular: estimula la microcirculación y reduce el estancamiento en los tejidos. Con un uso prolongado en casa, la combinación de calor y microvibraciones de alta frecuencia cuida el estado de la piel, ayuda a relajar los músculos y convierte el descanso en una recuperación profunda de todo el cuerpo.",
+          "story": [
+            "NovuHeat es un dispositivo de calor para la recuperación durante el sueño. Pasamos un tercio de la vida durmiendo.",
+            "Imagina que cada minuto de ese tiempo trabajara a favor de tu salud. Ese fue el objetivo de los creadores de NovuHeat, y hoy está al alcance de todos."
+          ],
+          "functions": "Ionización, calor infrarrojo, exposición magnética, StoneWellness, micromasaje.",
+          "methodKeys": [
+            "ionization",
+            "infrared",
+            "magnets",
+            "stonewellness",
+            "micromassage"
+          ],
+          "extra": {
+            "title": "Micromasaje innovador y renovación celular",
+            "body": "NovuHeat se basa en la tecnología de microvibración termorresonante (FIR Resonance), que complementa el calor infrarrojo profundo. Su suave masaje vibratorio actúa a nivel celular: estimula la microcirculación y reduce el estancamiento en los tejidos. Con un uso prolongado en casa, la combinación de calor y microvibraciones de alta frecuencia cuida el estado de la piel, ayuda a relajar los músculos y convierte el descanso en una recuperación profunda de todo el cuerpo."
+          }
         },
         {
           "id": "moxi",
           "name": "Moxi",
-          "zones": "Biologically active points, whole body",
-          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
-          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
+          "category": "Moxibustión moderna",
+          "tagline": "Un ritual ancestral, reinventado.",
+          "zones": "Puntos biológicamente activos, todo el cuerpo",
+          "lede": "La moxibustión tradicional, realizada de forma segura con calor infrarrojo y la aleación mineral NanoTourmaline.",
+          "description": "Es un sistema especial de recuperación mediante la acción sobre puntos biológicamente activos. Se basa en la moxibustión, un método de recuperación que ya se utilizaba en el antiguo Japón y que sigue siendo valorado hoy. Moxi lo lleva a cabo de forma moderna y segura: mediante calor infrarrojo y una aleación mineral única, NanoTourmaline.",
+          "story": [
+            "Moxi es un sistema especial de recuperación que actúa con suavidad sobre los puntos biológicamente activos del cuerpo.",
+            "Se basa en la moxibustión, un método de recuperación utilizado en Japón desde la antigüedad. Moxi lo trae al presente de forma moderna y segura: con calor infrarrojo y una aleación mineral única, NanoTourmaline."
+          ],
+          "functions": "Masaje por vibración, calor infrarrojo, exposición magnética, StoneWellness, ionización, moxibustión, LLLT.",
+          "methodKeys": [
+            "vibration",
+            "infrared",
+            "magnets",
+            "stonewellness",
+            "ionization",
+            "moxibustion",
+            "lllt",
+            "nanotourmaline"
+          ]
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Feet, legs, circulation",
-          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
-          "functions": ""
+          "category": "Cuidado de los pies",
+          "tagline": "El bienestar empieza por los pies.",
+          "zones": "Pies, piernas, circulación",
+          "lede": "Efectos fisioterapéuticos combinados para la parte del cuerpo que te sostiene cada día.",
+          "description": "Más de la mitad de la población adulta del planeta tiene problemas en los pies. Esta parte del cuerpo está relacionada con la salud de todo el organismo, por eso todos deberíamos cuidarla a diario. Con este objetivo, un equipo de desarrolladores japoneses creó BodyHealth, que combina efectos fisioterapéuticos únicos.",
+          "story": [
+            "Más de la mitad de los adultos del planeta tiene problemas en los pies. Esta parte del cuerpo está ligada al bienestar de todo el organismo; por eso merece un cuidado diario.",
+            "Con ese objetivo, un equipo de desarrolladores japoneses creó BodyHealth, un dispositivo que reúne efectos fisioterapéuticos únicos."
+          ],
+          "functions": "",
+          "methodKeys": [
+            "physio"
+          ]
         },
         {
           "id": "watersystem",
-          "name": "Water PH-Enricher WaterSystem",
-          "zones": "Drinking water enrichment",
-          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
-          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
+          "name": "WaterSystem",
+          "category": "Enriquecedor de pH del agua",
+          "tagline": "Cada vaso, en equilibrio.",
+          "zones": "Enriquecimiento del agua potable",
+          "lede": "Agua hidrogenada y rica en minerales, con alcalinidad, potencial redox y tensión superficial óptimos. En casa, cada día.",
+          "description": "Con WaterSystem puedes beber cada día agua hidrogenada y rica en minerales, con un potencial redox, una alcalinidad y una tensión superficial óptimos. WaterSystem favorece el equilibrio hídrico de tu cuerpo y le ayuda a funcionar en armonía.",
+          "story": [
+            "Con WaterSystem puedes beber cada día agua hidrogenada y rica en minerales, con un potencial redox, una alcalinidad y una tensión superficial óptimos.",
+            "Favorece el equilibrio hídrico de tu cuerpo y le ayuda a funcionar en armonía."
+          ],
+          "functions": "Regula el pH del agua hasta 9,3 (valor máximo); regula el ORP a −350 mV; satura con hidrógeno 100–300 ppb (1–1,5 mg/dm³); modifica la tensión superficial del agua a 45 mJ/m²; mineraliza y aporta minerales útiles.",
+          "methodKeys": [],
+          "specs": [
+            {
+              "label": "pH",
+              "value": "9,3 (máx.)"
+            },
+            {
+              "label": "ORP (potencial redox)",
+              "value": "−350 mV"
+            },
+            {
+              "label": "Hidrógeno",
+              "value": "100–300 ppb (1–1,5 mg/dm³)"
+            },
+            {
+              "label": "Tensión superficial",
+              "value": "45 mJ/m²"
+            },
+            {
+              "label": "Mineralización",
+              "value": "Aporta minerales útiles"
+            }
+          ]
         }
       ]
     },
@@ -1153,53 +1714,240 @@
     },
     "devices": {
       "title": "Девайсы, которыми мы гордимся",
-      "subtitle": "Оригинальные устройства System 5/95 созданы как часть единой therapeutic wellness экосистемы.",
-      "body": "Каждый девайс разрабатывается с учетом конкретных зон применения, функций и пользовательского опыта. Мы объединяем мягкое направленное тепло, точно выверенную вибрацию, терапевтический свет, воздушное давление, поддержку позвоночника и другие естественные физические факторы. Наш подход — деликатный, non-invasive и физиологически осознанный: не давить на тело, а работать с ним точно, бережно и последовательно.",
+      "subtitle": "Оригинальные устройства System 5/95 созданы как часть единой экосистемы терапевтического велнеса.",
+      "body": "Каждый девайс разрабатывается с учетом конкретных зон применения, функций и пользовательского опыта. Мы объединяем мягкое направленное тепло, точно выверенную вибрацию, терапевтический свет, воздушное давление, поддержку позвоночника и другие естественные физические факторы. Наш подход — деликатный, неинвазивный и физиологически осознанный: не давить на тело, а работать с ним точно, бережно и последовательно.",
       "cta": "Посмотреть устройства",
       "zonesLabel": "Зоны",
       "functionsLabel": "Функции",
+      "learnMore": "Подробнее",
+      "landing": {
+        "eyebrow": "Устройство System 5/95",
+        "ctaPrimary": "Запросить презентацию",
+        "ctaSecondary": "Все устройства",
+        "areasLabel": "Для чего",
+        "storyLabel": "Почему это важно",
+        "methodsLabel": "Как это работает",
+        "methodsTitle": "Естественные физические факторы в точном сочетании",
+        "extraLabel": "Технология",
+        "specsLabel": "Характеристики",
+        "trustLabel": "Сделано в Японии",
+        "trustTitle": "Произведено в Фудзиёсиде, Япония",
+        "trustBody": "Каждое устройство System 5/95 разрабатывает, производит и проверяет наша собственная команда в Японии. За эту работу мы ручаемся гарантией на 5 лет.",
+        "trustStats": [
+          {
+            "n": "Своё",
+            "l": "Производство"
+          },
+          {
+            "n": "5 лет",
+            "l": "Гарантия"
+          },
+          {
+            "n": "Фудзиёсида",
+            "l": "Япония"
+          }
+        ],
+        "othersLabel": "Смотрите также",
+        "othersTitle": "Другие устройства",
+        "ctaTitle": "Попробуйте вживую",
+        "ctaBody": "Попробуйте устройство в нашем шоуруме или студии — или запросите презентацию для вашего бизнеса."
+      },
+      "methods": {
+        "vibration": {
+          "title": "Вибромассаж",
+          "text": "Ритмичная вибрация расслабляет мышцы и поддерживает кровообращение."
+        },
+        "acupressure": {
+          "title": "Акупрессура",
+          "text": "Мягкое давление на ключевые точки по мотивам восточных практик."
+        },
+        "infrared": {
+          "title": "Инфракрасное тепло",
+          "text": "Глубокое мягкое тепло помогает телу расслабиться и восстановиться."
+        },
+        "magnets": {
+          "title": "Магнитное воздействие",
+          "text": "Спокойное магнитное поле дополняет тепло и массаж."
+        },
+        "ionization": {
+          "title": "Ионизация",
+          "text": "Отрицательные ионы создают свежую, восстанавливающую атмосферу."
+        },
+        "music": {
+          "title": "Музыка здоровья",
+          "text": "Успокаивающий звук помогает замедлиться и отдохнуть."
+        },
+        "lllt": {
+          "title": "Красная LLLT",
+          "text": "Низкоинтенсивный красный лазерный свет — мягко и точно."
+        },
+        "stonewellness": {
+          "title": "StoneWellness",
+          "text": "Тепло натурального камня, распределённое равномерно."
+        },
+        "micromassage": {
+          "title": "Микромассаж",
+          "text": "Высокочастотные микровибрации работают вместе с глубоким теплом."
+        },
+        "moxibustion": {
+          "title": "Моксотерапия",
+          "text": "Традиционное прогревание активных точек — безопасно, с помощью инфракрасного тепла."
+        },
+        "nanotourmaline": {
+          "title": "NanoTourmaline",
+          "text": "Уникальный минеральный сплав, который работает вместе с инфракрасным теплом."
+        },
+        "physio": {
+          "title": "Комплексная физиотерапия",
+          "text": "Несколько физиотерапевтических эффектов в одном устройстве."
+        }
+      },
       "list": [
         {
           "id": "novueye",
           "name": "NovuEye",
-          "zones": "Eyes, vision, visual fatigue",
-          "description": "It is a device for daily eyecare. More than 50% of vision problems could be avoided if eyes received proper daily care. EyeSystem was developed with this purpose, namely to give each person the possibility to care for eyes in a comfortable home atmosphere.",
-          "functions": "Vibration massage, acupressure, infrared heat, magnets, ionization, health music."
+          "category": "Ежедневный уход за глазами",
+          "tagline": "Забота о глазах. Каждый день.",
+          "zones": "Глаза, зрение, зрительная усталость",
+          "lede": "Вибрация, акупрессура, тепло и музыка — спокойные минуты заботы о глазах у вас дома.",
+          "description": "Устройство для ежедневного ухода за глазами. Более 50 % проблем со зрением можно было бы избежать, если бы глаза получали правильный ежедневный уход. NovuEye создан именно для этого — чтобы каждый мог заботиться о глазах в комфортной домашней обстановке.",
+          "story": [
+            "NovuEye — устройство для ежедневного ухода за глазами. Больше половины проблем со зрением можно было бы избежать, если бы глаза получали правильный уход каждый день.",
+            "Его создали с одной целью: дать каждому простой способ заботиться о глазах в комфорте собственного дома."
+          ],
+          "functions": "Вибромассаж, акупрессура, инфракрасное тепло, магниты, ионизация, музыка здоровья.",
+          "methodKeys": [
+            "vibration",
+            "acupressure",
+            "infrared",
+            "magnets",
+            "ionization",
+            "music"
+          ]
         },
         {
           "id": "toprelax",
           "name": "TopRelax",
-          "zones": "Spine, back, posture",
-          "description": "It is a massage and heating device for spine care. 80 % of people suffer from spinal problems. Nowadays it is a huge problem of mankind which can be solved with the help of daily care and recovery. TopRelax is a massage and heating device which combines traditional methods of oriental healing and reliable modern mechanisms.",
-          "functions": "Vibration massage, infrared heat, magnet exposure, ionization, red LLLT."
+          "category": "Уход за позвоночником",
+          "tagline": "Древняя мудрость для современной спины.",
+          "zones": "Позвоночник, спина, осанка",
+          "lede": "Массажное и прогревающее устройство, которое соединяет традиционные восточные методы и надёжную современную механику для ежедневного ухода за позвоночником.",
+          "description": "Массажное и прогревающее устройство для ухода за позвоночником. 80 % людей сталкиваются с проблемами позвоночника. Сегодня это одна из самых распространённых проблем человечества, и справиться с ней помогают ежедневный уход и восстановление. TopRelax сочетает традиционные восточные методы оздоровления и надёжные современные механизмы.",
+          "story": [
+            "TopRelax — массажное и прогревающее устройство для ухода за позвоночником. Около 80 % людей сталкиваются с проблемами позвоночника — это одна из главных проблем нашего времени.",
+            "Решающее значение имеют ежедневный уход и восстановление. TopRelax соединяет традиционные восточные методы и надёжную современную механику, чтобы такая забота стала частью каждого дня."
+          ],
+          "functions": "Вибромассаж, инфракрасное тепло, магнитное воздействие, ионизация, красная LLLT.",
+          "methodKeys": [
+            "vibration",
+            "infrared",
+            "magnets",
+            "ionization",
+            "lllt"
+          ]
         },
         {
           "id": "novuheat",
           "name": "NovuHeat",
-          "zones": "Full-body recovery during sleep",
-          "description": "It is a heating device for recovery during sleep. A person spends one third of his life on sleep. Imagine being able to spend every minute of this time with profit to your health. This goal was set by the developers of NovuHeat and thanks to their efforts everyone has such opportunity now.\n\n* Innovative Micro-Massage and Cellular Regeneration. The effectiveness of NovuHeat is based on thermo-resonant microvibration technology (FIR Resonance), which complements deep infrared heating. The gentle vibrational massage effect created by the device works at the subcellular level, stimulating microcirculation and eliminating stagnation in the tissues. Thanks to the combination of heat and high-frequency micro-vibrations, the device provides effective prevention of pressure sores and improves skin trophism with long-term use in a home setting. This \"cellular massage\" not only relieves muscle spasms but also activates natural detoxification mechanisms, transforming rest into a process of deep restoration of the entire body.",
-          "functions": "Ionization, infrared heat, magnets exposure, StoneWellness, Micro-Massage."
+          "category": "Восстановление во сне",
+          "tagline": "Сон, который восстанавливает.",
+          "zones": "Восстановление всего тела во время сна",
+          "lede": "Глубокое инфракрасное тепло и мягкий микромассаж превращают часы сна во время восстановления.",
+          "description": "Прогревающее устройство для восстановления во время сна. Треть жизни человек проводит во сне. Представьте, что каждую минуту этого времени можно провести с пользой для здоровья. Такую цель поставили перед собой разработчики NovuHeat, и благодаря их работе теперь такая возможность есть у каждого.\n\n* Инновационный микромассаж и клеточное обновление. В основе NovuHeat — технология терморезонансной микровибрации (FIR Resonance), которая дополняет глубокий инфракрасный прогрев. Мягкий вибромассаж работает на клеточном уровне: стимулирует микроциркуляцию и уменьшает застойные явления в тканях. При длительном домашнем использовании сочетание тепла и высокочастотных микровибраций поддерживает состояние кожи, помогает мышцам расслабиться и превращает отдых в глубокое восстановление всего тела.",
+          "story": [
+            "NovuHeat — прогревающее устройство для восстановления во время сна. Треть жизни человек проводит во сне.",
+            "Представьте, что каждая минута этого времени работает на ваше здоровье. Такую цель поставили перед собой разработчики NovuHeat — и теперь эта возможность есть у каждого."
+          ],
+          "functions": "Ионизация, инфракрасное тепло, магнитное воздействие, StoneWellness, микромассаж.",
+          "methodKeys": [
+            "ionization",
+            "infrared",
+            "magnets",
+            "stonewellness",
+            "micromassage"
+          ],
+          "extra": {
+            "title": "Инновационный микромассаж и клеточное обновление",
+            "body": "В основе NovuHeat — технология терморезонансной микровибрации (FIR Resonance), которая дополняет глубокий инфракрасный прогрев. Мягкий вибромассаж работает на клеточном уровне: стимулирует микроциркуляцию и уменьшает застойные явления в тканях. При длительном домашнем использовании сочетание тепла и высокочастотных микровибраций поддерживает состояние кожи, помогает мышцам расслабиться и превращает отдых в глубокое восстановление всего тела."
+          }
         },
         {
           "id": "moxi",
           "name": "Moxi",
-          "zones": "Biologically active points, whole body",
-          "description": "It is a special system of recovery through exposure to biologically active points. The device is based on moxibustion therapy – a method of recovery that was used in ancient Japan and today has received thousands of proofs of its effectiveness. Only in Moxi this method is realized by a modern and safe method – by means of infrared heat and unique mineral alloy – NanoTourmaline.",
-          "functions": "Vibration massage, infrared heat, magnet exposure, Stone-Wellness, ionization, moxibustion, LLLT."
+          "category": "Современная моксотерапия",
+          "tagline": "Древний ритуал. Современный подход.",
+          "zones": "Биологически активные точки, всё тело",
+          "lede": "Традиционная моксотерапия — безопасно, с помощью инфракрасного тепла и минерального сплава NanoTourmaline.",
+          "description": "Особая система восстановления через воздействие на биологически активные точки. В её основе — моксотерапия, метод восстановления, который применяли ещё в древней Японии и ценят по сей день. Moxi воплощает этот метод современным и безопасным способом — с помощью инфракрасного тепла и уникального минерального сплава NanoTourmaline.",
+          "story": [
+            "Moxi — особая система восстановления через бережное воздействие на биологически активные точки.",
+            "В её основе — моксотерапия, метод восстановления, известный в Японии с древних времён. Moxi переносит его в современность — безопасно, с помощью инфракрасного тепла и уникального минерального сплава NanoTourmaline."
+          ],
+          "functions": "Вибромассаж, инфракрасное тепло, магнитное воздействие, StoneWellness, ионизация, моксотерапия, LLLT.",
+          "methodKeys": [
+            "vibration",
+            "infrared",
+            "magnets",
+            "stonewellness",
+            "ionization",
+            "moxibustion",
+            "lllt",
+            "nanotourmaline"
+          ]
         },
         {
           "id": "bodyhealth",
           "name": "BodyHealth",
-          "zones": "Feet, legs, circulation",
-          "description": "Foot diseases occur in more than half of the adult population of the planet. This part of the body is related to the health of the whole body thus every person should take care of it daily. Having this goal, a group of Japanese developers invented BodyHealth that combines unique Physiotherapy effects.",
-          "functions": ""
+          "category": "Уход за стопами",
+          "tagline": "Здоровье начинается со стоп.",
+          "zones": "Стопы, ноги, кровообращение",
+          "lede": "Сочетание физиотерапевтических эффектов для той части тела, что держит вас весь день.",
+          "description": "Проблемы со стопами есть более чем у половины взрослого населения планеты. Эта часть тела связана со здоровьем всего организма, поэтому заботиться о ней стоит каждый день. С этой целью группа японских разработчиков создала BodyHealth, который сочетает уникальные физиотерапевтические эффекты.",
+          "story": [
+            "Проблемы со стопами есть больше чем у половины взрослых на планете. Стопы связаны с самочувствием всего тела, поэтому им нужна ежедневная забота.",
+            "С этой целью группа японских разработчиков создала BodyHealth — устройство, которое объединяет уникальные физиотерапевтические эффекты."
+          ],
+          "functions": "",
+          "methodKeys": [
+            "physio"
+          ]
         },
         {
           "id": "watersystem",
-          "name": "Water PH-Enricher WaterSystem",
-          "zones": "Drinking water enrichment",
-          "description": "With WaterSystem you can drink mineral-rich, hydrogenated water every day with optimal redox potential, alkalinity and surface tension. WaterSystem will provide water balance of your body for 100% and help it work harmoniously.",
-          "functions": "Regulates the pH of the water to 9.3 (maximum value); regulates ORP to −350 mV; saturates with hydrogen 100–300 ppb (1–1.5 mg/dm³); changes the surface tension of water 45 mJ/m²; mineralizes, adds useful minerals."
+          "name": "WaterSystem",
+          "category": "pH-обогатитель воды",
+          "tagline": "Вода в балансе. Каждый стакан.",
+          "zones": "Обогащение питьевой воды",
+          "lede": "Минерализованная водородная вода с оптимальной щёлочностью, окислительно-восстановительным потенциалом и поверхностным натяжением — дома, каждый день.",
+          "description": "С WaterSystem вы можете каждый день пить насыщенную минералами водородную воду с оптимальным окислительно-восстановительным потенциалом, щёлочностью и поверхностным натяжением. WaterSystem поддерживает водный баланс организма и помогает ему работать гармонично.",
+          "story": [
+            "С WaterSystem вы можете каждый день пить насыщенную минералами водородную воду с оптимальным окислительно-восстановительным потенциалом, щёлочностью и поверхностным натяжением.",
+            "Она поддерживает водный баланс организма и помогает ему работать гармонично."
+          ],
+          "functions": "Доводит pH воды до 9,3 (максимальное значение); регулирует ОВП до −350 mV; насыщает водородом 100–300 ppb (1–1,5 mg/dm³); изменяет поверхностное натяжение воды до 45 mJ/m²; минерализует, добавляет полезные минералы.",
+          "methodKeys": [],
+          "specs": [
+            {
+              "label": "pH",
+              "value": "9,3 (макс.)"
+            },
+            {
+              "label": "ORP (редокс-потенциал)",
+              "value": "−350 mV"
+            },
+            {
+              "label": "Водород",
+              "value": "100–300 ppb (1–1,5 mg/dm³)"
+            },
+            {
+              "label": "Поверхностное натяжение",
+              "value": "45 mJ/m²"
+            },
+            {
+              "label": "Минерализация",
+              "value": "Добавляет полезные минералы"
+            }
+          ]
         }
       ]
     },

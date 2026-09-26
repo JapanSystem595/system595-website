@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var LANG_ORDER = ['en','ja','es','ru','de','uk','fr','hi','pt'];
+  var LANG_ORDER = ['en','ja','es','ru'];
   var DEFAULT_LANG = 'en';
   var STORAGE_KEY = 'system595.lang';
   var content = null;
@@ -14,6 +14,12 @@
     'moxi.html':        { title: 'moxi.title',         desc: 'moxi.subtitle'        },
     'software.html':    { title: 'software.title',     desc: 'software.subtitle'    },
     'partnership.html': { title: 'partnership.title',  desc: 'partnership.subtitle' },
+    'device-novueye.html':     { device: 'novueye'     },
+    'device-toprelax.html':    { device: 'toprelax'    },
+    'device-novuheat.html':    { device: 'novuheat'    },
+    'device-moxi.html':        { device: 'moxi'        },
+    'device-bodyhealth.html':  { device: 'bodyhealth'  },
+    'device-watersystem.html': { device: 'watersystem' },
   };
 
   /* ─── helpers ─── */
@@ -65,15 +71,18 @@
 
     renderTeam(dict);
     renderDevices(dict);
+    renderDeviceTiles(dict);
+    var landingMeta = renderDeviceLanding(dict);
     renderGalleries(lang);
     updateDropdownActive(lang);
+    initReveal();
 
     // Per-page title and meta description for section pages
     var pageName = window.location.pathname.split('/').pop() || '';
     var pm = PAGE_META[pageName];
     if (pm) {
-      var sTitle = get(dict, pm.title);
-      var sDesc  = get(dict, pm.desc);
+      var sTitle = pm.device ? (landingMeta && landingMeta.title) : get(dict, pm.title);
+      var sDesc  = pm.device ? (landingMeta && landingMeta.desc)  : get(dict, pm.desc);
       if (sTitle) {
         document.title = 'System 5/95 — ' + sTitle;
         var ogT = document.querySelector('meta[property="og:title"]');
@@ -155,6 +164,222 @@
         + '</dl>'
         + '</article>';
     }).join('');
+  }
+
+  /* ─── device tiles (devices.html + "other devices" on landings) ─── */
+
+  // Split a text block into paragraphs; drops the "* " bullet marks of the source copy
+  function paragraphs(text) {
+    if (!text) return [];
+    if (Array.isArray(text)) return text.filter(Boolean);
+    return String(text).split(/\n\s*\n/).map(function (p) {
+      return p.replace(/^\s*\*\s*/, '').trim();
+    }).filter(Boolean);
+  }
+
+  // Escape for uppercase labels: unit symbols such as "pH" keep their own case
+  function escCaps(text) {
+    return escHtml(text).replace(/(^|[^A-Za-z])(pH)(?![A-Za-z])/g, '$1<span class="keep-case">$2</span>');
+  }
+
+  function deviceTileHtml(d, learnMore, compact) {
+    var imgSrc = deviceImgSrc(d.id);
+    var stage = imgSrc
+      ? '<img class="device-tile-img" src="' + escHtml(imgSrc) + '" alt="' + escHtml(d.name) + '" loading="lazy">'
+      : '<span class="device-tile-fallback">' + escHtml(d.name) + '</span>';
+    return '<a class="device-tile' + (compact ? ' device-tile--compact' : '') + '" href="device-' + escHtml(d.id) + '.html">'
+      + '<div class="device-tile-stage">' + stage + '</div>'
+      + '<div class="device-tile-body">'
+      + (d.category ? '<p class="device-tile-cat">' + escCaps(d.category) + '</p>' : '')
+      + '<h3 class="device-tile-name">' + escHtml(d.name) + '</h3>'
+      + (d.tagline ? '<p class="device-tile-tagline">' + escHtml(d.tagline) + '</p>' : '')
+      + '<span class="device-tile-more">'
+      + (learnMore ? '<span class="device-tile-more-text">' + escHtml(learnMore) + '</span>' : '')
+      + '<span class="device-tile-arrow" aria-hidden="true">&#8594;</span>'
+      + '</span>'
+      + '</div>'
+      + '</a>';
+  }
+
+  function renderDeviceTiles(dict) {
+    var grid = document.getElementById('device-tiles');
+    if (!grid) return;
+    var dv = dict.devices || {};
+    var list = dv.list || [];
+    grid.innerHTML = list.map(function (d) {
+      return deviceTileHtml(d, dv.learnMore, false);
+    }).join('');
+  }
+
+  /* ─── device landing (device-<id>.html) ─── */
+
+  function findDevice(list, id) {
+    for (var i = 0; i < (list || []).length; i++) {
+      if (list[i] && list[i].id === id) return list[i];
+    }
+    return null;
+  }
+
+  // Renders the whole landing into <main id="device-landing">; returns {title, desc}
+  function renderDeviceLanding(dict) {
+    var root = document.getElementById('device-landing');
+    var id = document.body ? document.body.getAttribute('data-device') : null;
+    if (!root || !id) return null;
+
+    var dv = dict.devices || {};
+    var list = dv.list || [];
+    var d = findDevice(list, id);
+    if (!d) {
+      // language without this device yet: fall back to the default language
+      var def = content[DEFAULT_LANG] && content[DEFAULT_LANG].devices;
+      list = def && def.list ? def.list : [];
+      d = findDevice(list, id);
+    }
+    if (!d) { root.innerHTML = ''; return null; }
+
+    var L = dv.landing || {};
+    var methodsDict = dv.methods || {};
+    var ctaP = L.ctaPrimary || get(dict, 'hero.cta') || '';
+    var ctaS = L.ctaSecondary || get(dict, 'nav.devices') || '';
+
+    function actions() {
+      if (!ctaP && !ctaS) return '';
+      return '<div class="dl-actions">'
+        + (ctaP ? '<a href="partnership.html" class="btn-primary">' + escHtml(ctaP) + '</a>' : '')
+        + (ctaS ? '<a href="devices.html" class="btn-ghost">' + escHtml(ctaS) + '</a>' : '')
+        + '</div>';
+    }
+    function label(t) { return t ? '<p class="dl-label">' + escHtml(t) + '</p>' : ''; }
+    function h2(t)    { return t ? '<h2 class="dl-h2">' + escHtml(t) + '</h2>' : ''; }
+    function ps(arr, cls) {
+      return arr.map(function (p) {
+        return '<p' + (cls ? ' class="' + cls + '"' : '') + '>' + escHtml(p) + '</p>';
+      }).join('');
+    }
+    function section(cls, inner) {
+      return '<section class="section dl-section ' + cls + '"><div class="container">' + inner + '</div></section>';
+    }
+
+    var out = [];
+    var imgSrc = deviceImgSrc(d.id);
+    var eyebrow = d.category || L.eyebrow || '';
+
+    // 1. Hero
+    out.push('<section class="hero dl-hero">'
+      + '<div class="container dl-hero-inner">'
+      + '<div class="dl-hero-text">'
+      + (eyebrow ? '<p class="eyebrow">' + escCaps(eyebrow) + '</p>' : '')
+      + '<h1 class="dl-title">' + escHtml(d.name) + '</h1>'
+      + (d.tagline ? '<p class="dl-tagline">' + escHtml(d.tagline) + '</p>' : '')
+      + (d.lede ? '<p class="dl-lede">' + escHtml(d.lede) + '</p>' : '')
+      + actions()
+      + '</div>'
+      + (imgSrc
+          ? '<figure class="dl-hero-media"><img class="dl-hero-img" src="' + escHtml(imgSrc) + '" alt="' + escHtml(d.name) + '"></figure>'
+          : '')
+      + '</div>'
+      + '</section>');
+
+    // 2. Story (falls back to the description until the story copy lands)
+    var story = paragraphs(d.story);
+    if (!story.length) story = paragraphs(d.description);
+    if (story.length) {
+      out.push(section('dl-story dl-light', '<div class="dl-row">'
+        + '<div class="dl-row-head">' + label(L.storyLabel) + '</div>'
+        + '<div class="dl-story-body">' + ps(story) + '</div>'
+        + '</div>'));
+    }
+
+    // 3. Areas
+    if (d.zones) {
+      out.push(section('dl-areas dl-white', '<div class="dl-row">'
+        + '<div class="dl-row-head">' + label(L.areasLabel || dv.zonesLabel) + '</div>'
+        + '<p class="dl-areas-text">' + escHtml(d.zones) + '</p>'
+        + '</div>'));
+    }
+
+    // 4. Methods
+    var specs = Array.isArray(d.specs) ? d.specs.filter(function (s) { return s && (s.label || s.value); }) : [];
+    var keys = Array.isArray(d.methodKeys) ? d.methodKeys : [];
+    var cards = keys.filter(function (k) { return methodsDict[k] && methodsDict[k].title; });
+    if (cards.length) {
+      out.push(section('dl-methods dl-light',
+        '<div class="dl-head">' + label(L.methodsLabel) + h2(L.methodsTitle) + '</div>'
+        + '<div class="method-grid method-grid--n' + cards.length + '">'
+        + cards.map(function (k, i) {
+            var m = methodsDict[k];
+            return '<article class="method-card">'
+              + '<span class="method-no">' + (i < 9 ? '0' : '') + (i + 1) + '</span>'
+              + '<h3 class="method-title">' + escHtml(m.title) + '</h3>'
+              + (m.text ? '<p class="method-text">' + escHtml(m.text) + '</p>' : '')
+              + '</article>';
+          }).join('')
+        + '</div>'));
+    } else if (d.functions && !specs.length) {
+      // interim: plain functions line until the methods dictionary is filled
+      out.push(section('dl-methods dl-light', '<div class="dl-row">'
+        + '<div class="dl-row-head">' + label(L.methodsLabel || dv.functionsLabel) + '</div>'
+        + '<p class="dl-areas-text dl-functions-text">' + escHtml(d.functions) + '</p>'
+        + '</div>'));
+    }
+
+    // 5. Extra (novuheat)
+    if (d.extra && (d.extra.title || d.extra.body)) {
+      out.push(section('dl-extra dl-white', '<div class="dl-extra-grid">'
+        + '<div class="dl-extra-head">' + label(L.extraLabel)
+        + (d.extra.title ? '<h2 class="dl-h2 dl-extra-title">' + escHtml(d.extra.title) + '</h2>' : '')
+        + '</div>'
+        + '<div class="dl-extra-body">' + ps(paragraphs(d.extra.body)) + '</div>'
+        + '</div>'));
+    }
+
+    // 6. Specs (watersystem)
+    if (specs.length) {
+      out.push(section('dl-specs dl-white', '<div class="dl-row">'
+        + '<div class="dl-row-head">' + label(L.specsLabel) + '</div>'
+        + '<dl class="dl-specs-table">'
+        + specs.map(function (s) {
+            return '<div class="dl-spec-row"><dt>' + escCaps(s.label) + '</dt><dd>' + escHtml(s.value) + '</dd></div>';
+          }).join('')
+        + '</dl>'
+        + '</div>'));
+    }
+
+    // 7. Trust
+    if (L.trustTitle || L.trustBody) {
+      var stats = Array.isArray(L.trustStats) ? L.trustStats : [];
+      out.push(section('dl-trust', '<div class="dl-trust-inner">'
+        + label(L.trustLabel) + h2(L.trustTitle)
+        + (L.trustBody ? '<p class="dl-trust-body">' + escHtml(L.trustBody) + '</p>' : '')
+        + (stats.length
+            ? '<div class="hero-meta dl-trust-stats">' + stats.map(function (s) {
+                return '<span><span class="meta-n">' + escHtml(s.n) + '</span><span>' + escHtml(s.l) + '</span></span>';
+              }).join('') + '</div>'
+            : '')
+        + '</div>'));
+    }
+
+    // 8. Other devices
+    var others = list.filter(function (x) { return x && x.id !== d.id; });
+    if (others.length) {
+      out.push(section('dl-others dl-light',
+        ((L.othersLabel || L.othersTitle) ? '<div class="dl-head">' + label(L.othersLabel) + h2(L.othersTitle) + '</div>' : '')
+        + '<div class="device-tiles device-tiles--compact">'
+        + others.map(function (x) { return deviceTileHtml(x, dv.learnMore, true); }).join('')
+        + '</div>'));
+    }
+
+    // 9. Closing call to action
+    if (L.ctaTitle) {
+      out.push(section('dl-cta', '<div class="dl-cta-inner">'
+        + '<h2 class="dl-h2">' + escHtml(L.ctaTitle) + '</h2>'
+        + (L.ctaBody ? '<p class="dl-cta-body">' + escHtml(L.ctaBody) + '</p>' : '')
+        + actions()
+        + '</div>'));
+    }
+
+    root.innerHTML = out.join('');
+    return { title: d.name, desc: d.tagline || d.lede || d.zones || '' };
   }
 
   /* ─── gallery / carousel ─── */
@@ -332,22 +557,68 @@
     var list     = document.getElementById('lang-list');
     if (!dropdown || !btn || !list) return;
 
-    function closeDropdown() { dropdown.setAttribute('aria-expanded', 'false'); }
-    function openDropdown()  { dropdown.setAttribute('aria-expanded', 'true'); }
-    function toggleDropdown() {
-      if (dropdown.getAttribute('aria-expanded') === 'true') closeDropdown();
-      else openDropdown();
+    function items() { return Array.prototype.slice.call(list.querySelectorAll('[data-lang]')); }
+    items().forEach(function (li) { li.setAttribute('tabindex', '-1'); });
+
+    function isOpen() { return dropdown.getAttribute('aria-expanded') === 'true'; }
+    function closeDropdown(returnFocus) {
+      dropdown.setAttribute('aria-expanded', 'false');
+      if (returnFocus) btn.focus();
+    }
+    function focusItem(i) {
+      var all = items();
+      if (!all.length) return;
+      all[(i + all.length) % all.length].focus();
+    }
+    function selectedIndex() {
+      var all = items();
+      for (var i = 0; i < all.length; i++) {
+        if (all[i].getAttribute('aria-selected') === 'true') return i;
+      }
+      return 0;
+    }
+    function openDropdown(moveFocus) {
+      dropdown.setAttribute('aria-expanded', 'true');
+      if (moveFocus) focusItem(selectedIndex());
+    }
+    function choose(item) {
+      var lang = item && item.getAttribute('data-lang');
+      if (lang && LANG_ORDER.indexOf(lang) !== -1) { applyLang(lang); closeDropdown(true); }
     }
 
-    btn.addEventListener('click', function (e) { e.stopPropagation(); toggleDropdown(); });
-    list.addEventListener('click', function (e) {
-      var item = e.target.closest('[data-lang]');
-      if (!item) return;
-      var lang = item.getAttribute('data-lang');
-      if (lang && LANG_ORDER.indexOf(lang) !== -1) { applyLang(lang); closeDropdown(); }
+    // e.detail === 0 → activated from the keyboard (Enter / Space)
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (isOpen()) closeDropdown(false);
+      else openDropdown(e.detail === 0);
     });
-    document.addEventListener('click', function () { closeDropdown(); });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeDropdown(); });
+    btn.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        openDropdown(true);
+      }
+    });
+    list.addEventListener('click', function (e) {
+      e.stopPropagation();
+      choose(e.target.closest('[data-lang]'));
+    });
+    list.addEventListener('keydown', function (e) {
+      var all = items();
+      var i = all.indexOf(document.activeElement);
+      switch (e.key) {
+        case 'ArrowDown': e.preventDefault(); focusItem(i + 1); break;
+        case 'ArrowUp':   e.preventDefault(); focusItem(i - 1); break;
+        case 'Home':      e.preventDefault(); focusItem(0); break;
+        case 'End':       e.preventDefault(); focusItem(all.length - 1); break;
+        case 'Enter':
+        case ' ':         e.preventDefault(); choose(document.activeElement); break;
+        case 'Tab':       closeDropdown(false); break;
+      }
+    });
+    document.addEventListener('click', function () { closeDropdown(false); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && isOpen()) closeDropdown(dropdown.contains(document.activeElement));
+    });
   }
 
   function updateDropdownActive(lang) {
@@ -404,6 +675,56 @@
     });
   }
 
+  /* ─── fade-in on scroll ─── */
+
+  // Classes are added from JS only, so without JS every block stays visible.
+  var REVEAL_SELECTOR = [
+    '.hero-inner > *',
+    '.section-head > *',
+    '.overview-card',
+    '.prose', '.gallery-prose', '.gallery-mount', '.split',
+    '.stats', '.subsection-title', '.team-card', '.device-card',
+    '.partner-form',
+    '.story-hero-video', '.story-intro', '.story-photo', '.story-block',
+    '.device-tile', '.devices-body',
+    '.dl-hero-text > *', '.dl-hero-media', '.dl-head', '.dl-row',
+    '.method-card', '.dl-extra-grid', '.dl-trust-inner > *', '.dl-cta-inner > *'
+  ].join(',');
+  var revealObserver = null;
+
+  function initReveal() {
+    if (!('IntersectionObserver' in window)) return;
+    try {
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    } catch (e) {}
+
+    if (!revealObserver) {
+      revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var t = entry.target;
+            t.classList.add('visible');
+            revealObserver.unobserve(t);
+            // drop the stagger once revealed so hover transitions stay instant
+            if (t.style.transitionDelay) {
+              setTimeout(function () { t.style.transitionDelay = ''; }, 1400);
+            }
+          }
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    }
+
+    document.querySelectorAll(REVEAL_SELECTOR).forEach(function (el) {
+      if (el.classList.contains('fade-in')) return;
+      // gentle stagger for siblings in a row (cards, hero lines)
+      var i = Array.prototype.indexOf.call(el.parentNode.children, el);
+      var inGrid = /overview-grid|team-grid|device-grid|device-tiles|method-grid|hero-inner|dl-hero-text|dl-trust-inner|dl-cta-inner|section-head/.test(el.parentNode.className);
+      if (inGrid && i > 0) el.style.transitionDelay = ((i % 4) * 0.09).toFixed(2) + 's';
+      el.classList.add('fade-in');
+      revealObserver.observe(el);
+    });
+  }
+
   /* ─── load + boot ─── */
 
   function boot(lang) {
@@ -438,5 +759,8 @@
     req.send();
   }
 
-  document.addEventListener('DOMContentLoaded', loadContent);
+  document.addEventListener('DOMContentLoaded', function () {
+    initReveal();
+    loadContent();
+  });
 })();
