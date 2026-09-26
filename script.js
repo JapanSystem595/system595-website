@@ -15,7 +15,8 @@
     'moxi.html':        { title: 'moxi.title',         desc: 'moxi.subtitle'        },
     'software.html':    { title: 'software.title',     desc: 'software.subtitle'    },
     'partnership.html': { title: 'partnership.title',  desc: 'partnership.subtitle' },
-    'device-novueye.html':     { device: 'novueye'     },
+    // NovuEye IV: its own static page (novueye.*); the title is used as written
+    'device-novueye.html':     { title: 'novueye.meta.title', desc: 'novueye.meta.description', titleSuffix: ' | System 5/95' },
     'device-toprelax.html':    { device: 'toprelax'    },
     'device-novuheat.html':    { device: 'novuheat'    },
     'device-moxi.html':        { device: 'moxi'        },
@@ -74,6 +75,9 @@
     renderDevices(dict);
     renderDeviceTiles(dict);
     var landingMeta = renderDeviceLanding(dict);
+    applyBuyLinks(dict);
+    applyNeOptional();
+    applyNeTypography(lang);
     renderGalleries(lang);
     updateDropdownActive(lang);
     initReveal();
@@ -88,9 +92,10 @@
       if (!sTitle && pm.titleFallback) sTitle = get(dict, pm.titleFallback);
       if (!sDesc && pm.descFallback) sDesc = get(dict, pm.descFallback);
       if (sTitle) {
-        document.title = 'System 5/95 — ' + sTitle;
+        var fullTitle = pm.titleSuffix ? sTitle + pm.titleSuffix : 'System 5/95 — ' + sTitle;
+        document.title = fullTitle;
         var ogT = document.querySelector('meta[property="og:title"]');
-        if (ogT) ogT.setAttribute('content', 'System 5/95 — ' + sTitle);
+        if (ogT) ogT.setAttribute('content', fullTitle);
       }
       if (sDesc) {
         var descEl = document.querySelector('meta[name="description"]');
@@ -101,6 +106,71 @@
     }
 
     try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+  }
+
+  /* ─── shop links ([data-buy-link] → novueye.offer.buyUrl) ─── */
+
+  function applyBuyLinks(dict) {
+    var links = document.querySelectorAll('[data-buy-link]');
+    if (!links.length) return;
+    var url = get(dict, 'novueye.offer.buyUrl') || get(content[DEFAULT_LANG], 'novueye.offer.buyUrl');
+    if (!url || !/^https?:\/\//i.test(url)) return;   // keep the static href
+    links.forEach(function (a) { a.setAttribute('href', url); });
+  }
+
+  /* ─── NovuEye page: a text left empty in content.json is not shown.
+         Blocks marked data-ne-opt disappear when all their texts are empty
+         (used by the Japanese version: no function lines, no price, no buy
+         buttons). Switching language shows them again. ─── */
+
+  function applyNeOptional() {
+    var root = document.getElementById('novueye-page');
+    if (!root) return;
+    function blank(el) { return !/\S/.test(el.textContent); }
+    var texts = root.querySelectorAll('[data-i18n]:not([data-i18n-attr])');
+    texts.forEach(function (el) {
+      if (el.closest('#device-tiles')) return;
+      el.hidden = blank(el);
+    });
+    root.querySelectorAll('[data-ne-opt]').forEach(function (box) {
+      var keys = box.querySelectorAll('[data-i18n]:not([data-i18n-attr])');
+      var filled = false;
+      keys.forEach(function (k) { if (!blank(k)) filled = true; });
+      box.hidden = keys.length > 0 && !filled;
+    });
+  }
+
+  /* ─── NovuEye page typography: no dash or short word left hanging,
+         curly quotes in English (the texts themselves stay verbatim) ─── */
+
+  function applyNeTypography(lang) {
+    var root = document.getElementById('novueye-page');
+    if (!root || lang === 'ja') return;
+    var NB = '\u00a0';
+    var tiles = document.getElementById('device-tiles');   // shared tile copy stays untouched
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        return tiles && tiles.contains(n) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while ((node = walker.nextNode())) {
+      var t = node.nodeValue, o = t;
+      if (!/\S/.test(t)) continue;
+      t = t.replace(/ (\u2014|\u2013)/g, NB + '$1')           // dash never opens a line
+           .replace(/(\u2116|No\.|N\.\u00ba|n\.\u00ba) (?=\d)/g, '$1' + NB)  // No. 0001
+           .replace(/(\d) (?=\d{3}\b)/g, '$1' + NB)            // 3 000
+           .replace(/(\d) (?=%)/g, '$1' + NB)                  // 95 %
+           .replace(/NovuEye IV/g, 'NovuEye' + NB + 'IV');
+      if (lang === 'ru') {
+        t = t.replace(/(^|[\s\u00a0(«])([А-Яа-яЁё]{1,2}) /g, '$1$2' + NB)
+             .replace(/(^|[\s\u00a0(«])([А-Яа-яЁё]{1,2}) /g, '$1$2' + NB);
+      }
+      if (lang === 'en') {
+        t = t.replace(/"([^"]+)"/g, '\u201c$1\u201d').replace(/(\w)'(\w)/g, '$1\u2019$2');
+      }
+      if (t !== o) node.nodeValue = t;
+    }
   }
 
   /* ─── team card renderer ─── */
@@ -724,7 +794,10 @@
     '.method-card', '.dl-extra-grid', '.dl-trust-inner > *', '.dl-cta-inner > *',
     '.fr-hero-media', '.fr-facts', '.fr-copy > *', '.fr-media', '.fr-stream',
     '.fr-tech', '.fr-proto-photos', '.fr-note', '.fr-benefit', '.fr-list > li',
-    '.fr-pack', '.fr-num', '.fr-formats', '.fr-diploma', '.fr-faq'
+    '.fr-pack', '.fr-num', '.fr-formats', '.fr-diploma', '.fr-faq',
+    '.ne-scene', '.ne-step', '.ne-beats', '.ne-ph', '.ne-panel',
+    '.ne-makers-copy > *', '.ne-price-block', '.ne-edition',
+    '.ne-gift-copy > *', '.ne-unit-card', '.ne-note'
   ].join(',');
   var revealObserver = null;
 
@@ -754,7 +827,7 @@
       if (el.classList.contains('fade-in')) return;
       // gentle stagger for siblings in a row (cards, hero lines)
       var i = Array.prototype.indexOf.call(el.parentNode.children, el);
-      var inGrid = /overview-grid|team-grid|device-grid|device-tiles|method-grid|hero-inner|dl-hero-text|dl-trust-inner|dl-cta-inner|section-head|fr-copy|fr-streams|fr-techs|fr-benefits|fr-list|fr-nums/.test(el.parentNode.className);
+      var inGrid = /overview-grid|team-grid|device-grid|device-tiles|method-grid|hero-inner|dl-hero-text|dl-trust-inner|dl-cta-inner|section-head|fr-copy|fr-streams|fr-techs|fr-benefits|fr-list|fr-nums|ne-scenes|ne-steps|ne-gallery|ne-cards|ne-panels|ne-makers-copy|ne-gift-copy/.test(el.parentNode.className);
       if (inGrid && i > 0) el.style.transitionDelay = ((i % 4) * 0.09).toFixed(2) + 's';
       el.classList.add('fade-in');
       revealObserver.observe(el);

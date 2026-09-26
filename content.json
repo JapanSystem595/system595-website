@@ -1065,6 +1065,226 @@
         }
       }
     },
+    "novueye": {
+      "meta": {
+        "title": "NovuEye IV — A mask for your evening ritual",
+        "description": "NovuEye IV is a mask for your evening ritual: warmth, vibration massage, acupressure, EMS, LLLT and music. Founding Edition — the first 3,000 numbered units."
+      },
+      "hero": {
+        "eyebrow": "NovuEye IV",
+        "headline": "The day is done. This time is yours.",
+        "sub": "NovuEye IV is a mask for your evening ritual: warmth, vibration massage, acupressure, EMS, LLLT and music. Close the laptop. Put the phone down. Choose the settings that suit you.",
+        "features": [
+          "Warmth",
+          "Vibration massage",
+          "Acupressure",
+          "EMS",
+          "LLLT",
+          "Music"
+        ],
+        "ctaPrimary": "Buy NovuEye IV",
+        "ctaSecondary": "See how a session goes",
+        "imgAlt": "A woman at home on the sofa wearing the NovuEye mask"
+      },
+      "moment": {
+        "label": "The moment",
+        "title": "You know this moment.",
+        "sceneLabel": "Scene",
+        "scenes": [
+          "6:55 pm. The last call is over.",
+          "Laptop shut. Phone face-down.",
+          "Warmth at your level. The rest is yours."
+        ]
+      },
+      "session": {
+        "label": "The session",
+        "title": "How a session goes",
+        "intro": "Four simple steps, and the day gets a clear finishing point.",
+        "steps": [
+          {
+            "title": "Phone face-down",
+            "text": "A soft tap on the table. That's where the ritual begins."
+          },
+          {
+            "title": "Put it on, set it up",
+            "text": "Put the mask on, adjust the strap and pick your mode: warmth, vibration massage, acupressure, EMS, LLLT, music — on their own or together."
+          },
+          {
+            "title": "Warmth, then rhythm",
+            "text": "Warmth settles in first. Then air around the eye area presses and slowly releases, and the vibration joins in. Music plays underneath."
+          },
+          {
+            "title": "Take it off",
+            "text": "The session is over. The inbox is exactly where you left it."
+          }
+        ],
+        "beats": [
+          "Warm.",
+          "Press.",
+          "Hum.",
+          "Hush."
+        ],
+        "imgAlts": {
+          "session": "A man wearing the NovuEye mask, holding the remote",
+          "product": "NovuEye mask and remote",
+          "session2": "A hand holding the NovuEye remote"
+        }
+      },
+      "difference": {
+        "label": "The details",
+        "title": "What went into NovuEye IV",
+        "intro": "Six functions in one mask. Use each on its own or combine them; you choose the level and the mode.",
+        "cards": [
+          {
+            "title": "Warmth",
+            "text": "Adjustable warmth built into the mask. Change the level mid-session.",
+            "proof": "Warmth arrives first and sets the tone for the session."
+          },
+          {
+            "title": "Vibration massage",
+            "text": "A gentle vibration rhythm across the contact area. Several modes to choose from.",
+            "proof": "A rhythm you'll want to come back to every evening."
+          },
+          {
+            "title": "Acupressure",
+            "text": "Air chambers press and slowly release around the eye area, never on the eyeball itself.",
+            "proof": "A distinct press-and-release you can feel."
+          },
+          {
+            "title": "EMS",
+            "text": "Electrical muscle stimulation at the under-eye and forehead contact areas. Gentle pulses; you set the intensity.",
+            "proof": "A separate mode with its own intensity scale."
+          },
+          {
+            "title": "LLLT",
+            "text": "Low-level laser emitters at the temples, switched on as a separate mode.",
+            "proof": "Specifications and directions for use are in the product details and the manual."
+          },
+          {
+            "title": "Music",
+            "text": "Music runs through the session, the soundtrack to your ritual.",
+            "proof": "Your own sound for your own time."
+          }
+        ],
+        "ownership": {
+          "title": "What owning it is like",
+          "items": [
+            "Care: how to clean the mask and pads, in plain words in the manual.",
+            "Support: one address for any question, before or after you buy.",
+            "Returns and repairs: clear terms on the order page.",
+            "Your unit is linked to your order: if it ever needs service, we already know its number."
+          ]
+        },
+        "editionPanel": {
+          "title": "Founding Edition — the first 3,000",
+          "text": "Numbered No. 0001 to No. 3000. The price and all the terms are in the offer below.",
+          "link": "See the offer"
+        }
+      },
+      "makers": {
+        "label": "The makers",
+        "title": "The people who make it",
+        "headline": "Checked by hand. Signed by name.",
+        "text": "Before shipping, one person checks each unit: that the warmth, the air pressure, the vibration, EMS and LLLT work as designed, and that the finish is right.",
+        "bullets": [
+          "Inside the box: a card with your number, the check date and the name or personal seal of the inspector.",
+          "The inspector's seal is a real hanko, pressed in red ink.",
+          "Linked to your order. If it ever needs service, we already know its number."
+        ],
+        "imgAlts": {
+          "makers1": "Product inspection at the System 5/95 workshop",
+          "makers2": "Assembling devices in the workshop",
+          "makers3": "The System 5/95 building in Fujiyoshida"
+        }
+      },
+      "offer": {
+        "label": "Price & edition",
+        "title": "The offer",
+        "price": "$800",
+        "priceNote": "NovuEye IV, the unit card with the inspector's seal, and the manual.",
+        "cta": "Buy NovuEye IV",
+        "ctaNote": "",
+        "buyUrl": "https://japansystem595.com",
+        "terms": [
+          "Delivery: times and costs are calculated at checkout.",
+          "Returns: terms on the checkout page.",
+          "Manufacturer's warranty.",
+          "In the box: the mask, a card with your number and the inspector's seal, and the manual."
+        ],
+        "edition": {
+          "title": "Founding Edition — the first 3,000",
+          "numbers": "No. 0001 — No. 3000",
+          "text": "3,000 numbered units, No. 0001 to No. 3000. This series will not be extended or renumbered. NovuEye IV itself stays on sale — just without a Founding Edition number. Shipping from December 2026.",
+          "why": "Why \"Founding\": this is the first international release of NovuEye IV — the first units to leave Japan for owners in other countries."
+        }
+      },
+      "gift": {
+        "label": "As a gift",
+        "headline": "For the one who looks after everyone.",
+        "sub": "The gift they'd never buy themselves.",
+        "text": "Give the person who takes care of everyone time nobody else can claim. Adjustable warmth, a press-and-release rhythm and their own music. Made in Japan. They'll say you shouldn't have. Then they'll ask where you found it.",
+        "cta": "Give them their time",
+        "noteInBox": "A door sign: \"Do not disturb — this is my time.\"",
+        "card": {
+          "line1": "NOVUEYE IV · FOUNDING EDITION",
+          "number": "No. 0417 / 3000",
+          "checked": "Checked: Dec 3, 2026",
+          "inspector": "Inspector: ____________"
+        }
+      },
+      "manifesto": {
+        "headline": "95% is theirs. 5% is yours.",
+        "text": "Every app is built to take your time.\nYour inbox, your meetings and your feeds get the rest of the day.\nSome of it is still yours.",
+        "sig": "SYSTEM 5/95"
+      },
+      "others": {
+        "label": "Other devices",
+        "title": "Other devices"
+      },
+      "faq": {
+        "label": "Questions",
+        "title": "Questions, answered",
+        "items": [
+          {
+            "q": "What is NovuEye IV for?",
+            "a": "For a personal evening ritual: warmth, vibration massage, acupressure, EMS, LLLT and music. We make no medical claims."
+          },
+          {
+            "q": "Will it improve my eyesight?",
+            "a": "We don't claim that. NovuEye IV is for your time and how it feels, not for eyesight."
+          },
+          {
+            "q": "What does a session feel like?",
+            "a": "Soft warmth first. Then air around the eye area slowly presses and releases, and the vibration joins in. Music underneath. You choose the warmth level, the mode and the intensity."
+          },
+          {
+            "q": "What is EMS in the mask?",
+            "a": "Electrical muscle stimulation at the under-eye and forehead contact areas. A separate mode with its own intensity scale. Read the manual before your first session."
+          },
+          {
+            "q": "What is LLLT?",
+            "a": "Low-level laser emitters at the temples. A separate mode; specifications and directions for use are in the product details and the manual."
+          },
+          {
+            "q": "How long is a session, and how often should I use it?",
+            "a": "Follow the session length and frequency in the manual. Longer and stronger doesn't mean better."
+          },
+          {
+            "q": "Is it suitable for everyone?",
+            "a": "No. The list of restrictions is in the manual and on a card in the box. If you have any health questions, talk to your doctor before your first session."
+          },
+          {
+            "q": "Can I fall asleep in it, or wear it while driving?",
+            "a": "No. NovuEye IV is for a session while you're awake, sitting or reclining somewhere safe. Never wear it while driving, walking or whenever you need to see what's around you."
+          }
+        ]
+      },
+      "footer": {
+        "disclaimer": "Nothing on this page is a medical claim.",
+        "madeIn": "Made in Japan. Fujiyoshida, Yamanashi.",
+        "jpNotice": ""
+      }
+    },
     "moxi": {
       "title": "Moxi Yoga",
       "subtitle": "A dedicated wellness direction where movement, heat, recovery, and ritual become a refined premium practice.",
@@ -1709,6 +1929,226 @@
           "company": "パートナープログラムの運営：System5/95 Inc（カリフォルニア州サンディエゴ）",
           "cta": "パートナーシップ資料を受け取る"
         }
+      }
+    },
+    "novueye": {
+      "meta": {
+        "title": "NovuEye IV — 夜のひとときのためのマスク",
+        "description": "NovuEye IV は、夜のひとときのためのマスクです。Founding Edition — シリアル番号入りの最初の3,000台。本製品は海外市場向けの製品であり、日本国内では販売しておりません。"
+      },
+      "hero": {
+        "eyebrow": "NovuEye IV",
+        "headline": "今日は、もう十分。ここからは、あなたの時間。",
+        "sub": "NovuEye IV は、夜のひとときのためのマスク。ノートパソコンを閉じて。スマートフォンを置いて。",
+        "features": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ctaPrimary": "",
+        "ctaSecondary": "セッションの流れを見る",
+        "imgAlt": "自宅のソファで NovuEye のマスクを着けた女性"
+      },
+      "moment": {
+        "label": "その瞬間",
+        "title": "この瞬間、覚えがありませんか。",
+        "sceneLabel": "シーン",
+        "scenes": [
+          "18:55。最後の通話が終わる。",
+          "ノートパソコンは閉じて。スマートフォンは画面を下に。",
+          "ここから先は、あなたの時間。"
+        ]
+      },
+      "session": {
+        "label": "セッション",
+        "title": "セッションの流れ",
+        "intro": "4つのシンプルな動作で、一日にはっきりとした区切りが生まれます。",
+        "steps": [
+          {
+            "title": "スマートフォンは画面を下に",
+            "text": "テーブルに、コトンと軽く。この仕草から、夜のひとときが始まります。"
+          },
+          {
+            "title": "着けて、設定する",
+            "text": "マスクを着けて、ストラップを調整します。"
+          },
+          {
+            "title": "何も確かめなくていい時間",
+            "text": "スマートフォンも、メールも、画面の向こう側。"
+          },
+          {
+            "title": "外す",
+            "text": "セッションはおしまい。メールは、置いてきたときのまま待っています。"
+          }
+        ],
+        "beats": [
+          "閉じる。",
+          "置く。",
+          "着ける。",
+          "静けさ。"
+        ],
+        "imgAlts": {
+          "session": "NovuEye のマスクを着け、リモコンを持つ男性",
+          "product": "NovuEye のマスクとリモコン",
+          "session2": "NovuEye のリモコンを持つ手"
+        }
+      },
+      "difference": {
+        "label": "こだわり",
+        "title": "NovuEye IV に込めたもの",
+        "intro": "",
+        "cards": [
+          {
+            "title": "",
+            "text": "",
+            "proof": ""
+          },
+          {
+            "title": "",
+            "text": "",
+            "proof": ""
+          },
+          {
+            "title": "",
+            "text": "",
+            "proof": ""
+          },
+          {
+            "title": "",
+            "text": "",
+            "proof": ""
+          },
+          {
+            "title": "",
+            "text": "",
+            "proof": ""
+          },
+          {
+            "title": "",
+            "text": "",
+            "proof": ""
+          }
+        ],
+        "ownership": {
+          "title": "お手元に届いてから",
+          "items": [
+            "お手入れ：マスクとパッドのお手入れ方法は、取扱説明書にわかりやすい言葉で記載しています。",
+            "サポート：ご購入の前もあとも、お問い合わせ窓口はひとつです。",
+            "返品・修理：条件は、ご注文ページでわかりやすくご案内しています。",
+            "お手元の一台は、ご注文と紐づいています。サービスが必要になっても、私たちはすでにその番号を把握しています。"
+          ]
+        },
+        "editionPanel": {
+          "title": "Founding Edition — 最初の3,000台",
+          "text": "シリアル番号入りの3,000台（No. 0001〜No. 3000）。このシリーズが追加されたり、番号が振り直されたりすることはありません。",
+          "link": ""
+        }
+      },
+      "makers": {
+        "label": "つくり手",
+        "title": "人と、ものづくり",
+        "headline": "手で検品し、名前を記す。",
+        "text": "出荷前に、一台ずつ担当者が確かめます。設計どおりに動くか。仕上げに問題はないか。",
+        "bullets": [
+          "箱の中には、シリアル番号、検品日、検品担当者の名前または印を記したカードが入っています。",
+          "担当者の印は、朱肉で押した本物のはんこです。",
+          "番号はご注文と紐づいています。サービスが必要になっても、私たちはすでにお手元の一台を把握しています。"
+        ],
+        "imgAlts": {
+          "makers1": "System 5/95 の工房での製品検品",
+          "makers2": "工房でのデバイスの組み立て",
+          "makers3": "富士吉田にある System 5/95 の建物"
+        }
+      },
+      "offer": {
+        "label": "",
+        "title": "",
+        "price": "",
+        "priceNote": "",
+        "cta": "",
+        "ctaNote": "",
+        "buyUrl": "https://japansystem595.com",
+        "terms": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "edition": {
+          "title": "",
+          "numbers": "",
+          "text": "",
+          "why": ""
+        }
+      },
+      "gift": {
+        "label": "ギフトに",
+        "headline": "いつも誰かのために動いている、あの人へ。",
+        "sub": "自分では決して買わない、そんな贈りもの。",
+        "text": "いつも誰かのために動いているあの人に、ほかの誰にも奪われない時間を。日本製。最初は「そんな、いいのに」と言われるでしょう。そのあとで、「これ、どこで見つけたの？」と聞かれるはずです。",
+        "cta": "",
+        "noteInBox": "ドアに掛けるサイン：「邪魔しないでください——いまは私の時間です」",
+        "card": {
+          "line1": "NOVUEYE IV · FOUNDING EDITION",
+          "number": "No. 0417 / 3000",
+          "checked": "検品日：2026.12.03",
+          "inspector": "検品担当：____________"
+        }
+      },
+      "manifesto": {
+        "headline": "95%は、誰かのために。5%は、あなたのために。",
+        "text": "どのアプリも、あなたの時間を奪うためにつくられている。\n一日の残りは、メールと会議とタイムラインのもの。\nそれでも、そのいくらかは、まだあなたのもの。",
+        "sig": "SYSTEM 5/95"
+      },
+      "others": {
+        "label": "ほかのデバイス",
+        "title": "ほかのデバイス"
+      },
+      "faq": {
+        "label": "よくある質問",
+        "title": "気になる点に、お答えします",
+        "items": [
+          {
+            "q": "NovuEye IV は、何のためのものですか？",
+            "a": "あなた自身の、夜のひとときのためのものです。私たちは、医学的な主張は一切していません。"
+          },
+          {
+            "q": "視力は良くなりますか？",
+            "a": "そのようなことはうたっていません。NovuEye IV は視力のためではなく、あなたの時間と、そのひとときの感覚のためのものです。"
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "1回のセッションの長さと、使う頻度は？",
+            "a": "取扱説明書に記載された時間と頻度を守ってください。長く、強くすればよいというものではありません。"
+          },
+          {
+            "q": "誰でも使えますか？",
+            "a": "いいえ。使用上の制限は、取扱説明書と同梱のカードに記載しています。健康について気になることがある場合は、初めてお使いになる前に医師にご相談ください。"
+          },
+          {
+            "q": "着けたまま眠ったり、運転中に使ったりできますか？",
+            "a": "いいえ。NovuEye IV は、安全な場所で座るか、もたれかかった姿勢で、目を覚ましたまま使うためのものです。運転中や歩行中、周囲を見る必要があるときは、絶対に着けないでください。"
+          }
+        ]
+      },
+      "footer": {
+        "disclaimer": "このページの内容は、医学的な主張を含むものではありません。",
+        "madeIn": "日本製。山梨県富士吉田市。",
+        "jpNotice": "本製品は海外市場向けの製品であり、日本国内では販売しておりません。"
       }
     },
     "moxi": {
@@ -2357,6 +2797,226 @@
         }
       }
     },
+    "novueye": {
+      "meta": {
+        "title": "NovuEye IV — Una máscara para tu ritual de la noche",
+        "description": "NovuEye IV es una máscara para tu ritual de la noche: calor, masaje por vibración, acupresión, EMS, LLLT y música. Founding Edition: las primeras 3000 unidades numeradas."
+      },
+      "hero": {
+        "eyebrow": "NovuEye IV",
+        "headline": "Por hoy, ya es suficiente. Este tiempo es tuyo.",
+        "sub": "NovuEye IV es una máscara para tu ritual de la noche: calor, masaje por vibración, acupresión, EMS, LLLT y música. Cierra el portátil. Deja el teléfono. Elige los ajustes que mejor te vayan.",
+        "features": [
+          "Calor",
+          "Masaje por vibración",
+          "Acupresión",
+          "EMS",
+          "LLLT",
+          "Música"
+        ],
+        "ctaPrimary": "Comprar NovuEye IV",
+        "ctaSecondary": "Ver cómo es una sesión",
+        "imgAlt": "Una mujer en casa, en el sofá, con la máscara NovuEye puesta"
+      },
+      "moment": {
+        "label": "El momento",
+        "title": "¿Reconoces este momento?",
+        "sceneLabel": "Escena",
+        "scenes": [
+          "18:55. Termina la última llamada.",
+          "Portátil cerrado. Teléfono boca abajo.",
+          "El calor, a tu nivel. Lo demás es tu tiempo."
+        ]
+      },
+      "session": {
+        "label": "La sesión",
+        "title": "Cómo es una sesión",
+        "intro": "Cuatro gestos sencillos, y el día tiene un punto final claro.",
+        "steps": [
+          {
+            "title": "Teléfono boca abajo",
+            "text": "Un golpecito suave sobre la mesa. Con ese gesto empieza el ritual."
+          },
+          {
+            "title": "Póntela y ajústala",
+            "text": "Ponte la máscara, ajusta la correa y elige el modo: calor, masaje por vibración, acupresión, EMS, LLLT, música — por separado o combinados."
+          },
+          {
+            "title": "Primero el calor, luego el ritmo",
+            "text": "Primero se extiende un calor suave. Después, el aire alrededor de la zona de los ojos presiona y suelta despacio, y entra la vibración. La música suena de fondo."
+          },
+          {
+            "title": "Quítatela",
+            "text": "La sesión ha terminado. El correo sigue justo donde lo dejaste."
+          }
+        ],
+        "beats": [
+          "Calor.",
+          "Presión.",
+          "Melodía.",
+          "Silencio."
+        ],
+        "imgAlts": {
+          "session": "Un hombre con la máscara NovuEye puesta y el mando en la mano",
+          "product": "La máscara NovuEye y su mando",
+          "session2": "Una mano sostiene el mando de NovuEye"
+        }
+      },
+      "difference": {
+        "label": "Los detalles",
+        "title": "Lo que hay detrás de NovuEye IV",
+        "intro": "Seis funciones en una sola máscara. Úsalas por separado o combínalas; el nivel y el modo los eliges tú.",
+        "cards": [
+          {
+            "title": "Calor",
+            "text": "Calor regulable integrado en la máscara. Puedes cambiar el nivel en plena sesión.",
+            "proof": "El calor llega primero y marca el tono de toda la sesión."
+          },
+          {
+            "title": "Masaje por vibración",
+            "text": "Un ritmo de vibración suave en toda la zona de contacto. Varios modos para elegir.",
+            "proof": "Un ritmo al que querrás volver cada noche."
+          },
+          {
+            "title": "Acupresión",
+            "text": "Unas cámaras de aire presionan y sueltan despacio alrededor de la zona de los ojos, nunca sobre el globo ocular.",
+            "proof": "Una alternancia de presión y liberación que se nota."
+          },
+          {
+            "title": "EMS",
+            "text": "Electroestimulación muscular con corriente suave en las zonas de contacto bajo los ojos y en la frente. Impulsos suaves; la intensidad la eliges tú.",
+            "proof": "Un modo aparte, con su propia escala de intensidad."
+          },
+          {
+            "title": "LLLT",
+            "text": "Emisores láser de baja intensidad a la altura de las sienes. Se activan como un modo aparte.",
+            "proof": "Las especificaciones y las instrucciones de uso están en la ficha del producto y en el manual."
+          },
+          {
+            "title": "Música",
+            "text": "La música acompaña la sesión: la banda sonora de tu ritual.",
+            "proof": "Tu propio sonido para tu propio tiempo."
+          }
+        ],
+        "ownership": {
+          "title": "Cómo es tenerla",
+          "items": [
+            "Cuidado: cómo limpiar la máscara y las almohadillas, explicado con palabras sencillas en el manual.",
+            "Atención al cliente: una sola dirección para cualquier pregunta, antes o después de la compra.",
+            "Devoluciones y reparaciones: condiciones claras en la página del pedido.",
+            "Tu unidad está vinculada a tu pedido: si alguna vez necesita servicio técnico, ya conocemos su número."
+          ]
+        },
+        "editionPanel": {
+          "title": "Founding Edition — las primeras 3000",
+          "text": "Numeradas del n.º 0001 al n.º 3000. El precio y todas las condiciones están más abajo, en la oferta.",
+          "link": "Ver la oferta"
+        }
+      },
+      "makers": {
+        "label": "Quién lo hace",
+        "title": "Las personas que lo fabrican",
+        "headline": "Revisado a mano. Firmado con nombre.",
+        "text": "Antes del envío, una persona revisa cada unidad: que el calor, la presión del aire, la vibración, la EMS y el LLLT funcionen como se diseñaron, y que el acabado sea el correcto.",
+        "bullets": [
+          "Dentro de la caja: una tarjeta con tu número, la fecha de revisión y el nombre o el sello personal de quien la revisó.",
+          "El sello del revisor es un hanko auténtico, estampado con tinta roja.",
+          "Vinculada a tu pedido. Si alguna vez necesita servicio técnico, ya conocemos su número."
+        ],
+        "imgAlts": {
+          "makers1": "Revisión de productos en el taller de System 5/95",
+          "makers2": "Montaje de dispositivos en el taller",
+          "makers3": "El edificio de System 5/95 en Fujiyoshida"
+        }
+      },
+      "offer": {
+        "label": "Precio y edición",
+        "title": "La oferta",
+        "price": "$800",
+        "priceNote": "NovuEye IV, la tarjeta de la unidad con el sello del revisor y el manual.",
+        "cta": "Comprar NovuEye IV",
+        "ctaNote": "",
+        "buyUrl": "https://japansystem595.com",
+        "terms": [
+          "Envío: los plazos y los costes se calculan al finalizar el pedido.",
+          "Devoluciones: condiciones en la página de pago.",
+          "Garantía del fabricante.",
+          "En la caja: la máscara, una tarjeta con tu número y el sello del revisor, y el manual."
+        ],
+        "edition": {
+          "title": "Founding Edition — las primeras 3000",
+          "numbers": "N.º 0001 — N.º 3000",
+          "text": "3000 unidades numeradas, del n.º 0001 al n.º 3000. Esta serie no se ampliará ni se volverá a numerar. NovuEye IV seguirá a la venta, pero ya sin número de Founding Edition. Envíos a partir de diciembre de 2026.",
+          "why": "Por qué «Founding»: es el primer lanzamiento internacional de NovuEye IV, las primeras unidades que salen de Japón hacia propietarios de otros países."
+        }
+      },
+      "gift": {
+        "label": "Para regalar",
+        "headline": "Para quien cuida de todos.",
+        "sub": "El regalo que nunca se comprarían.",
+        "text": "Regala a quien cuida de todos un tiempo que nadie más puede reclamar. Calor regulable, un ritmo de presionar y soltar, y su propia música. Hecho en Japón. Primero te dirán que no hacía falta. Luego te preguntarán dónde lo encontraste.",
+        "cta": "Regálales su tiempo",
+        "noteInBox": "Un cartel para la puerta: «No molestar: este es mi tiempo».",
+        "card": {
+          "line1": "NOVUEYE IV · FOUNDING EDITION",
+          "number": "N.º 0417 / 3000",
+          "checked": "Revisado: 03.12.2026",
+          "inspector": "Revisor: ____________"
+        }
+      },
+      "manifesto": {
+        "headline": "El 95 %, para ellos. El 5 %, para ti.",
+        "text": "Cada app está hecha para quedarse con tu tiempo.\nEl correo, las reuniones y los feeds se llevan el resto del día.\nPero una parte sigue siendo tuya.",
+        "sig": "SYSTEM 5/95"
+      },
+      "others": {
+        "label": "Otros dispositivos",
+        "title": "Otros dispositivos"
+      },
+      "faq": {
+        "label": "Preguntas",
+        "title": "Respuestas a tus dudas",
+        "items": [
+          {
+            "q": "¿Para qué sirve NovuEye IV?",
+            "a": "Para un ritual personal de la noche: calor, masaje por vibración, acupresión, EMS, LLLT y música. No hacemos afirmaciones médicas."
+          },
+          {
+            "q": "¿Mejorará mi vista?",
+            "a": "No lo afirmamos. NovuEye IV es para tu tiempo y para cómo se siente, no para la vista."
+          },
+          {
+            "q": "¿Qué se siente durante una sesión?",
+            "a": "Primero, un calor suave. Luego, el aire alrededor de la zona de los ojos presiona y suelta despacio, y entra la vibración. De fondo, música. El nivel de calor, el modo y la intensidad los eliges tú."
+          },
+          {
+            "q": "¿Qué es la EMS de la máscara?",
+            "a": "Electroestimulación muscular con corriente suave en las zonas de contacto bajo los ojos y en la frente. Es un modo aparte, con su propia escala de intensidad. Lee el manual antes de tu primera sesión."
+          },
+          {
+            "q": "¿Qué es el LLLT?",
+            "a": "Emisores láser de baja intensidad a la altura de las sienes. Es un modo aparte; sus especificaciones e instrucciones de uso están en la ficha del producto y en el manual."
+          },
+          {
+            "q": "¿Cuánto dura una sesión y con qué frecuencia debo usarla?",
+            "a": "Sigue la duración y la frecuencia que indica el manual. Más tiempo y más intensidad no significa mejor."
+          },
+          {
+            "q": "¿Es apta para todo el mundo?",
+            "a": "No. La lista de restricciones está en el manual y en una tarjeta dentro de la caja. Si tienes cualquier duda sobre tu salud, consulta a tu médico antes de la primera sesión."
+          },
+          {
+            "q": "¿Puedo dormirme con ella puesta o llevarla mientras conduzco?",
+            "a": "No. NovuEye IV es para una sesión despierto, sentado o recostado en un lugar seguro. No la lleves nunca mientras conduces, caminas o cuando necesites ver lo que pasa a tu alrededor."
+          }
+        ]
+      },
+      "footer": {
+        "disclaimer": "Nada en esta página es una afirmación médica.",
+        "madeIn": "Hecho en Japón. Fujiyoshida, Yamanashi.",
+        "jpNotice": ""
+      }
+    },
     "moxi": {
       "title": "Moxi Yoga",
       "subtitle": "Una línea wellness donde movimiento, calor, recuperación y ritual se convierten en una práctica premium refinada.",
@@ -3001,6 +3661,226 @@
           "company": "Партнёрскую программу ведёт System5/95 Inc, Сан-Диего, Калифорния.",
           "cta": "Получить материалы о партнёрстве"
         }
+      }
+    },
+    "novueye": {
+      "meta": {
+        "title": "NovuEye IV — маска для вечернего ритуала",
+        "description": "NovuEye IV — маска для вашего вечернего ритуала: тепло, вибромассаж, акупрессура, EMS, LLLT и музыка. Founding Edition — первые 3 000 пронумерованных экземпляров."
+      },
+      "hero": {
+        "eyebrow": "NovuEye IV",
+        "headline": "На сегодня — достаточно. Это время — ваше.",
+        "sub": "NovuEye IV — маска для вашего вечернего ритуала: тепло, вибромассаж, акупрессура, EMS, LLLT и музыка. Закройте ноутбук. Отложите телефон. Выберите настройки, которые подходят именно вам.",
+        "features": [
+          "Тепло",
+          "Вибромассаж",
+          "Акупрессура",
+          "EMS",
+          "LLLT",
+          "Музыка"
+        ],
+        "ctaPrimary": "Купить NovuEye IV",
+        "ctaSecondary": "Посмотреть, как проходит сеанс",
+        "imgAlt": "Женщина дома на диване в маске NovuEye"
+      },
+      "moment": {
+        "label": "Момент",
+        "title": "Узнаёте этот момент?",
+        "sceneLabel": "Сцена",
+        "scenes": [
+          "18:55. Последний звонок закончен.",
+          "Ноутбук закрыт. Телефон — экраном вниз.",
+          "Тепло на вашем уровне. Дальше — ваше время."
+        ]
+      },
+      "session": {
+        "label": "Сеанс",
+        "title": "Как проходит сеанс",
+        "intro": "Четыре простых действия — и у дня появляется понятная точка завершения.",
+        "steps": [
+          {
+            "title": "Телефон — экраном вниз",
+            "text": "Короткий стук о стол. С этого жеста начинается ритуал."
+          },
+          {
+            "title": "Наденьте и настройте",
+            "text": "Наденьте маску, подгоните ремешок и выберите режим: тепло, вибромассаж, акупрессура, EMS, LLLT, музыка — по отдельности или вместе."
+          },
+          {
+            "title": "Тепло, затем ритм",
+            "text": "Сначала мягко разливается тепло. Потом воздух вокруг зоны глаз медленно нажимает и отпускает, включается вибрация. Музыка звучит фоном."
+          },
+          {
+            "title": "Снимите",
+            "text": "Сеанс закончился. Почта там же, где вы её оставили."
+          }
+        ],
+        "beats": [
+          "Тепло.",
+          "Нажим.",
+          "Мелодия.",
+          "Тишина."
+        ],
+        "imgAlts": {
+          "session": "Мужчина в маске NovuEye с пультом",
+          "product": "Маска NovuEye и пульт",
+          "session2": "Рука с пультом NovuEye"
+        }
+      },
+      "difference": {
+        "label": "Что продумано",
+        "title": "Что продумано в NovuEye IV",
+        "intro": "Шесть функций в одной маске. Каждую можно включить отдельно или сочетать; уровень и режим выбираете вы.",
+        "cards": [
+          {
+            "title": "Тепло",
+            "text": "Регулируемое тепло встроено в маску. Уровень меняется прямо во время сеанса.",
+            "proof": "Тепло приходит первым и задаёт тон всему сеансу."
+          },
+          {
+            "title": "Вибромассаж",
+            "text": "Мягкий ритм вибрации по зоне контакта. Несколько режимов на выбор.",
+            "proof": "Ритм, который хочется повторять каждый вечер."
+          },
+          {
+            "title": "Акупрессура",
+            "text": "Воздушные камеры медленно нажимают и отпускают вокруг зоны глаз — не на само глазное яблоко.",
+            "proof": "Ощутимое чередование нажима и отпускания."
+          },
+          {
+            "title": "EMS",
+            "text": "Электростимуляция мышц слабым током в зонах под глазами и на лбу. Мягкие импульсы, интенсивность выбираете вы.",
+            "proof": "Отдельный режим с собственной шкалой интенсивности."
+          },
+          {
+            "title": "LLLT",
+            "text": "Низкоинтенсивные лазерные излучатели у висков. Включаются отдельным режимом.",
+            "proof": "Параметры и правила использования — в характеристиках и инструкции."
+          },
+          {
+            "title": "Музыка",
+            "text": "Музыка сопровождает сеанс — фон для вашего ритуала.",
+            "proof": "Свой звук для своего времени."
+          }
+        ],
+        "ownership": {
+          "title": "Как устроено владение",
+          "items": [
+            "Уход: как чистить маску и накладки — простыми словами в инструкции.",
+            "Поддержка: один адрес для любых вопросов до и после покупки.",
+            "Возврат и ремонт: понятные условия на странице заказа.",
+            "Экземпляр привязан к вашему заказу: если понадобится сервис, мы уже знаем его номер."
+          ]
+        },
+        "editionPanel": {
+          "title": "Founding Edition — первые 3 000",
+          "text": "Нумерация с № 0001 по № 3000. Цена и все условия — ниже, в предложении.",
+          "link": "К предложению"
+        }
+      },
+      "makers": {
+        "label": "Кто делает",
+        "title": "Люди и производство",
+        "headline": "Проверено вручную. Подписано именем.",
+        "text": "Каждый экземпляр перед отправкой проверяет конкретный человек: работают ли тепло, давление воздуха, вибрация, EMS и LLLT так, как задумано, и в порядке ли отделка.",
+        "bullets": [
+          "В коробке — карточка с номером, датой проверки и именем или печатью проверявшего.",
+          "Печать проверяющего — настоящая ханко, красной тушью.",
+          "Номер привязан к вашему заказу. Если понадобится сервис, мы уже знаем ваш экземпляр."
+        ],
+        "imgAlts": {
+          "makers1": "Проверка изделий в цехе System 5/95",
+          "makers2": "Сборка приборов в цехе",
+          "makers3": "Здание System 5/95 в Фудзиёсида"
+        }
+      },
+      "offer": {
+        "label": "Цена и серия",
+        "title": "Предложение",
+        "price": "$800",
+        "priceNote": "NovuEye IV, карта экземпляра с печатью проверяющего, инструкция.",
+        "cta": "Купить NovuEye IV",
+        "ctaNote": "",
+        "buyUrl": "https://japansystem595.com",
+        "terms": [
+          "Доставка: сроки и стоимость рассчитываются при оформлении заказа.",
+          "Возврат: условия на странице оформления заказа.",
+          "Гарантия производителя.",
+          "В комплекте: маска, карточка с номером и печатью проверяющего, инструкция."
+        ],
+        "edition": {
+          "title": "Founding Edition — первые 3 000",
+          "numbers": "№ 0001 — № 3000",
+          "text": "3 000 пронумерованных экземпляров, с № 0001 по № 3000. Эту нумерацию не продлят и не перенумеруют. Сам NovuEye IV продаётся и дальше — уже без номера серии. Отгрузка — с декабря 2026.",
+          "why": "Почему «основательская»: это первый международный выпуск NovuEye IV — первые экземпляры, которые уходят из Японии к покупателям в других странах."
+        }
+      },
+      "gift": {
+        "label": "В подарок",
+        "headline": "Тому, кто заботится обо всех.",
+        "sub": "Подарок, который они себе никогда не купят.",
+        "text": "Подарите тому, кто заботится обо всех, время, на которое больше никто не претендует. Тепло, которое можно настроить, ритм «нажать — отпустить» и своя музыка. Сделано в Японии. Сначала скажут «ну зачем ты». Потом спросят, где ты это нашёл.",
+        "cta": "Подарить им время для себя",
+        "noteInBox": "Табличка на дверь: «Не беспокоить — это моё время».",
+        "card": {
+          "line1": "NOVUEYE IV · FOUNDING EDITION",
+          "number": "№ 0417 / 3000",
+          "checked": "Проверено: 03.12.2026",
+          "inspector": "Проверяющий: ____________"
+        }
+      },
+      "manifesto": {
+        "headline": "95 % — им. 5 % — вам.",
+        "text": "Каждое приложение сделано, чтобы забирать ваше время.\nПочте, встречам и лентам достаётся весь остальной день.\nНо какая-то его часть остаётся вам.",
+        "sig": "SYSTEM 5/95"
+      },
+      "others": {
+        "label": "Другие устройства",
+        "title": "Другие устройства"
+      },
+      "faq": {
+        "label": "Вопросы",
+        "title": "Ответы на сомнения",
+        "items": [
+          {
+            "q": "Для чего предназначен NovuEye IV?",
+            "a": "Для личного вечернего ритуала: тепло, вибромассаж, акупрессура, EMS, LLLT и музыка. Мы не делаем медицинских заявлений."
+          },
+          {
+            "q": "Улучшит ли он зрение?",
+            "a": "Мы этого не заявляем. NovuEye IV — для вашего времени и ощущений, а не для зрения."
+          },
+          {
+            "q": "Какие ощущения во время сеанса?",
+            "a": "Сначала мягкое тепло. Затем воздух вокруг зоны глаз медленно нажимает и отпускает, включается вибрация. Фоном — музыка. Уровень тепла, режим и интенсивность вы выбираете сами."
+          },
+          {
+            "q": "Что такое EMS в маске?",
+            "a": "Электростимуляция мышц слабым током в зонах под глазами и на лбу. Это отдельный режим с собственной шкалой интенсивности. Перед первым сеансом прочитайте инструкцию."
+          },
+          {
+            "q": "Что такое LLLT?",
+            "a": "Низкоинтенсивные лазерные излучатели у висков. Это отдельный режим; его параметры и правила использования — в характеристиках и инструкции."
+          },
+          {
+            "q": "Сколько длится сеанс и как часто им пользоваться?",
+            "a": "Следуйте длительности и частоте, указанным в инструкции. Дольше и интенсивнее — не значит лучше."
+          },
+          {
+            "q": "Подходит ли он всем?",
+            "a": "Нет. Перечень ограничений — в инструкции и на карточке в коробке. Если у вас есть вопросы о здоровье, посоветуйтесь с врачом до первого сеанса."
+          },
+          {
+            "q": "Можно ли в нём заснуть или надеть его за рулём?",
+            "a": "Нет. NovuEye IV — для сеанса в ясном сознании, сидя или откинувшись там, где это безопасно. Не надевайте его за рулём, при ходьбе и когда нужно видеть, что происходит вокруг."
+          }
+        ]
+      },
+      "footer": {
+        "disclaimer": "Тексты страницы не содержат медицинских заявлений.",
+        "madeIn": "Сделано в Японии. Фудзиёсида, префектура Яманаси.",
+        "jpNotice": ""
       }
     },
     "moxi": {

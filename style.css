@@ -3183,3 +3183,775 @@ html[data-lang="hi"] .fr-who { font-size: 0.74rem; }
   .fr-list li { padding-left: 2.8rem; }
   .fr-stream-big { font-size: 2.8rem; }
 }
+
+/* ==========================================================================
+   NovuEye IV (device-novueye.html) — ne-*
+   A static page on the landing parts (.dl-hero, .dl-section, .dl-label,
+   .dl-h2, .method-card, .dl-trust, .dl-cta, .device-tiles, .fr-faq);
+   tokens only: square edges, hairline rules, serif display type.
+   ========================================================================== */
+
+/* ---------- Hero ---------- */
+.ne-hero .dl-hero-inner {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+}
+
+.ne-title {
+  font-family: var(--serif);
+  font-size: clamp(2.7rem, 4.6vw, 4.5rem);
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: 0.01em;
+  color: var(--off-white);
+  margin: 0 0 1.8rem;
+  text-wrap: balance;
+}
+
+.ne-hero-sub {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 1.45vw, 1.3rem);
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: var(--light-taupe);
+  max-width: 580px;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+/* six functions in small caps, split by hairlines. Every item carries its
+   rule on the left; the list is shifted left by one gap and clipped there,
+   so the rule never opens a wrapped line. */
+.ne-features,
+.ne-beats {
+  --ne-sep: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * (var(--ne-sep) + 1px));
+  clip-path: inset(0 0 0 calc(var(--ne-sep) + 1px));
+}
+
+.ne-features {
+  row-gap: 0.7rem;
+  list-style: none;
+  margin-top: 2.2rem;
+  margin-bottom: 0;
+  padding: 1.4rem 0 0;
+  border-top: 1px solid var(--line-dark);
+}
+
+.ne-features li {
+  padding: 0 var(--ne-sep);
+  border-left: 1px solid var(--taupe);
+  font-size: 0.66rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  color: var(--taupe-soft);
+}
+
+
+.ne-hero .dl-actions { margin-top: 2.6rem; }
+
+/* the photo sits on the light stage of the device landings; it is 600 px wide,
+   so the stage never grows past it */
+.ne-hero-media.dl-hero-media {
+  aspect-ratio: auto;
+  display: block;
+  justify-self: end;
+  width: 100%;
+  max-width: calc(600px + 2 * clamp(10px, 1.1vw, 16px));
+  padding: clamp(10px, 1.1vw, 16px);
+}
+
+.ne-hero-media.dl-hero-media::before { display: none; }
+
+.ne-hero-media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+/* ---------- Shared ---------- */
+.ne-intro {
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 1.7vw, 1.45rem);
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.005em;
+  color: var(--brown);
+  max-width: 760px;
+  margin: 1.8rem 0 0;
+  text-wrap: pretty;
+}
+
+/* list with hairline markers */
+.ne-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ne-list li {
+  position: relative;
+  padding: 0.95rem 0 0.95rem 2.2rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text);
+  text-wrap: pretty;
+}
+
+.ne-list li:last-child { border-bottom: 1px solid var(--line); }
+
+.ne-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1.85rem;
+  width: 1.1rem;
+  height: 1px;
+  background: var(--taupe);
+}
+
+.ne-list--dark li {
+  border-color: var(--line-dark);
+  color: var(--light-taupe);
+}
+
+.ne-list--dark li::before { background: var(--taupe-soft); }
+
+/* photos: fill their frame, cropped; small originals are held at their size */
+.ne-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-content: start;
+}
+
+.ne-ph {
+  margin: 0;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: var(--sand);
+}
+
+.ne-ph--wide {
+  grid-column: 1 / -1;
+  aspect-ratio: 16 / 9;
+}
+
+.ne-ph img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* the product shot stands on white: show all of it */
+.ne-ph--product { background: var(--white); border: 1px solid var(--line); }
+.ne-ph--product img { object-fit: contain; padding: 6%; mix-blend-mode: multiply; }
+
+/* ---------- Moment ---------- */
+.ne-scenes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.6rem;
+}
+
+.ne-scene {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--taupe);
+  padding: 1.8rem 0 0;
+}
+
+.ne-scene-k {
+  font-size: 0.64rem;
+  font-weight: 400;
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  line-height: 1.6;
+  color: var(--taupe-ink);
+  margin: 0 0 1.4rem;
+}
+
+.ne-scene-text {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  font-weight: 300;
+  line-height: 1.3;
+  letter-spacing: 0.005em;
+  color: var(--charcoal);
+  margin: 0;
+  text-wrap: balance;
+}
+
+/* ---------- Session ---------- */
+.ne-session-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(3rem, 6vw, 6rem);
+  align-items: start;
+}
+
+.ne-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.ne-step {
+  display: grid;
+  grid-template-columns: 4.2rem minmax(0, 1fr);
+  gap: 1.2rem;
+  padding: 1.8rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.ne-step-no {
+  font-family: var(--serif-latin);
+  font-variant-numeric: lining-nums;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--taupe);
+}
+
+.ne-step-title {
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 1.8vw, 1.6rem);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--charcoal);
+  margin: 0 0 0.5rem;
+  text-wrap: balance;
+}
+
+.ne-step-text {
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--text-2);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+/* four beats, serif, split by hairlines (see .ne-features) */
+.ne-beats {
+  --ne-sep: 1.3rem;
+  row-gap: 0.6rem;
+  margin-top: 2.4rem;
+  margin-bottom: 0;
+}
+
+.ne-beat {
+  padding: 0 var(--ne-sep);
+  border-left: 1px solid var(--line-strong);
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--brown);
+}
+
+
+/* session.jpg is 711 px wide */
+.ne-gallery--session { max-width: 711px; }
+
+/* ---------- Difference ---------- */
+.ne-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.6rem;
+}
+
+.ne-card .method-text { flex: 1; }
+
+.ne-proof {
+  margin: 1.6rem 0 0;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--line);
+  font-family: var(--serif);
+  font-size: 1.18rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--taupe-ink);
+  text-wrap: pretty;
+}
+
+.ne-panels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.6rem;
+  margin-top: clamp(3rem, 5vw, 4.5rem);
+}
+
+.ne-panel {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: clamp(2rem, 3vw, 2.8rem);
+}
+
+/* pointer from the edition panel down to the offer: sits on the panel's
+   bottom edge, so the two panels of equal height read as a pair */
+.ne-panel-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  align-self: flex-start;
+  margin-top: auto;
+  padding-top: 2rem;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: var(--track-nav);
+  text-transform: uppercase;
+  color: var(--brown);
+  text-decoration: none;
+}
+.ne-panel-link > span:first-child {
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--taupe);
+  transition: color .3s var(--ease), border-color .3s var(--ease);
+}
+.ne-panel-arrow {
+  font-size: 0.95rem;
+  line-height: 1;
+  color: var(--taupe);
+  transition: transform .4s var(--ease), color .3s var(--ease);
+}
+.ne-panel-link:hover > span:first-child { color: var(--charcoal); border-color: var(--charcoal); }
+.ne-panel-link:hover .ne-panel-arrow { transform: translateX(6px); color: var(--brown); }
+
+.ne-panel-title {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 2vw, 1.85rem);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--charcoal);
+  margin: 0 0 1.6rem;
+  text-wrap: balance;
+}
+
+.ne-panel-text {
+  font-family: var(--serif);
+  font-size: clamp(1.15rem, 1.5vw, 1.3rem);
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--brown);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+/* ---------- Makers (brown band) ---------- */
+.ne-makers-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: clamp(3rem, 6vw, 6rem);
+  align-items: start;
+}
+
+.ne-makers-headline {
+  font-family: var(--serif);
+  font-size: clamp(1.9rem, 3vw, 2.7rem);
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--off-white);
+  margin: 0 0 1.6rem;
+  text-wrap: balance;
+}
+
+.ne-makers-text {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 1.45vw, 1.3rem);
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--light-taupe);
+  margin: 0 0 2.2rem;
+  text-wrap: pretty;
+}
+
+.ne-makers .ne-ph { background: var(--brown-deep); }
+
+/* ---------- Offer ---------- */
+.ne-offer-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(3rem, 6vw, 6rem);
+  align-items: stretch;
+}
+
+.ne-price {
+  font-family: var(--serif-latin);
+  font-variant-numeric: lining-nums;
+  font-size: clamp(4rem, 7vw, 6rem);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  color: var(--charcoal);
+  margin: 0 0 1.2rem;
+}
+
+.ne-price-note {
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text);
+  max-width: 460px;
+  margin: 0;
+}
+
+.ne-price-block .dl-actions { margin-top: 2.2rem; }
+
+.ne-cta-note {
+  margin: 0.9rem 0 0;
+  font-size: 0.86rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--text-2);
+}
+
+.ne-cta-note:empty { display: none; }
+
+.ne-terms {
+  list-style: none;
+  margin: 2.8rem 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.ne-terms li {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.92rem;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--text);
+  text-wrap: pretty;
+}
+
+.ne-edition {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: clamp(2.4rem, 4vw, 3.6rem);
+  background: var(--charcoal);
+  color: var(--light-taupe);
+}
+
+.ne-edition-title {
+  font-size: 0.66rem;
+  font-weight: 400;
+  letter-spacing: var(--track-caps);
+  text-transform: uppercase;
+  line-height: 1.6;
+  color: var(--taupe-soft);
+  margin: 0 0 1.8rem;
+}
+
+.ne-edition-no {
+  font-family: var(--serif-latin);
+  font-variant-numeric: lining-nums;
+  font-size: clamp(2.3rem, 4vw, 3.4rem);
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--off-white);
+  margin: 0 0 1.8rem;
+  text-wrap: balance;
+}
+
+.ne-edition-text {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 1.45vw, 1.25rem);
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--light-taupe);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.ne-edition-why {
+  margin: auto 0 0;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--line-dark);
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--taupe-soft);
+  text-wrap: pretty;
+}
+
+.ne-edition-text + .ne-edition-why { margin-top: 2rem; }
+
+/* ---------- Gift ---------- */
+.ne-gift-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: clamp(3rem, 6vw, 6rem);
+  align-items: center;
+}
+
+.ne-gift-headline { margin-bottom: 1.4rem; }
+
+.ne-gift-sub {
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 1.9vw, 1.6rem);
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.45;
+  color: var(--brown);
+  margin: 0 0 1.4rem;
+}
+
+.ne-gift-text {
+  font-size: 0.98rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--text);
+  max-width: 600px;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.ne-inbox {
+  display: inline-block;
+  margin: 2rem 0 0;
+  padding: 1rem 1.3rem;
+  border: 1px solid var(--line-strong);
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--charcoal);
+}
+
+.ne-gift .dl-actions { margin-top: 2.2rem; }
+
+/* outline button on a light band */
+.btn-ghost.ne-btn-line {
+  color: var(--brown);
+  border-color: var(--taupe);
+}
+
+.btn-ghost.ne-btn-line:hover {
+  background: var(--brown);
+  border-color: var(--brown);
+  color: var(--off-white);
+}
+
+/* the unit card from the box, set in type: a double hairline frame and a
+   square seal */
+.ne-unit-card {
+  position: relative;
+  margin: 0;
+  padding: clamp(2.2rem, 3.6vw, 3.2rem);
+  background: var(--white);
+  border: 1px solid var(--line-strong);
+  outline: 1px solid var(--line);
+  outline-offset: -10px;
+}
+
+.ne-unit-line1 {
+  font-size: 0.64rem;
+  font-weight: 400;
+  letter-spacing: var(--track-caps);
+  text-transform: uppercase;
+  line-height: 1.6;
+  color: var(--taupe-ink);
+  margin: 0 0 2.2rem;
+}
+
+.ne-unit-no {
+  font-family: var(--serif-latin);
+  font-variant-numeric: lining-nums;
+  font-size: clamp(2.6rem, 4.4vw, 3.8rem);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--charcoal);
+  margin: 0 0 2.4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+  text-wrap: balance;
+}
+
+.ne-unit-foot {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.ne-unit-meta p {
+  margin: 0 0 0.4rem;
+  font-size: 0.86rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.ne-unit-meta p:last-child { margin-bottom: 0; }
+
+.ne-unit-seal {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--taupe);
+  font-family: 'Noto Serif JP', var(--serif);
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--taupe-ink);
+}
+
+/* ---------- Manifesto (charcoal) ---------- */
+.ne-manifesto-headline {
+  font-family: var(--serif);
+  font-size: clamp(2.8rem, 6vw, 5.4rem);
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: 0.01em;
+  color: var(--off-white);
+  margin: 0;
+  text-wrap: balance;
+}
+
+/* the source text keeps its line breaks (\n) */
+.ne-manifesto-text {
+  white-space: pre-line;
+  font-family: var(--serif);
+  font-size: clamp(1.15rem, 1.7vw, 1.45rem);
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--light-taupe);
+  max-width: 720px;
+  margin: 2.4rem auto 0;
+}
+
+.ne-sig {
+  margin: 2.6rem 0 0;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: var(--track-caps);
+  text-transform: uppercase;
+  color: var(--taupe-soft);
+}
+
+/* texts left empty for a language are not shown (script.js applyNeOptional) */
+#novueye-page [hidden] { display: none !important; }
+
+/* Japanese only: "made for markets outside Japan, not sold in Japan" */
+.ne-jp-notice {
+  margin: 1.4rem 0 0;
+  max-width: 580px;
+  font-size: 0.82rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--taupe-soft);
+}
+
+/* ---------- Closing note ---------- */
+.dl-section.ne-note {
+  padding: 2.6rem 0;
+  border-top: 1px solid var(--line-soft);
+}
+
+.ne-note p {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-2);
+}
+
+/* ---------- Japanese ---------- */
+html[lang="ja"] #novueye-page {
+  line-break: strict;
+  word-break: auto-phrase;
+  overflow-wrap: break-word;
+}
+
+html[data-lang="ja"] .ne-title { font-size: clamp(2.1rem, 3.4vw, 3.2rem); line-height: 1.4; }
+
+html[data-lang="ja"] .ne-manifesto-headline { font-size: clamp(2.2rem, 4.4vw, 3.8rem); line-height: 1.35; }
+
+html[data-lang="ja"] .ne-hero-sub,
+html[data-lang="ja"] .ne-intro,
+html[data-lang="ja"] .ne-makers-text,
+html[data-lang="ja"] .ne-panel-text,
+html[data-lang="ja"] .ne-edition-text,
+html[data-lang="ja"] .ne-manifesto-text { font-size: clamp(1.02rem, 1.35vw, 1.2rem); line-height: 1.9; }
+
+html[data-lang="ja"] .ne-scene-text,
+html[data-lang="ja"] .ne-makers-headline { font-size: clamp(1.3rem, 1.9vw, 1.7rem); line-height: 1.6; }
+
+html[data-lang="ja"] .ne-step-title,
+html[data-lang="ja"] .ne-panel-title { font-size: 1.25rem; line-height: 1.55; }
+
+html[data-lang="ja"] .ne-beat,
+html[data-lang="ja"] .ne-proof,
+html[data-lang="ja"] .ne-gift-sub { font-style: normal; }
+
+html[data-lang="ja"] .ne-beat { font-size: clamp(1.2rem, 1.6vw, 1.45rem); }
+html[data-lang="ja"] .ne-proof { font-size: 0.95rem; line-height: 1.7; }
+html[data-lang="ja"] .ne-gift-sub { font-size: clamp(1.15rem, 1.5vw, 1.35rem); line-height: 1.7; }
+
+html[data-lang="ja"] .ne-features li,
+html[data-lang="ja"] .ne-scene-k,
+html[data-lang="ja"] .ne-edition-title,
+html[data-lang="ja"] .ne-unit-line1 { font-size: 0.74rem; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  .ne-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ne-scenes { gap: 1.2rem; }
+}
+
+@media (max-width: 900px) {
+  .ne-hero .dl-hero-inner { grid-template-columns: 1fr; }
+  .ne-hero-media.dl-hero-media { justify-self: start; aspect-ratio: auto; }
+  .ne-session-grid,
+  .ne-makers-grid,
+  .ne-offer-grid,
+  .ne-gift-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .ne-panels { grid-template-columns: 1fr; }
+  .ne-gallery--makers { max-width: 900px; }
+  .ne-unit-card { max-width: 520px; }
+}
+
+@media (max-width: 768px) {
+  .ne-scenes { grid-template-columns: 1fr; gap: 0; }
+  .ne-scene { padding: 1.4rem 0 1.8rem; }
+  .ne-scene-k { margin-bottom: 0.8rem; }
+}
+
+@media (max-width: 640px) {
+  .ne-cards { grid-template-columns: 1fr; gap: 1rem; }
+  .ne-step { grid-template-columns: 3rem minmax(0, 1fr); gap: 0.9rem; padding: 1.5rem 0; }
+  .ne-step-no { font-size: 1.9rem; }
+  .ne-features { --ne-sep: 0.8rem; }
+  .ne-beats { --ne-sep: 0.9rem; }
+}
+
+@media (max-width: 480px) {
+  .ne-title { font-size: 2.35rem; }
+  html[data-lang="ja"] .ne-title { font-size: 1.95rem; }
+  .ne-hero .dl-actions { flex-direction: column; align-items: stretch; }
+  .ne-hero .dl-actions > a { padding-left: 1rem; padding-right: 1rem; }
+  .ne-gallery { grid-template-columns: 1fr; }
+  .ne-price { font-size: 3.6rem; }
+  .ne-unit-seal { flex-basis: 52px; width: 52px; height: 52px; font-size: 1.35rem; }
+}
