@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers static-assets config for the System 5/95 site.
+  // Build: bash build.sh   Deploy: npx wrangler deploy
+  "name": "system595",
+  "compatibility_date": "2026-09-27",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash"
+  }
+}
