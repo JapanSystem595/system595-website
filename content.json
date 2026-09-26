@@ -803,7 +803,267 @@
       "title": "Massage Studios",
       "subtitle": "A complete premium massage studio system with detailed standards, training, and quality control.",
       "body": "System 5/95 offers more than equipment for studios — it provides a complete service architecture. Devices carry the primary therapeutic workload, reducing critical dependence on rare manual-only specialists. Partners receive protocols, video guidance, fast staff training, and quality control tools. This helps studios launch faster, maintain a unified standard, and scale without losing service quality.",
-      "cta": "Explore Studio Opportunities"
+      "cta": "Explore Studio Opportunities",
+      "franchise": {
+        "meta": {
+          "title": "JapanSystem 5/95 Wellness Studio Franchise — Japanese Recovery Technology",
+          "description": "JapanSystem 5/95 partnership: a standardized 90-minute treatment of 9 techniques on Japanese devices, training in person or online, and a Japanese diploma. Entry at $5,000, no franchise fee."
+        },
+        "hero": {
+          "eyebrow": "JapanSystem 5/95 Partner Program",
+          "title": "Launch a Japanese wellness treatment in your studio",
+          "lead1": "Five devices, training and a single protocol for a 90-minute session. Suited to a self-employed therapist and to a studio with a team.",
+          "lead2": "Two income streams: treatments from $170 and sales of devices to clients for home use.",
+          "lead3": "$5,000 for the kit and training. No franchise fee and no royalties.",
+          "ctaPrimary": "Get the kit contents and terms",
+          "ctaVideo": "Watch the treatment (2 min)",
+          "imgAlt": "Studio treatment room: a therapist works with a handheld red-light device on the forearm of a client lying on a treatment couch"
+        },
+        "facts": [
+          {
+            "n": "from $170",
+            "l": "client treatment, 90 minutes"
+          },
+          {
+            "n": "$5,000",
+            "l": "kit of five devices plus training"
+          },
+          {
+            "n": "≈ 30",
+            "l": "treatments cover the cost of the kit"
+          },
+          {
+            "n": "$0",
+            "l": "franchise fee and royalties"
+          }
+        ],
+        "about": {
+          "eyebrow": "What is JapanSystem 5/95",
+          "title": "A new-generation wellness treatment from Japan",
+          "lead": "A standardized 90-minute protocol designed for deep client recovery, client comfort and efficient work for the massage therapist. In a single session, the body is worked through its main zones and key muscle groups in sequence.",
+          "quote": "The combination of techniques helps work the deep muscle layers gently and comfortably: without aggressive pressure, unnecessary pain or bruising.",
+          "imgAlt": "A handheld device with a red light at its base pressed against the skin during a treatment"
+        },
+        "economics": {
+          "eyebrow": "Partner economics",
+          "title": "Two revenue streams",
+          "lead": "The partner earns from treatments and from selling the devices the client got to know during the session.",
+          "s1": {
+            "k": "Stream 1",
+            "title": "In-studio treatments",
+            "big": "from $170",
+            "sub": "per 90-minute JapanSystem 5/95 session.",
+            "calc": "A self-employed therapist keeps the full $170 from every treatment. The $5,000 kit equals roughly 30 treatments: one treatment a day, and the kit pays for itself within a month."
+          },
+          "s2": {
+            "k": "Stream 2",
+            "title": "Selling devices to clients",
+            "steps": [
+              "The client has a session at the studio",
+              "Tries the device on themselves",
+              "Gets advice from the therapist",
+              "Buys the device for home use"
+            ],
+            "calc": "According to company data, device sales add another 40% to studio income."
+          }
+        },
+        "protocol": {
+          "eyebrow": "Protocol · 90 minutes",
+          "title": "What one treatment includes",
+          "lead": "Nine techniques in one session. The body is worked through its main zones and key muscle groups in sequence.",
+          "techs": [
+            {
+              "title": "Deep thermotherapy",
+              "text": "Warming of the tissues"
+            },
+            {
+              "title": "Vibration",
+              "text": "Vibrational action"
+            },
+            {
+              "title": "Acupressure",
+              "text": "Targeted point pressure"
+            },
+            {
+              "title": "EMS stimulation",
+              "text": "Electrical muscle stimulation"
+            },
+            {
+              "title": "Percussion",
+              "text": "Percussive technique"
+            },
+            {
+              "title": "Shockwave techniques",
+              "text": "Pulsed action"
+            },
+            {
+              "title": "LLLT",
+              "text": "Low-level laser therapy"
+            },
+            {
+              "title": "Elements of stone therapy",
+              "text": "Work with hot stones"
+            },
+            {
+              "title": "Elements of moxibustion",
+              "text": "Warming"
+            }
+          ],
+          "note": "For the client, it is a deep, pleasant and memorable wellness experience. For the massage therapist, it means less physical strain and more treatments without overexertion.",
+          "photoAlts": [
+            "A device with a light on the back of the hand",
+            "A red-light device at the neck and shoulder; the client's face is covered with a towel",
+            "A red-light device on the foot",
+            "Close-up of a red-and-white mask over the client's eyes"
+          ]
+        },
+        "benefits": {
+          "eyebrow": "Who benefits",
+          "title": "One treatment, three wins",
+          "items": [
+            {
+              "who": "For the client",
+              "title": "A deep, pleasant session",
+              "text": "Deep recovery designed for gentle work: no heavy pressure and no marks on the skin. An experience that stays with you.",
+              "imgAlt": "A client lies on the treatment couch while the therapist works a device over her thigh"
+            },
+            {
+              "who": "For the therapist",
+              "title": "Less strain, more treatments",
+              "text": "The method reduces physical strain and makes it possible to do more treatments without overexertion. A self-employed therapist keeps the full $170 from each treatment.",
+              "imgAlt": "The therapist guides a light-up device along the client's lower leg"
+            },
+            {
+              "who": "For the studio owner",
+              "title": "A standard that holds the level",
+              "text": "A single standard helps train new specialists faster and maintain a high level of service. And selling devices to clients adds another 40% to studio income.",
+              "imgAlt": "A client lies face down while the therapist works a device over her shoulder blade"
+            }
+          ]
+        },
+        "terms": {
+          "eyebrow": "Partner terms",
+          "title": "Equipment kit and training: $5,000",
+          "lead": "The partner pays once for a kit of five devices and training. There is no franchise fee and no royalties. From there, the partner represents a Japanese company in their city, runs treatments to the standard and sells devices to clients.",
+          "list": [
+            {
+              "b": "Represent a Japanese company in your city",
+              "s": "Japanese technologies for beauty and recovery."
+            },
+            {
+              "b": "Launch modern wellness services",
+              "s": "The standardized 90-minute JapanSystem 5/95 treatment."
+            },
+            {
+              "b": "Sell devices to clients",
+              "s": "Clients buy JapanSystem 5/95 devices for home use. This increases studio income by another 40%."
+            },
+            {
+              "b": "Train specialists to a single standard",
+              "s": "In person or online. After training, a specialist can receive a Japanese diploma."
+            }
+          ],
+          "packTitle": "What $5,000 includes",
+          "packItems": [
+            "NovuEye",
+            "TopRelax",
+            "NovuHeat",
+            "Moxi",
+            "BodyHealth",
+            "Massage therapist training"
+          ],
+          "packNote": "Five core JapanSystem 5/95 devices and training in person or online.",
+          "nums": [
+            {
+              "n": "$5,000",
+              "l": "Kit and training",
+              "s": "Five devices and a course for massage therapists"
+            },
+            {
+              "n": "1 month",
+              "l": "Payback",
+              "s": "30 treatments at $170, one a day"
+            },
+            {
+              "n": "$0",
+              "l": "Franchise fee",
+              "s": "No fee for the right to work under the brand"
+            },
+            {
+              "n": "0%",
+              "l": "Royalties",
+              "s": "No monthly payments"
+            }
+          ]
+        },
+        "training": {
+          "eyebrow": "Training and diploma",
+          "title": "A single standard helps train new specialists faster",
+          "lead": "The protocol is standardized, so new massage therapists learn it faster and the studio maintains a high level of service.",
+          "formats": [
+            {
+              "b": "In person",
+              "s": "On-site format."
+            },
+            {
+              "b": "Online",
+              "s": "Remote format."
+            }
+          ],
+          "diploma": "After training, a specialist can receive a Japanese JapanSystem 5/95 specialist diploma. We will send the program and timeline together with the terms.",
+          "imgAlt": "The therapist holds a device with both hands on the client's shoulder"
+        },
+        "devices": {
+          "eyebrow": "Devices",
+          "title": "Japanese devices",
+          "lead": "The partner package includes five core devices: NovuEye, TopRelax, NovuHeat, Moxi and BodyHealth. The partner works with them in the studio and sells them to clients, increasing income by another 40%."
+        },
+        "faq": {
+          "eyebrow": "Partner questions",
+          "title": "What people ask before starting",
+          "items": [
+            {
+              "q": "How much does it cost to become a partner?",
+              "a": "The equipment kit and training cost $5,000. This includes five core devices (NovuEye, TopRelax, NovuHeat, Moxi, BodyHealth) and massage therapist training. There is no franchise fee and no royalties."
+            },
+            {
+              "q": "How quickly does the entry cost pay off?",
+              "a": "A treatment costs the client from $170. A self-employed therapist keeps that money, so the $5,000 kit equals roughly 30 treatments: at one treatment a day, that is one month."
+            },
+            {
+              "q": "How much does a treatment cost the client?",
+              "a": "From $170 for a 90-minute JapanSystem 5/95 session."
+            },
+            {
+              "q": "How does the training work?",
+              "a": "Two formats: in person or online. After the course, you can receive a Japanese JapanSystem 5/95 specialist diploma."
+            },
+            {
+              "q": "How long does the treatment last, and what does it include?",
+              "a": "90 minutes following a single protocol. The treatment includes 9 techniques: deep thermotherapy, vibration, acupressure, EMS stimulation (electrical muscle stimulation), percussion, shockwave techniques, LLLT (low-level laser therapy), elements of stone therapy and elements of moxibustion."
+            },
+            {
+              "q": "Does it hurt? Does it leave bruises?",
+              "a": "The protocol is designed for gentle, comfortable work: the combination of techniques helps avoid aggressive pressure, unnecessary pain and bruising."
+            },
+            {
+              "q": "Can I earn from selling devices?",
+              "a": "Yes. The partner sells JapanSystem 5/95 devices to their clients and increases studio income by another 40%."
+            },
+            {
+              "q": "Are there royalties or other recurring payments?",
+              "a": "No. The partner pays only to get started: $5,000 for the devices and training. There is no franchise fee and no royalties."
+            }
+          ]
+        },
+        "contact": {
+          "eyebrow": "Apply",
+          "title": "See whether JapanSystem 5/95 is right for your studio",
+          "lead": "Get the contents of the $5,000 kit, the training program and the partnership terms. Tell us your city and preferred way to reach you: we will discuss your studio and answer your questions about launching.",
+          "company": "The partner program is run by System5/95 Inc, San Diego, California.",
+          "cta": "Get partnership materials"
+        }
+      }
     },
     "moxi": {
       "title": "Moxi Yoga",
@@ -1189,7 +1449,267 @@
       "title": "マッサージスタジオ",
       "subtitle": "詳細な基準、トレーニング、品質管理を備えたプレミアム・マッサージスタジオシステム。",
       "body": "System 5/95は、スタジオ向けの機器だけでなく、サービス全体の設計を提供します。デバイスが主要なセラピューティックワークを担うことで、希少な手技専門スタッフへの過度な依存を軽減します。パートナーには、プロトコル、動画ガイド、迅速なスタッフ教育、品質管理ツールが提供されます。これにより、より早い立ち上げ、統一された品質基準、そしてサービス品質を落とさない拡大が可能になります。",
-      "cta": "スタジオ展開を見る"
+      "cta": "スタジオ展開を見る",
+      "franchise": {
+        "meta": {
+          "title": "JapanSystem 5/95 wellnessスタジオ・フランチャイズ｜日本発のリカバリーテクノロジー",
+          "description": "JapanSystem 5/95のパートナーシップ：日本の機器で9つのテクニックを行う標準化された90分の施術、対面またはオンラインのトレーニング、日本のディプロマ。導入費用5,000ドル、加盟金なし。"
+        },
+        "hero": {
+          "eyebrow": "JapanSystem 5/95 パートナープログラム",
+          "title": "日本のwellness施術を、あなたのスタジオで始めませんか",
+          "lead1": "5台の機器、トレーニング、そして90分セッションの統一プロトコル。個人で働くセラピストにも、チームを持つスタジオにも適しています。",
+          "lead2": "収入の柱は2つ。170ドル〜の施術と、お客様へのご家庭用機器の販売です。",
+          "lead3": "機器セットとトレーニングで5,000ドル。加盟金・ロイヤリティはありません。",
+          "ctaPrimary": "セット内容と条件を受け取る",
+          "ctaVideo": "施術を見る（2分・英語）",
+          "imgAlt": "スタジオの施術室：ベッドに横たわるお客様の前腕に、セラピストが赤いライト付きのハンディ機器をあてている"
+        },
+        "facts": [
+          {
+            "n": "170ドル〜",
+            "l": "お客様向けの施術・90分"
+          },
+          {
+            "n": "5,000ドル",
+            "l": "機器5台のセットとトレーニング"
+          },
+          {
+            "n": "≈ 30",
+            "l": "回の施術でセット費用をカバー"
+          },
+          {
+            "n": "0ドル",
+            "l": "加盟金・ロイヤリティ"
+          }
+        ],
+        "about": {
+          "eyebrow": "JapanSystem 5/95とは",
+          "title": "日本発、新世代のwellness施術",
+          "lead": "お客様の深いリカバリーと快適さ、そしてマッサージセラピストの効率的な仕事のために設計された、標準化された90分のプロトコル。1回のセッションで、主要な部位と主な筋肉群を順番にケアしていきます。",
+          "quote": "テクニックを組み合わせることで、強い圧や不要な痛み、あざを伴わずに、深層の筋肉へやさしく快適にアプローチしやすくなります。",
+          "imgAlt": "施術中、根元に赤いライトのあるハンディ機器が肌にあてられている"
+        },
+        "economics": {
+          "eyebrow": "パートナーの収益モデル",
+          "title": "2つの収益の柱",
+          "lead": "パートナーは、施術と、お客様がセッション中に体験した機器の販売から収益を得ます。",
+          "s1": {
+            "k": "収益の柱 1",
+            "title": "スタジオでの施術",
+            "big": "170ドル〜",
+            "sub": "JapanSystem 5/95の90分セッション1回あたり。",
+            "calc": "個人で働くセラピストは、施術1回ごとの170ドルをすべて受け取れます。5,000ドルのセットは約30回分の施術に相当し、1日1回の施術で1か月で回収できます。"
+          },
+          "s2": {
+            "k": "収益の柱 2",
+            "title": "お客様への機器販売",
+            "steps": [
+              "お客様がスタジオでセッションを受ける",
+              "機器をご自身の体で体験する",
+              "セラピストからアドバイスを受ける",
+              "ご家庭用に機器を購入する"
+            ],
+            "calc": "当社のデータによると、機器販売によってスタジオの収入はさらに40%増えます。"
+          }
+        },
+        "protocol": {
+          "eyebrow": "プロトコル · 90分",
+          "title": "1回の施術に含まれるもの",
+          "lead": "1回のセッションに9つのテクニック。主要な部位と主な筋肉群を順番にケアしていきます。",
+          "techs": [
+            {
+              "title": "深部温熱療法",
+              "text": "組織を温める"
+            },
+            {
+              "title": "バイブレーション",
+              "text": "振動によるアプローチ"
+            },
+            {
+              "title": "指圧（アキュプレッシャー）",
+              "text": "ポイントへの刺激"
+            },
+            {
+              "title": "EMS",
+              "text": "筋肉への電気刺激"
+            },
+            {
+              "title": "パーカッション",
+              "text": "叩打によるテクニック"
+            },
+            {
+              "title": "衝撃波テクニック",
+              "text": "パルスによるアプローチ"
+            },
+            {
+              "title": "LLLT",
+              "text": "低出力レーザー療法"
+            },
+            {
+              "title": "ストーンセラピーの要素",
+              "text": "ホットストーンを使ったケア"
+            },
+            {
+              "title": "お灸療法の要素",
+              "text": "温熱ケア"
+            }
+          ],
+          "note": "お客様にとっては、深く心地よく、記憶に残るwellness体験。マッサージセラピストにとっては、体への負担が少なく、無理なくより多くの施術ができます。",
+          "photoAlts": [
+            "手の甲にあてられたライト付きの機器",
+            "首と肩のあたりにあてられた赤いライトの機器。お客様の顔はタオルで覆われている",
+            "足にあてられた赤いライトの機器",
+            "お客様の目元を覆う赤と白のマスクのクローズアップ"
+          ]
+        },
+        "benefits": {
+          "eyebrow": "それぞれのメリット",
+          "title": "1つの施術、3つのメリット",
+          "items": [
+            {
+              "who": "お客様に",
+              "title": "深く心地よいセッション",
+              "text": "やさしい施術を前提にした深いリカバリー。強い圧をかけず、肌に跡も残しません。記憶に残る体験です。",
+              "imgAlt": "ベッドに横たわるお客様の太ももに、セラピストが機器をあてている"
+            },
+            {
+              "who": "セラピストに",
+              "title": "負担は少なく、施術はより多く",
+              "text": "この方法は体への負担を減らし、無理なくより多くの施術を行えるようにします。個人で働くセラピストは、施術1回ごとの170ドルをすべて受け取れます。",
+              "imgAlt": "セラピストがライト付きの機器をお客様のふくらはぎに沿って動かしている"
+            },
+            {
+              "who": "スタジオオーナーに",
+              "title": "レベルを保つ統一基準",
+              "text": "統一基準によって新しいスタッフを早く育成でき、高いサービスレベルを維持しやすくなります。さらに、お客様への機器販売でスタジオの収入が40%増えます。",
+              "imgAlt": "うつ伏せのお客様の肩甲骨のあたりに、セラピストが機器をあてている"
+            }
+          ]
+        },
+        "terms": {
+          "eyebrow": "パートナー条件",
+          "title": "機器セットとトレーニング：5,000ドル",
+          "lead": "パートナーのお支払いは、機器5台のセットとトレーニングの費用、一度だけです。加盟金やロイヤリティはありません。その後は、ご自身の街で日本の企業を代表し、基準どおりに施術を行い、お客様に機器を販売します。",
+          "list": [
+            {
+              "b": "ご自身の街で日本の企業を代表する",
+              "s": "美容とリカバリーのための日本のテクノロジー。"
+            },
+            {
+              "b": "最新のwellnessサービスを始める",
+              "s": "標準化された90分のJapanSystem 5/95施術。"
+            },
+            {
+              "b": "お客様に機器を販売する",
+              "s": "お客様はJapanSystem 5/95の機器をご家庭用に購入します。これによりスタジオの収入はさらに40%増えます。"
+            },
+            {
+              "b": "統一基準でスタッフを育成する",
+              "s": "対面またはオンライン。トレーニング修了後、スペシャリストは日本のディプロマを取得できます。"
+            }
+          ],
+          "packTitle": "5,000ドルに含まれるもの",
+          "packItems": [
+            "NovuEye",
+            "TopRelax",
+            "NovuHeat",
+            "Moxi",
+            "BodyHealth",
+            "マッサージセラピストのトレーニング"
+          ],
+          "packNote": "JapanSystem 5/95の主要機器5台と、対面またはオンラインのトレーニング。",
+          "nums": [
+            {
+              "n": "5,000ドル",
+              "l": "セットとトレーニング",
+              "s": "機器5台とマッサージセラピスト向けコース"
+            },
+            {
+              "n": "1か月",
+              "l": "回収期間",
+              "s": "170ドルの施術を1日1回、30回"
+            },
+            {
+              "n": "0ドル",
+              "l": "加盟金",
+              "s": "ブランドのもとで営業する権利への費用はありません"
+            },
+            {
+              "n": "0%",
+              "l": "ロイヤリティ",
+              "s": "毎月の支払いはありません"
+            }
+          ]
+        },
+        "training": {
+          "eyebrow": "トレーニングとディプロマ",
+          "title": "統一基準で、新しいスタッフをより早く育成",
+          "lead": "プロトコルが標準化されているため、新しいマッサージセラピストも早く習得でき、スタジオは高いサービスレベルを維持できます。",
+          "formats": [
+            {
+              "b": "対面",
+              "s": "対面形式。"
+            },
+            {
+              "b": "オンライン",
+              "s": "リモート形式。"
+            }
+          ],
+          "diploma": "トレーニング修了後、JapanSystem 5/95スペシャリストとして日本のディプロマを取得できます。プログラムと期間は、条件と一緒にお送りします。",
+          "imgAlt": "セラピストが両手で機器を持ち、お客様の肩にあてている"
+        },
+        "devices": {
+          "eyebrow": "機器",
+          "title": "日本の機器",
+          "lead": "パートナーパッケージには、NovuEye、TopRelax、NovuHeat、Moxi、BodyHealthの主要機器5台が含まれます。パートナーはスタジオでこれらを使って施術し、お客様に販売することで、収入をさらに40%増やします。"
+        },
+        "faq": {
+          "eyebrow": "パートナーからのご質問",
+          "title": "スタート前によくある質問",
+          "items": [
+            {
+              "q": "パートナーになるにはいくらかかりますか？",
+              "a": "機器セットとトレーニングで5,000ドルです。この金額には、主要機器5台（NovuEye、TopRelax、NovuHeat、Moxi、BodyHealth）とマッサージセラピストのトレーニングが含まれます。加盟金やロイヤリティはありません。"
+            },
+            {
+              "q": "導入費用はどのくらいで回収できますか？",
+              "a": "お客様向けの施術は170ドル〜です。個人で働くセラピストはこの金額をすべて受け取れるため、5,000ドルのセットは約30回分の施術に相当します。1日1回の施術なら1か月です。"
+            },
+            {
+              "q": "お客様向けの施術料金はいくらですか？",
+              "a": "JapanSystem 5/95の90分セッションで170ドル〜です。"
+            },
+            {
+              "q": "トレーニングはどのように行われますか？",
+              "a": "対面とオンラインの2つの形式があります。コース修了後、JapanSystem 5/95スペシャリストとして日本のディプロマを取得できます。"
+            },
+            {
+              "q": "施術時間と内容を教えてください。",
+              "a": "統一プロトコルに沿った90分間です。施術には9つのテクニックが含まれます：深部温熱療法、バイブレーション、指圧（アキュプレッシャー）、EMS（筋肉への電気刺激）、パーカッション、衝撃波テクニック、LLLT（低出力レーザー療法）、ストーンセラピーの要素、お灸療法の要素。"
+            },
+            {
+              "q": "痛みはありますか？あざは残りますか？",
+              "a": "プロトコルはやさしく快適な施術を前提に設計されています。テクニックの組み合わせにより、強い圧や不要な痛み、あざを避けやすくなります。"
+            },
+            {
+              "q": "機器の販売で収益を得られますか？",
+              "a": "はい。パートナーはJapanSystem 5/95の機器をお客様に販売し、スタジオの収入をさらに40%増やします。"
+            },
+            {
+              "q": "ロイヤリティなど、定期的な支払いはありますか？",
+              "a": "いいえ。パートナーのお支払いは導入時のみで、機器とトレーニングの5,000ドルです。加盟金やロイヤリティはありません。"
+            }
+          ]
+        },
+        "contact": {
+          "eyebrow": "お申し込み",
+          "title": "JapanSystem 5/95があなたのスタジオに合うか、ご確認ください",
+          "lead": "5,000ドルのセット内容、トレーニングプログラム、パートナーシップ条件をお受け取りください。都市名とご希望の連絡方法をお知らせいただければ、スタジオについてご相談し、立ち上げに関するご質問にお答えします。",
+          "company": "パートナープログラムの運営：System5/95 Inc（カリフォルニア州サンディエゴ）",
+          "cta": "パートナーシップ資料を受け取る"
+        }
+      }
     },
     "moxi": {
       "title": "Moxi Yoga",
@@ -1575,7 +2095,267 @@
       "title": "Estudios de masaje",
       "subtitle": "Un sistema completo para estudios de masaje premium con estándares detallados, formación y control de calidad.",
       "body": "System 5/95 ofrece más que equipamiento para estudios: ofrece una arquitectura completa de servicio. Los dispositivos asumen la carga terapéutica principal, reduciendo la dependencia crítica de especialistas manual-only difíciles de escalar. El partner recibe protocolos, guía en vídeo, formación rápida del personal y herramientas de control de calidad. Esto permite lanzar antes, mantener un estándar unificado y escalar sin perder calidad de servicio.",
-      "cta": "Explorar oportunidad de estudio"
+      "cta": "Explorar oportunidad de estudio",
+      "franchise": {
+        "meta": {
+          "title": "Franquicia de estudio wellness JapanSystem 5/95: tecnología japonesa de recuperación",
+          "description": "Colaboración con JapanSystem 5/95: un tratamiento estandarizado de 90 minutos con 9 técnicas en dispositivos japoneses, formación presencial u online y diploma japonés. Entrada de 5 000 $, sin canon de entrada."
+        },
+        "hero": {
+          "eyebrow": "Programa de socios JapanSystem 5/95",
+          "title": "Ponga en marcha un tratamiento wellness japonés en su estudio",
+          "lead1": "Cinco dispositivos, formación y un protocolo único para una sesión de 90 minutos. Pensado para el terapeuta que trabaja por cuenta propia y para el estudio con equipo.",
+          "lead2": "Dos fuentes de ingresos: tratamientos desde 170 $ y venta de dispositivos a los clientes para uso en casa.",
+          "lead3": "5 000 $ por el kit y la formación. Sin canon de entrada ni royalties.",
+          "ctaPrimary": "Recibir la composición del kit y las condiciones",
+          "ctaVideo": "Ver el tratamiento, 2 min (en inglés)",
+          "imgAlt": "Sala del estudio: el terapeuta trabaja con un dispositivo de mano con luz roja sobre el antebrazo de una clienta tumbada en la camilla"
+        },
+        "facts": [
+          {
+            "n": "desde 170 $",
+            "l": "tratamiento para el cliente, 90 minutos"
+          },
+          {
+            "n": "5 000 $",
+            "l": "kit de cinco dispositivos y formación"
+          },
+          {
+            "n": "≈ 30",
+            "l": "tratamientos cubren el coste del kit"
+          },
+          {
+            "n": "0 $",
+            "l": "canon de entrada y royalties"
+          }
+        ],
+        "about": {
+          "eyebrow": "Qué es JapanSystem 5/95",
+          "title": "Un tratamiento wellness de nueva generación desde Japón",
+          "lead": "Un protocolo estandarizado de 90 minutos, creado para la recuperación profunda del cliente, su comodidad y el trabajo eficiente del masajista. En una sola sesión, el cuerpo se trabaja de forma secuencial por las zonas principales y los grupos musculares clave.",
+          "quote": "La combinación de técnicas ayuda a trabajar las capas musculares profundas de forma suave y cómoda: sin presión agresiva, sin dolor innecesario y sin moretones.",
+          "imgAlt": "Dispositivo de mano con luz roja en la base, apoyado sobre la piel durante el tratamiento"
+        },
+        "economics": {
+          "eyebrow": "Economía del socio",
+          "title": "Dos fuentes de ingresos",
+          "lead": "El socio gana con los tratamientos y con la venta de los dispositivos que el cliente conoció durante la sesión.",
+          "s1": {
+            "k": "Fuente 1",
+            "title": "Tratamientos en el estudio",
+            "big": "desde 170 $",
+            "sub": "por una sesión JapanSystem 5/95 de 90 minutos.",
+            "calc": "El terapeuta que trabaja por cuenta propia se queda con los 170 $ íntegros de cada tratamiento. El kit de 5 000 $ equivale a unos 30 tratamientos: con un tratamiento al día, el kit se amortiza en un mes."
+          },
+          "s2": {
+            "k": "Fuente 2",
+            "title": "Venta de dispositivos a los clientes",
+            "steps": [
+              "El cliente recibe una sesión en el estudio",
+              "Prueba el dispositivo en sí mismo",
+              "Recibe el asesoramiento del terapeuta",
+              "Compra el dispositivo para casa"
+            ],
+            "calc": "Según datos de la empresa, la venta de dispositivos añade otro 40 % a los ingresos del estudio."
+          }
+        },
+        "protocol": {
+          "eyebrow": "Protocolo · 90 minutos",
+          "title": "Qué incluye un tratamiento",
+          "lead": "Nueve técnicas en una sola sesión. El cuerpo se trabaja de forma secuencial por las zonas principales y los grupos musculares clave.",
+          "techs": [
+            {
+              "title": "Termoterapia profunda",
+              "text": "Calentamiento de los tejidos"
+            },
+            {
+              "title": "Vibración",
+              "text": "Acción vibratoria"
+            },
+            {
+              "title": "Acupresión",
+              "text": "Presión en puntos concretos"
+            },
+            {
+              "title": "Estimulación EMS",
+              "text": "Electroestimulación muscular"
+            },
+            {
+              "title": "Percusión",
+              "text": "Técnica de percusión"
+            },
+            {
+              "title": "Técnicas de ondas de choque",
+              "text": "Acción por impulsos"
+            },
+            {
+              "title": "LLLT",
+              "text": "Terapia láser de baja intensidad"
+            },
+            {
+              "title": "Elementos de terapia con piedras",
+              "text": "Trabajo con piedras calientes"
+            },
+            {
+              "title": "Elementos de moxibustión",
+              "text": "Calentamiento"
+            }
+          ],
+          "note": "Para el cliente, es una experiencia wellness profunda, agradable y memorable. Para el masajista, menos carga física y más tratamientos sin sobreesfuerzo.",
+          "photoAlts": [
+            "Dispositivo con luz sobre el dorso de la mano",
+            "Dispositivo con luz roja en la zona del cuello y el hombro; el rostro de la clienta está cubierto con una toalla",
+            "Dispositivo con luz roja sobre el pie",
+            "Primer plano de una máscara roja y blanca sobre los ojos de la clienta"
+          ]
+        },
+        "benefits": {
+          "eyebrow": "Quién gana",
+          "title": "Un tratamiento, tres beneficios",
+          "items": [
+            {
+              "who": "Para el cliente",
+              "title": "Una sesión profunda y agradable",
+              "text": "Recuperación profunda pensada para un trabajo suave: sin presión fuerte y sin marcas en la piel. Una experiencia que se recuerda.",
+              "imgAlt": "La clienta está tumbada en la camilla y el terapeuta trabaja con un dispositivo en el muslo"
+            },
+            {
+              "who": "Para el terapeuta",
+              "title": "Menos carga, más tratamientos",
+              "text": "El método reduce la carga física y permite realizar más tratamientos sin sobreesfuerzo. El terapeuta que trabaja por cuenta propia se queda con los 170 $ íntegros de cada tratamiento.",
+              "imgAlt": "El terapeuta desliza un dispositivo con luz por la pantorrilla de la clienta"
+            },
+            {
+              "who": "Para el dueño del estudio",
+              "title": "Un estándar que mantiene el nivel",
+              "text": "Un estándar único ayuda a formar más rápido a los nuevos especialistas y a mantener un alto nivel de servicio. Y la venta de dispositivos a los clientes añade otro 40 % a los ingresos del estudio.",
+              "imgAlt": "La clienta está tumbada boca abajo y el terapeuta trabaja con un dispositivo en la zona del omóplato"
+            }
+          ]
+        },
+        "terms": {
+          "eyebrow": "Condiciones para el socio",
+          "title": "Kit de equipamiento y formación: 5 000 $",
+          "lead": "El socio paga una sola vez por un kit de cinco dispositivos y la formación. No hay canon de entrada ni royalties. A partir de ahí, representa a una empresa japonesa en su ciudad, realiza los tratamientos según el estándar y vende dispositivos a los clientes.",
+          "list": [
+            {
+              "b": "Representar a una empresa japonesa en su ciudad",
+              "s": "Tecnologías japonesas para la belleza y la recuperación."
+            },
+            {
+              "b": "Lanzar servicios wellness modernos",
+              "s": "El tratamiento estandarizado de 90 minutos JapanSystem 5/95."
+            },
+            {
+              "b": "Vender dispositivos a los clientes",
+              "s": "Los clientes compran dispositivos JapanSystem 5/95 para casa. Esto aumenta los ingresos del estudio en otro 40 %."
+            },
+            {
+              "b": "Formar a los especialistas con un estándar único",
+              "s": "Presencial u online. Tras la formación, el especialista puede obtener un diploma japonés."
+            }
+          ],
+          "packTitle": "Qué incluyen los 5 000 $",
+          "packItems": [
+            "NovuEye",
+            "TopRelax",
+            "NovuHeat",
+            "Moxi",
+            "BodyHealth",
+            "Formación de masajistas"
+          ],
+          "packNote": "Cinco dispositivos principales JapanSystem 5/95 y formación presencial u online.",
+          "nums": [
+            {
+              "n": "5 000 $",
+              "l": "Kit y formación",
+              "s": "Cinco dispositivos y un curso para masajistas"
+            },
+            {
+              "n": "1 mes",
+              "l": "Amortización",
+              "s": "30 tratamientos de 170 $, uno al día"
+            },
+            {
+              "n": "0 $",
+              "l": "Canon de entrada",
+              "s": "No se paga por el derecho a trabajar bajo la marca"
+            },
+            {
+              "n": "0 %",
+              "l": "Royalties",
+              "s": "Sin pagos mensuales"
+            }
+          ]
+        },
+        "training": {
+          "eyebrow": "Formación y diploma",
+          "title": "Un estándar único ayuda a formar más rápido a los nuevos especialistas",
+          "lead": "El protocolo está estandarizado, por lo que los nuevos masajistas lo aprenden más rápido y el estudio mantiene un alto nivel de servicio.",
+          "formats": [
+            {
+              "b": "Presencial",
+              "s": "Formato presencial."
+            },
+            {
+              "b": "Online",
+              "s": "Formato a distancia."
+            }
+          ],
+          "diploma": "Tras la formación, el especialista puede obtener un diploma japonés de especialista JapanSystem 5/95. Le enviaremos el programa y los plazos junto con las condiciones.",
+          "imgAlt": "El terapeuta sostiene el dispositivo con ambas manos sobre el hombro de la clienta"
+        },
+        "devices": {
+          "eyebrow": "Dispositivos",
+          "title": "Dispositivos japoneses",
+          "lead": "El paquete del socio incluye cinco dispositivos principales: NovuEye, TopRelax, NovuHeat, Moxi y BodyHealth. El socio trabaja con ellos en el estudio y los vende a los clientes, aumentando sus ingresos en otro 40 %."
+        },
+        "faq": {
+          "eyebrow": "Preguntas de los socios",
+          "title": "Lo que se pregunta antes de empezar",
+          "items": [
+            {
+              "q": "¿Cuánto cuesta entrar en la colaboración?",
+              "a": "El kit de equipamiento y la formación cuestan 5 000 $. Esta cantidad incluye cinco dispositivos principales (NovuEye, TopRelax, NovuHeat, Moxi, BodyHealth) y la formación de masajistas. No hay canon de entrada ni royalties."
+            },
+            {
+              "q": "¿En cuánto tiempo se recupera la entrada?",
+              "a": "El tratamiento para el cliente cuesta desde 170 $. El terapeuta que trabaja por cuenta propia se queda con ese dinero, así que el kit de 5 000 $ equivale a unos 30 tratamientos: con un tratamiento al día, es un mes."
+            },
+            {
+              "q": "¿Cuánto cuesta el tratamiento para el cliente?",
+              "a": "Desde 170 $ por una sesión JapanSystem 5/95 de 90 minutos."
+            },
+            {
+              "q": "¿Cómo es la formación?",
+              "a": "Dos formatos: presencial u online. Tras el curso, se puede obtener un diploma japonés de especialista JapanSystem 5/95."
+            },
+            {
+              "q": "¿Cuánto dura el tratamiento y qué incluye?",
+              "a": "90 minutos según un protocolo único. El tratamiento incluye 9 técnicas: termoterapia profunda, vibración, acupresión, estimulación EMS (electroestimulación muscular), percusión, técnicas de ondas de choque, LLLT (terapia láser de baja intensidad), elementos de terapia con piedras y elementos de moxibustión."
+            },
+            {
+              "q": "¿Duele? ¿Deja moretones?",
+              "a": "El protocolo está pensado para un trabajo suave y cómodo: la combinación de técnicas ayuda a evitar la presión agresiva, el dolor innecesario y los moretones."
+            },
+            {
+              "q": "¿Se puede ganar dinero vendiendo dispositivos?",
+              "a": "Sí. El socio vende dispositivos JapanSystem 5/95 a sus clientes y aumenta los ingresos del estudio en otro 40 %."
+            },
+            {
+              "q": "¿Hay royalties u otros pagos periódicos?",
+              "a": "No. El socio solo paga la entrada: 5 000 $ por los dispositivos y la formación. No hay canon de entrada ni royalties."
+            }
+          ]
+        },
+        "contact": {
+          "eyebrow": "Solicitud",
+          "title": "Valore si JapanSystem 5/95 encaja con su estudio",
+          "lead": "Reciba la composición del kit de 5 000 $, el programa de formación y las condiciones de colaboración. Indique su ciudad y la forma de contacto que prefiera: hablaremos de su estudio y responderemos a sus preguntas sobre el lanzamiento.",
+          "company": "El programa de socios lo gestiona System5/95 Inc, San Diego, California.",
+          "cta": "Recibir materiales sobre la colaboración"
+        }
+      }
     },
     "moxi": {
       "title": "Moxi Yoga",
@@ -1961,7 +2741,267 @@
       "title": "Массажные студии",
       "subtitle": "Готовая система для premium massage studios с детализированными стандартами, обучением и контролем качества.",
       "body": "System 5/95 предлагает не просто оборудование для студий, а полную архитектуру услуги. Устройства берут на себя основную терапевтическую нагрузку, снижая критическую зависимость от редких manual-only специалистов. Партнер получает протоколы, видео-сопровождение, систему быстрого обучения персонала и инструменты контроля качества. Это помогает быстрее запускаться, сохранять единый стандарт и масштабировать студии без потери качества сервиса.",
-      "cta": "Открыть студийное направление"
+      "cta": "Открыть студийное направление",
+      "franchise": {
+        "meta": {
+          "title": "Франшиза wellness-студии JapanSystem 5/95 — японская технология восстановления",
+          "description": "Партнёрство JapanSystem 5/95: стандартизированная 90-минутная процедура из 9 техник на японских аппаратах, обучение очно или онлайн, японский диплом. Вход 5 000 $, паушального взноса нет."
+        },
+        "hero": {
+          "eyebrow": "Партнёрская программа JapanSystem 5/95",
+          "title": "Запустите японскую wellness-процедуру в своей студии",
+          "lead1": "Пять аппаратов, обучение и единый протокол 90-минутного сеанса. Подходит мастеру, который работает на себя, и студии с командой.",
+          "lead2": "Два направления дохода: процедуры от 170 $ и продажа аппаратов клиентам для дома.",
+          "lead3": "5 000 $ за комплект и обучение. Без паушального взноса и роялти.",
+          "ctaPrimary": "Получить комплектацию и условия",
+          "ctaVideo": "Посмотреть процедуру, 2 мин (англ.)",
+          "imgAlt": "Кабинет студии: мастер работает ручным аппаратом с красной подсветкой на предплечье клиентки, лежащей на кушетке"
+        },
+        "facts": [
+          {
+            "n": "от 170 $",
+            "l": "процедура для клиента, 90 минут"
+          },
+          {
+            "n": "5 000 $",
+            "l": "комплект из пяти аппаратов и обучение"
+          },
+          {
+            "n": "≈ 30",
+            "l": "процедур покрывают стоимость комплекта"
+          },
+          {
+            "n": "0 $",
+            "l": "паушальный взнос и роялти"
+          }
+        ],
+        "about": {
+          "eyebrow": "Что такое JapanSystem 5/95",
+          "title": "Оздоровительная процедура нового поколения из Японии",
+          "lead": "Стандартизированный 90-минутный протокол, созданный для глубокого восстановления клиента, его комфорта и эффективной работы массажиста. За один сеанс тело последовательно проходит проработку основных зон и ключевых мышечных групп.",
+          "quote": "Сочетание техник помогает работать с глубокими слоями мышц мягко и комфортно: без агрессивного давления, лишней боли и синяков.",
+          "imgAlt": "Ручной аппарат с красной подсветкой у основания прижат к коже во время процедуры"
+        },
+        "economics": {
+          "eyebrow": "Экономика партнёра",
+          "title": "Два направления выручки",
+          "lead": "Партнёр зарабатывает на процедурах и на продаже аппаратов, с которыми клиент познакомился во время сеанса.",
+          "s1": {
+            "k": "Направление 1",
+            "title": "Процедуры в студии",
+            "big": "от 170 $",
+            "sub": "за 90-минутный сеанс JapanSystem 5/95.",
+            "calc": "Мастер, который работает на себя, оставляет все 170 $ с каждой процедуры. Комплект за 5 000 $ равен примерно 30 процедурам: одна процедура в день, и за месяц комплект окупается."
+          },
+          "s2": {
+            "k": "Направление 2",
+            "title": "Продажа аппаратов клиентам",
+            "steps": [
+              "Клиент проходит сеанс в студии",
+              "Знакомится с аппаратом на себе",
+              "Получает консультацию мастера",
+              "Покупает аппарат для дома"
+            ],
+            "calc": "По данным компании продажа аппаратов добавляет к доходу студии ещё 40%."
+          }
+        },
+        "protocol": {
+          "eyebrow": "Протокол · 90 минут",
+          "title": "Что входит в одну процедуру",
+          "lead": "Девять техник в одном сеансе. Тело последовательно прорабатывается по основным зонам и ключевым мышечным группам.",
+          "techs": [
+            {
+              "title": "Глубокая термотерапия",
+              "text": "Прогрев тканей"
+            },
+            {
+              "title": "Вибрация",
+              "text": "Вибрационное воздействие"
+            },
+            {
+              "title": "Акупрессура",
+              "text": "Точечное воздействие"
+            },
+            {
+              "title": "EMS-стимуляция",
+              "text": "Электростимуляция мышц"
+            },
+            {
+              "title": "Перкуссия",
+              "text": "Ударная техника"
+            },
+            {
+              "title": "Ударно-волновые техники",
+              "text": "Импульсное воздействие"
+            },
+            {
+              "title": "LLLT",
+              "text": "Низкоинтенсивная лазерная терапия"
+            },
+            {
+              "title": "Элементы стоун-терапии",
+              "text": "Работа с горячими камнями"
+            },
+            {
+              "title": "Элементы моксотерапии",
+              "text": "Прогревание"
+            }
+          ],
+          "note": "Для клиента это глубокий, приятный и запоминающийся wellness-опыт. Для массажиста — меньше физической нагрузки и больше процедур без перенапряжения.",
+          "photoAlts": [
+            "Аппарат с подсветкой на тыльной стороне кисти",
+            "Аппарат с красной подсветкой в зоне шеи и плеча, лицо клиентки накрыто полотенцем",
+            "Аппарат с красной подсветкой на стопе",
+            "Красно-белая маска на глазах клиентки крупным планом"
+          ]
+        },
+        "benefits": {
+          "eyebrow": "Кому выгодно",
+          "title": "Одна процедура, три выигрыша",
+          "items": [
+            {
+              "who": "Клиенту",
+              "title": "Глубокий и приятный сеанс",
+              "text": "Глубокое восстановление, рассчитанное на мягкую работу: без сильного нажима и следов на коже. Опыт, который запоминается.",
+              "imgAlt": "Клиентка лежит на кушетке, мастер работает аппаратом на бедре"
+            },
+            {
+              "who": "Мастеру",
+              "title": "Меньше нагрузки, больше процедур",
+              "text": "Метод снижает физическую нагрузку и позволяет проводить больше процедур без перенапряжения. Мастер, который работает на себя, оставляет все 170 $ с процедуры.",
+              "imgAlt": "Мастер ведёт аппарат с подсветкой по голени клиентки"
+            },
+            {
+              "who": "Владельцу студии",
+              "title": "Стандарт, который держит уровень",
+              "text": "Единый стандарт помогает быстрее обучать новых специалистов и поддерживать высокий уровень сервиса. А продажа аппаратов клиентам добавляет ещё 40% к доходу студии.",
+              "imgAlt": "Клиентка лежит на животе, мастер работает аппаратом в зоне лопатки"
+            }
+          ]
+        },
+        "terms": {
+          "eyebrow": "Условия для партнёра",
+          "title": "Комплект оборудования и обучение — 5 000 $",
+          "lead": "Партнёр платит один раз за комплект из пяти аппаратов и обучение. Паушального взноса и роялти нет. Дальше он представляет японскую компанию в своём городе, ведёт процедуры по стандарту и продаёт аппараты клиентам.",
+          "list": [
+            {
+              "b": "Представлять японскую компанию в своём городе",
+              "s": "Японские технологии для красоты и восстановления."
+            },
+            {
+              "b": "Запустить современные wellness-услуги",
+              "s": "Стандартизированная 90-минутная процедура JapanSystem 5/95."
+            },
+            {
+              "b": "Продавать аппараты клиентам",
+              "s": "Клиенты покупают аппараты JapanSystem 5/95 для дома. Это увеличивает доход студии ещё на 40%."
+            },
+            {
+              "b": "Обучить специалистов по единому стандарту",
+              "s": "Очно или онлайн. После обучения специалист может получить японский диплом."
+            }
+          ],
+          "packTitle": "Что входит в 5 000 $",
+          "packItems": [
+            "NovuEye",
+            "TopRelax",
+            "NovuHeat",
+            "Moxi",
+            "BodyHealth",
+            "Обучение массажистов"
+          ],
+          "packNote": "Пять основных аппаратов JapanSystem 5/95 и обучение очно или онлайн.",
+          "nums": [
+            {
+              "n": "5 000 $",
+              "l": "Комплект и обучение",
+              "s": "Пять аппаратов и курс для массажистов"
+            },
+            {
+              "n": "1 мес.",
+              "l": "Окупаемость",
+              "s": "30 процедур по 170 $, по одной в день"
+            },
+            {
+              "n": "0 $",
+              "l": "Паушальный взнос",
+              "s": "Взноса за право работать под брендом нет"
+            },
+            {
+              "n": "0 %",
+              "l": "Роялти",
+              "s": "Ежемесячных отчислений нет"
+            }
+          ]
+        },
+        "training": {
+          "eyebrow": "Обучение и диплом",
+          "title": "Единый стандарт помогает быстрее обучать новых специалистов",
+          "lead": "Протокол стандартизирован, поэтому новые массажисты осваивают его быстрее, а студия поддерживает высокий уровень сервиса.",
+          "formats": [
+            {
+              "b": "Очно",
+              "s": "Очный формат."
+            },
+            {
+              "b": "Онлайн",
+              "s": "Дистанционный формат."
+            }
+          ],
+          "diploma": "После обучения специалист может получить японский диплом специалиста JapanSystem 5/95. Программу и сроки пришлём вместе с условиями.",
+          "imgAlt": "Мастер держит аппарат двумя руками на плече клиентки"
+        },
+        "devices": {
+          "eyebrow": "Аппараты",
+          "title": "Японские аппараты",
+          "lead": "В пакет партнёра входят пять основных аппаратов: NovuEye, TopRelax, NovuHeat, Moxi и BodyHealth. Партнёр работает на них в студии и продаёт их клиентам, увеличивая доход ещё на 40%."
+        },
+        "faq": {
+          "eyebrow": "Вопросы партнёров",
+          "title": "Что спрашивают перед стартом",
+          "items": [
+            {
+              "q": "Сколько стоит войти в партнёрство?",
+              "a": "Комплект оборудования и обучение стоят 5 000 $. В эту сумму входят пять основных аппаратов (NovuEye, TopRelax, NovuHeat, Moxi, BodyHealth) и обучение массажистов. Паушального взноса и роялти нет."
+            },
+            {
+              "q": "Как быстро окупается вход?",
+              "a": "Процедура для клиента стоит от 170 $. Мастер, который работает на себя, оставляет эти деньги себе, поэтому комплект за 5 000 $ равен примерно 30 процедурам: при одной процедуре в день это один месяц."
+            },
+            {
+              "q": "Сколько стоит процедура для клиента?",
+              "a": "От 170 $ за 90-минутный сеанс JapanSystem 5/95."
+            },
+            {
+              "q": "Как проходит обучение?",
+              "a": "Два формата: очно или онлайн. После курса можно получить японский диплом специалиста JapanSystem 5/95."
+            },
+            {
+              "q": "Сколько длится процедура и что в неё входит?",
+              "a": "90 минут по единому протоколу. В процедуру входят 9 техник: глубокая термотерапия, вибрация, акупрессура, EMS-стимуляция (электростимуляция мышц), перкуссия, ударно-волновые техники, LLLT (низкоинтенсивная лазерная терапия), элементы стоун-терапии, элементы моксотерапии."
+            },
+            {
+              "q": "Это больно? Остаются ли синяки?",
+              "a": "Протокол рассчитан на мягкую и комфортную работу: сочетание техник помогает обойтись без агрессивного давления, лишней боли и синяков."
+            },
+            {
+              "q": "Можно ли зарабатывать на продаже аппаратов?",
+              "a": "Да. Партнёр продаёт аппараты JapanSystem 5/95 своим клиентам и увеличивает доход студии ещё на 40%."
+            },
+            {
+              "q": "Есть ли роялти или другие регулярные платежи?",
+              "a": "Нет. Партнёр платит только за вход: 5 000 $ за аппараты и обучение. Паушального взноса и роялти нет."
+            }
+          ]
+        },
+        "contact": {
+          "eyebrow": "Заявка",
+          "title": "Оцените, подходит ли JapanSystem 5/95 вашей студии",
+          "lead": "Получите состав комплекта за 5 000 $, программу обучения и условия партнёрства. Укажите город и удобный способ связи: мы обсудим вашу студию и ответим на вопросы о запуске.",
+          "company": "Партнёрскую программу ведёт System5/95 Inc, Сан-Диего, Калифорния.",
+          "cta": "Получить материалы о партнёрстве"
+        }
+      }
     },
     "moxi": {
       "title": "Moxi Yoga",

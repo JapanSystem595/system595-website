@@ -10,7 +10,8 @@
     'about.html':       { title: 'about.title',       desc: 'about.subtitle'       },
     'devices.html':     { title: 'devices.title',      desc: 'devices.subtitle'     },
     'showrooms.html':   { title: 'showrooms.title',    desc: 'showrooms.subtitle'   },
-    'studios.html':     { title: 'studios.title',      desc: 'studios.subtitle'     },
+    'studios.html':     { title: 'studios.franchise.meta.title', desc: 'studios.franchise.meta.description',
+                          titleFallback: 'studios.title', descFallback: 'studios.subtitle' },
     'moxi.html':        { title: 'moxi.title',         desc: 'moxi.subtitle'        },
     'software.html':    { title: 'software.title',     desc: 'software.subtitle'    },
     'partnership.html': { title: 'partnership.title',  desc: 'partnership.subtitle' },
@@ -83,6 +84,9 @@
     if (pm) {
       var sTitle = pm.device ? (landingMeta && landingMeta.title) : get(dict, pm.title);
       var sDesc  = pm.device ? (landingMeta && landingMeta.desc)  : get(dict, pm.desc);
+      // pages whose own meta keys may not be filled in every language yet
+      if (!sTitle && pm.titleFallback) sTitle = get(dict, pm.titleFallback);
+      if (!sDesc && pm.descFallback) sDesc = get(dict, pm.descFallback);
       if (sTitle) {
         document.title = 'System 5/95 — ' + sTitle;
         var ogT = document.querySelector('meta[property="og:title"]');
@@ -182,10 +186,12 @@
     return escHtml(text).replace(/(^|[^A-Za-z])(pH)(?![A-Za-z])/g, '$1<span class="keep-case">$2</span>');
   }
 
-  function deviceTileHtml(d, learnMore, compact) {
+  // eager: small PNGs in a swipeable row load up front — a lazy image inside a
+  // horizontally scrolled row can stay unloaded (studios.html five-up row)
+  function deviceTileHtml(d, learnMore, compact, eager) {
     var imgSrc = deviceImgSrc(d.id);
     var stage = imgSrc
-      ? '<img class="device-tile-img" src="' + escHtml(imgSrc) + '" alt="' + escHtml(d.name) + '" loading="lazy">'
+      ? '<img class="device-tile-img" src="' + escHtml(imgSrc) + '" alt="' + escHtml(d.name) + '" loading="' + (eager ? 'eager' : 'lazy') + '" decoding="async">'
       : '<span class="device-tile-fallback">' + escHtml(d.name) + '</span>';
     return '<a class="device-tile' + (compact ? ' device-tile--compact' : '') + '" href="device-' + escHtml(d.id) + '.html">'
       + '<div class="device-tile-stage">' + stage + '</div>'
@@ -201,13 +207,22 @@
       + '</a>';
   }
 
+  // data-only="id1,id2,…" limits the row to these devices, in this order;
+  // the five-up row (studios.html) uses the compact tile
   function renderDeviceTiles(dict) {
     var grid = document.getElementById('device-tiles');
     if (!grid) return;
     var dv = dict.devices || {};
     var list = dv.list || [];
+    var only = grid.getAttribute('data-only');
+    if (only) {
+      list = only.split(',').map(function (id) {
+        return findDevice(list, id.trim());
+      }).filter(Boolean);
+    }
+    var compact = grid.classList.contains('device-tiles--five');
     grid.innerHTML = list.map(function (d) {
-      return deviceTileHtml(d, dv.learnMore, false);
+      return deviceTileHtml(d, dv.learnMore, compact, compact);
     }).join('');
   }
 
@@ -675,6 +690,24 @@
     });
   }
 
+  /* ─── partnership: preselect the direction from ?interest= ─── */
+
+  function initInterestFromUrl() {
+    var sel = document.getElementById('interest-select');
+    if (!sel) return;
+    var v = null;
+    try { v = new URLSearchParams(window.location.search).get('interest'); } catch (e) {}
+    if (!v) return;
+    for (var i = 0; i < sel.options.length; i++) {
+      var opt = sel.options[i];
+      if (opt.value && opt.value === v) {
+        opt.defaultSelected = true;   // also survives form.reset()
+        sel.value = v;
+        return;
+      }
+    }
+  }
+
   /* ─── fade-in on scroll ─── */
 
   // Classes are added from JS only, so without JS every block stays visible.
@@ -688,7 +721,10 @@
     '.story-hero-video', '.story-intro', '.story-photo', '.story-block',
     '.device-tile', '.devices-body',
     '.dl-hero-text > *', '.dl-hero-media', '.dl-head', '.dl-row',
-    '.method-card', '.dl-extra-grid', '.dl-trust-inner > *', '.dl-cta-inner > *'
+    '.method-card', '.dl-extra-grid', '.dl-trust-inner > *', '.dl-cta-inner > *',
+    '.fr-hero-media', '.fr-facts', '.fr-copy > *', '.fr-media', '.fr-stream',
+    '.fr-tech', '.fr-proto-photos', '.fr-note', '.fr-benefit', '.fr-list > li',
+    '.fr-pack', '.fr-num', '.fr-formats', '.fr-diploma', '.fr-faq'
   ].join(',');
   var revealObserver = null;
 
@@ -718,7 +754,7 @@
       if (el.classList.contains('fade-in')) return;
       // gentle stagger for siblings in a row (cards, hero lines)
       var i = Array.prototype.indexOf.call(el.parentNode.children, el);
-      var inGrid = /overview-grid|team-grid|device-grid|device-tiles|method-grid|hero-inner|dl-hero-text|dl-trust-inner|dl-cta-inner|section-head/.test(el.parentNode.className);
+      var inGrid = /overview-grid|team-grid|device-grid|device-tiles|method-grid|hero-inner|dl-hero-text|dl-trust-inner|dl-cta-inner|section-head|fr-copy|fr-streams|fr-techs|fr-benefits|fr-list|fr-nums/.test(el.parentNode.className);
       if (inGrid && i > 0) el.style.transitionDelay = ((i % 4) * 0.09).toFixed(2) + 's';
       el.classList.add('fade-in');
       revealObserver.observe(el);
@@ -729,6 +765,7 @@
 
   function boot(lang) {
     applyLang(lang);
+    initInterestFromUrl();
     initDropdown();
     initBurger();
     initForm();
