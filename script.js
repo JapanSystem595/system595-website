@@ -83,8 +83,8 @@
     initReveal();
 
     // Per-page title and meta description for section pages
-    var pageName = window.location.pathname.split('/').pop() || '';
-    var pm = PAGE_META[pageName];
+    var pageName = (window.location.pathname.split('/').pop() || '').replace(/\.html$/, '');
+    var pm = PAGE_META[pageName + '.html'];
     if (pm) {
       var sTitle = pm.device ? (landingMeta && landingMeta.title) : get(dict, pm.title);
       var sDesc  = pm.device ? (landingMeta && landingMeta.desc)  : get(dict, pm.desc);

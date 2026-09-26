@@ -11,13 +11,14 @@
     { i18n: 'nav.partnership', href: 'partnership.html', text: 'Partnership' },
   ];
 
-  var page = window.location.pathname.split('/').pop() || 'index.html';
-  // device landings (device-<id>.html) live under the Devices menu item
-  if (page.indexOf('device-') === 0) page = 'devices.html';
+  var page = window.location.pathname.split('/').pop().replace(/\.html$/, '') || 'index';
+  // device landings (device-<id>) live under the Devices menu item
+  if (page.indexOf('device-') === 0) page = 'devices';
 
   function navLinks() {
     return NAV_ITEMS.map(function (item) {
-      var cls = item.href === page ? ' class="nav-active"' : '';
+      var itemPage = item.href.replace(/\.html$/, '');
+      var cls = itemPage === page ? ' class="nav-active"' : '';
       return '<a href="' + item.href + '"' + cls + ' data-i18n="' + item.i18n + '">' + item.text + '</a>';
     }).join('');
   }
